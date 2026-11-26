@@ -53,6 +53,16 @@ Or copy the folder `skills/luxembourg-self-employed-accounting` into `~/.claude/
 - "Our ASBL sells tickets for an event. Do we need a VAT number?"
 - "Help me prepare my 2025 tax return. I'm self-employed and my partner is employed."
 
+## Connect your BravoLisa books (optional)
+
+The skill works on its own. If you keep your books in [BravoLisa](https://bravolisa.lu), you can also connect them to your AI assistant. It then reads your invoices, payments and ledger directly, and saves documents, invoices and payments to your books when you ask – in a double-entry ledger on the Luxembourg chart of accounts.
+
+- **Connector address:** `https://api.bravolisa.lu/mcp`
+- **Claude (claude.ai, desktop):** Settings → Connectors → add a custom connector with this address, then sign in with your BravoLisa account.
+- **Claude Code:** `claude mcp add --transport http bravolisa https://api.bravolisa.lu/mcp`, then `/mcp` to sign in.
+
+You need a BravoLisa account first; the Free plan is enough. The connector does not move money and does not file anything with an administration. It is part of BravoLisa's service, under its [terms](https://bravolisa.lu/terms) and [privacy policy](https://bravolisa.lu/privacy).
+
 ## Rather not do it yourself?
 
 | | Price | How |
