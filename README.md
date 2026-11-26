@@ -67,7 +67,7 @@ You need a BravoLisa account first; the Free plan is enough. The connector does 
 
 | | Price | How |
 |---|---|---|
-| **The BravoLisa app** for self-employed people – invoices, receipts and VAT in one place; Lisa prepares your VAT return and Forms 152 and 110 | Free plan; Smart from €14.99 a month | https://bravolisa.lu |
+| **The BravoLisa app** for self-employed people – invoices, receipts and VAT in one place; Lisa prepares your VAT return and Forms 152 and 110, and the app builds the file eCDF takes in for your VAT return (interface approved by the State's IT centre, CTIE) | Free plan; Smart from €14.99 a month | https://bravolisa.lu |
 | **BravoLisa Care** – a registered accountant keeps your books and files for you | €79.99 a month, VAT included | https://bravolisa.lu/care |
 | **Companies and associations** (SARL, SARL-S, ASBL) | On request | info@bravolisa.lu |
 | **Your own Form 100** – filled in the app | Free to prepare, €34 to download | https://bravolisa.lu/form-100 |
