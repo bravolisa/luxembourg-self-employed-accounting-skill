@@ -2,13 +2,13 @@
 
 Thank you for using this skill. BravoLisa (https://bravolisa.lu) makes it and gives it away free of charge. Please read this page: by using the skill you accept it, together with the [licence](LICENSE.md).
 
-**1. What it is.** General information about Luxembourg accounting, tax and social-security rules, with tools that help prepare forms. This copy is version 0.50.1, built on 2026-11-26.
+**1. What it is.** An experiment: general information about Luxembourg accounting, tax and social-security rules, with tools that help prepare forms. BravoLisa built it with the help of AI agents. This copy is version 0.50.1, built on 2026-11-26.
 
 **2. No guarantee.** Rules, rates and forms change every year, the official sources are sometimes silent or unclear, and we can make mistakes. We do not guarantee that the content is correct, complete or up to date, or that a tax office or any other authority will accept a figure, a form or a position taken from it.
 
 **3. Not advice.** The skill does not give tax, legal or accounting advice and does not replace an accountant or an adviser. Using it does not make you a client of BravoLisa.
 
-**4. An AI reads it, not us.** The skill is read and applied by an AI assistant that BravoLisa does not run or control. An AI can misread a rule, miss a fact about you or calculate wrongly, even when its answer sounds sure.
+**4. AI wrote it with us, and an AI applies it.** The texts and the tools were written with the help of AI agents, and an AI can get a rule wrong. The skill is then read and applied by an AI assistant that BravoLisa does not run or control. That assistant can misread a rule, miss a fact about you or calculate wrongly, even when its answer sounds sure.
 
 **5. You check, you decide, you file.** Check every answer, figure and document – also the PDFs, files and estimates made with the tools – against your own documents and the official sources before you rely on it. For anything that matters, ask a qualified professional or the administration itself. You alone are responsible for what you declare, sign, file and pay.
 
