@@ -2,9 +2,9 @@
 
 Thank you for using this skill. BravoLisa (https://bravolisa.lu) makes it and gives it away free of charge. Please read this page: by using the skill you accept it, together with the [licence](LICENSE.md).
 
-**1. What it is.** General information about Luxembourg accounting, tax and social-security rules, with tools that help prepare forms. We collect it with care and check each rule against the official texts before it goes in. This copy is version 0.50.1, built on 2026-11-26.
+**1. What it is.** General information about Luxembourg accounting, tax and social-security rules, with tools that help prepare forms. This copy is version 0.50.1, built on 2026-11-26.
 
-**2. No guarantee.** Rules, rates and forms change every year, the official sources are sometimes silent or unclear, and we can make mistakes. We do not guarantee that the content is correct, complete or up to date, or that a tax office or any other authority will accept a figure, a form or a position taken from it. The skill has not been reviewed by a qualified accountant.
+**2. No guarantee.** Rules, rates and forms change every year, the official sources are sometimes silent or unclear, and we can make mistakes. We do not guarantee that the content is correct, complete or up to date, or that a tax office or any other authority will accept a figure, a form or a position taken from it.
 
 **3. Not advice.** The skill does not give tax, legal or accounting advice and does not replace an accountant or an adviser. Using it does not make you a client of BravoLisa.
 
