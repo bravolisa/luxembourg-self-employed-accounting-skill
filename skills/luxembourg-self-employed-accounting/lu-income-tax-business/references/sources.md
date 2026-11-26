@@ -26,7 +26,7 @@
 | S22 | Form | Investment tax credit: Form 800 (2024) https://impotsdirects.public.lu/dam-assets/fr/formulaires/entreprises_annexes/2024/800f-2024.pdf; Guichet https://guichet.public.lu/fr/entreprises/fiscalite/bonification-impot-investissement/bonification-global.html | 2026-10 |
 | S23 | Form | ACD – Form 100, 2025 (cases 609–612; employees' commuting deduction boxes 747–749): https://impotsdirects.public.lu/dam-assets/fr/formulaires/pers_physiques/2025/100f-2025.pdf | 2026-11-05 |
 | S24 | Internal | BravoLisa internal: « Cash basis vs accrual basis for liberal professions » (art. 18, §161 AO, circular L.G.-A n° 63, €100,000 test) | 2026-07 |
-| S25 | Answer | BravoLisa ACD correspondence log: ACD contact-centre reply, July 2026 – no prescribed form for balance sheet and P&L; « You are welcome to attach your own presentation » | 2026-07-29 |
+| S25 | Answer | ACD contact-centre reply to BravoLisa, July 2026 – no prescribed form for balance sheet and P&L; « You are welcome to attach your own presentation » | 2026-07-29 |
 | S26 | Internal | BravoLisa wiki – « Fixed Place of Operation for a Business Permit »: https://bravolisa.lu/knowledge/fixed-place-of-operation-business-permit-luxembourg | 2026-10-25 |
 | S27 | Internal | BravoLisa webinar research handover (22 Oct 2026), items not yet re-verified in this skill | 2026-10-22 |
 | S28 | Law | ACD – LIR coordinated text in force on 1 January 2026 (version 08.05.2026), art. 32 and 32bis (art. 46 n° 9 read 2026-10-26): https://impotsdirects.public.lu/dam-assets/fr/legislation/LIR/texte-coordonn-en-vigueur-au-1er-janvier-2026-ver-08052026.pdf | 2026-11-04 |

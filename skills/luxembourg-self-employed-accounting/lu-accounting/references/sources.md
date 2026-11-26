@@ -3,7 +3,7 @@
 | Id | Type | Source | Checked |
 |---|---|---|---|
 | S1 | Internal | BravoLisa internal: « Cash basis vs accrual basis for liberal professions » (§161 AO, circular L.G.-A n° 63, €100,000 test, notaries, C.com. arts 8–11) | 2026-07 |
-| S2 | Answer | BravoLisa ACD correspondence log – ACD contact-centre reply, July 2026: « You are welcome to attach your own presentation. » (an emailed position, not a ruling) | 2026-07-29 |
+| S2 | Answer | ACD contact-centre reply to BravoLisa, July 2026: « You are welcome to attach your own presentation. » (an emailed position, not a ruling) | 2026-07-29 |
 | S3 | Internal | BravoLisa internal compliance engine LU pack: annual accounts to RCS (LBR guide « Dépôt des comptes annuels pour un commerçant »; Guichet « Dépôt des comptes annuels au RCS »), retention 10 years, simplified invoices ≤ €100 – verified 2026-07-19/23 | 2026-07-23 |
 | S4 | Guidance | Guichet.lu – Résultat d'exploitation (records, evidence, private withdrawals): https://guichet.public.lu/fr/entreprises/fiscalite/impots-benefices/benefices-patrimoine/entreprise-individuelle-societe-personne/calcul-resultat-exploitation.html | 2026-10-23 |
 | S5 | Internal | BravoLisa webinar prepared question Q1 (separate bank account, payment references), October 2026 | 2026-10-25 |
