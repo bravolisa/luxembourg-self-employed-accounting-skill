@@ -1,0 +1,32 @@
+# Sources – lu-accounting
+
+| Id | Type | Source | Checked |
+|---|---|---|---|
+| S1 | Internal | BravoLisa internal: « Cash basis vs accrual basis for liberal professions » (§161 AO, circular L.G.-A n° 63, €100,000 test, notaries, C.com. arts 8–11) | 2026-07 |
+| S2 | Answer | BravoLisa ACD correspondence log – ACD contact-centre reply, July 2026: « You are welcome to attach your own presentation. » (an emailed position, not a ruling) | 2026-07-29 |
+| S3 | Internal | BravoLisa internal compliance engine LU pack: annual accounts to RCS (LBR guide « Dépôt des comptes annuels pour un commerçant »; Guichet « Dépôt des comptes annuels au RCS »), retention 10 years, simplified invoices ≤ €100 – verified 2026-07-19/23 | 2026-07-23 |
+| S4 | Guidance | Guichet.lu – Résultat d'exploitation (records, evidence, private withdrawals): https://guichet.public.lu/fr/entreprises/fiscalite/impots-benefices/benefices-patrimoine/entreprise-individuelle-societe-personne/calcul-resultat-exploitation.html | 2026-10-23 |
+| S5 | Internal | BravoLisa webinar prepared question Q1 (separate bank account, payment references), October 2026 | 2026-10-25 |
+| S6 | Internal | The standard chart of accounts (PCN), 2025 edition, as BravoLisa uses it (sheets « Chart of Accounts » and « Annex - Account 106 »; accounts 421611/612/613/618, 461411/412, 6462, 44111, 5131, 6413, 6132, 21213, 106178 checked) | 2026-10-25 |
+| S7 | Internal | BravoLisa's own accounting decisions (internal decision log, not published) | 2026-10-25 |
+| S8 | Internal | BravoLisa's accounting logic for purchase invoices (internal design note; deduction proportion) | 2026-10-25 |
+| S9 | Internal | BravoLisa's reference notes on the VAT accounts (VAT cycle) and on expense categories (6413 vs 6132) – internal design notes | 2026-10-25 |
+| S10 | Internal | BravoLisa's accounting logic for fixed assets (internal design note; non-deductible VAT capitalised) | 2026-10-25 |
+| S11 | Guidance | ACD – Circulaire L.G.–A n° 63 du 15 septembre 2017, « Obligations comptables en matière fiscale » (§160 AO and Code de commerce arts 8, 11, 13, 15; §161 AO €100,000 test, start and end; notaries): https://impotsdirects.public.lu/dam-assets/fr/legislation/circulaires/LGA6315092017.pdf | 2026-10-26 |
+| S12 | Law | Loi modifiée du 19 décembre 2002 (RCS, accounting and annual accounts), coordinated text after the law of 19 December 2025, published by the LBR – art. 25 (annual-accounts chapter excludes traders under art. 13 C.com.), art. 75 (filing « au plus tard sept mois après la date de clôture de l'année civile » for commercial sole traders): https://lbrcontent.public.lu/dam-assets/code-legal/legislation/rcs/fr/rcs-loi-19-12-2002-2025.pdf | 2026-10-25 |
+| S13 | Law | Règlement grand-ducal du 25 octobre 2024 raising the size thresholds (€7.5 million balance sheet, €15 million turnover; financial years from 2023), Mémorial A 448: https://data.legilux.public.lu/filestore/eli/etat/leg/rgd/2024/10/25/a448/jo/fr/pdfa/eli-etat-leg-rgd-2024-10-25-a448-jo-fr-pdfa.pdf | 2026-10-25 |
+| S14 | Guidance | CSSF – communiqué on the RGD of 25 October 2024 (re-classification from financial year 2025 at the earliest; CNC Q&A 24/034): https://www.cssf.lu/fr/2024/12/communique-de-la-cssf-concernant-la-publication-du-reglement-grand-ducal-du-25-octobre-2024-portant-rehaussement-des-seuils/ | 2026-10-25 |
+| S15 | Guidance | Guichet.lu – filing annual accounts with the RCS (eCDF validation; approval within 6 months): https://guichet.public.lu/fr/entreprises/gestion-juridique-comptabilite/registre-commerce/depots-publications/depot-comptes-annuels.html | 2026-10-25 |
+| S16 | Guidance | Guichet.lu – accounting obligations: https://guichet.public.lu/fr/entreprises/gestion-juridique-comptabilite/comptable/enregistrement/obligations-comptables.html | 2026-10-25 |
+| S17 | Law | Loi du 7 août 2023 sur les associations sans but lucratif et les fondations (ASBL size classes and accounts), Mémorial A n° 592: https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2023/08/07/a592/jo/fr/pdfa/eli-etat-leg-loi-2023-08-07-a592-jo-fr-pdfa.pdf | 2026-10-25 |
+| S18 | Guidance | Ministry of Justice – ASBL page (accounts filed within 7 months): https://mj.gouvernement.lu/fr/service-citoyens/asbl.html | 2026-10-25 |
+| S19 | Guidance | Ministry of Justice – Q&A on the ASBL transition: https://mj.gouvernement.lu/dam-assets/dossiers/asbl-et-fondation/048-0625001-minjustice-qna-myasbl-flyer-a4-v4.pdf | 2026-10-25 |
+| S20 | Guidance | Guichet.lu – SARL (last modified 22.07.2019; still shows the old €4.4m / €8.8m thresholds – outdated): https://guichet.public.lu/fr/entreprises/creation-developpement/forme-juridique/societe-capitaux/sarl.html | 2026-10-25 |
+| S21 | Form | eCDF – standard chart of accounts (PCN) 2025, official version (legal library PCN-2025) | 2026-10-26 |
+| S22 | Law | Règlement grand-ducal du 13 mars 1970 (art. 116 LIR), art. 8: « une copie non abrégée du bilan de clôture »; double entry: P&L and « tableau comptable »; tax adjustments: https://data.legilux.public.lu/filestore/eli/etat/leg/rgd/1970/03/13/n2/jo/fr/html/eli-etat-leg-rgd-1970-03-13-n2-jo-fr-html.html | 2026-11-10 |
+| S24 | Guidance | Guichet.lu – electronic return assistant (attachments chosen from the answers, 07.04.2026): https://guichet.public.lu/fr/citoyens/fiscalite/declaration-impot-decompte/activite-professionnelle/declaration-revenus/declaration-impot-electronique.html ; ACD – FAQ, companies' e-return (PDF only, 7 MB per file): https://impotsdirects.public.lu/fr/echanges_electroniques/decl_coll/FAQ.html | 2026-10-26 |
+| S25 | Law | Règlement grand-ducal du 17 février 2025 (Mémorial A 69), annex A – small ASBLs: cash and bank totals, members by band, share of funds sent abroad by band: https://data.legilux.public.lu/filestore/eli/etat/leg/rgd/2025/02/17/a69/jo/fr/html/eli-etat-leg-rgd-2025-02-17-a69-jo-fr-html.html | 2026-10-26 |
+| S26 | Guidance | LBR – FAQ (entities not bound to the PCN file directly on lbr.lu): https://lbrcontent.public.lu/fr/informations/faq.html | 2026-10-26 |
+| S27 | Internal | BravoLisa's asset categories, depreciation account mapping and expense categories, and its mapping of the car to Forms 112 / 152 (internal design notes; the car block and the commuting deduction are computed outside the ledger) | 2026-11-19 |
+
+S7–S10 are BravoLisa's own design decisions, not official rules: they say which permitted PCN account BravoLisa uses. S6 is BravoLisa's copy of the official PCN chart.

@@ -1,0 +1,985 @@
+{
+ "_about": "Machine-readable copy of the figures the Form 100, commuting and tax-estimate scripts use. The owner of each figure is the markdown year file in 'source' (one owner per fact); 'match' is the text that must appear there. Change the markdown first, then this file; the tool tests (lu-annual-return/scripts/tests) check both agree. Each year's block is complete in itself: a script reads only the keys listed under that year and never falls back to another year. A key starting with '_' is not a figure but a check on the year file: '_carry_over_sentence' (value null) makes the tests confirm that the year file still says the previous year's figures apply unless changed – the sentence that allows this year's keys to name a previous year's file as 'source'.",
+ "years": {
+  "2025": {
+   "salary_flat_costs": {
+    "value": 540,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "Salary €540"
+   },
+   "insurance_per_member": {
+    "value": 672,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€672 per household member"
+   },
+   "home_savings_per_member": {
+    "value": 672,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "or €672, per household member"
+   },
+   "home_savings_per_member_18_40": {
+    "value": 1344,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€1,344 (youngest adult subscriber aged 18–40)"
+   },
+   "pension_plan_per_person": {
+    "value": 3200,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€3,200 per person"
+   },
+   "special_expenses_flat_minimum": {
+    "value": 480,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€480; second salaried-spouse amount subject to art.113(2) low-income reduction"
+   },
+   "commuting_eur_per_unit": {
+    "value": 99,
+    "source": "lu-income-tax-business/references/figures/2025.md",
+    "match": "€99 per distance unit"
+   },
+   "commuting_free_units": {
+    "value": 4,
+    "source": "lu-income-tax-business/references/figures/2025.md",
+    "match": "first 4 units not counted"
+   },
+   "commuting_max_counted_units": {
+    "value": 26,
+    "source": "lu-income-tax-business/references/figures/2025.md",
+    "match": "(26 units)"
+   },
+   "commuting_cap": {
+    "value": 2574,
+    "source": "lu-income-tax-business/references/figures/2025.md",
+    "match": "max €2,574"
+   },
+   "scale_class1": {
+    "value": [
+     [
+      13230,
+      0
+     ],
+     [
+      15435,
+      8
+     ],
+     [
+      17640,
+      9
+     ],
+     [
+      19845,
+      10
+     ],
+     [
+      22050,
+      11
+     ],
+     [
+      24255,
+      12
+     ],
+     [
+      26550,
+      14
+     ],
+     [
+      28845,
+      16
+     ],
+     [
+      31140,
+      18
+     ],
+     [
+      33435,
+      20
+     ],
+     [
+      35730,
+      22
+     ],
+     [
+      38025,
+      24
+     ],
+     [
+      40320,
+      26
+     ],
+     [
+      42615,
+      28
+     ],
+     [
+      44910,
+      30
+     ],
+     [
+      47205,
+      32
+     ],
+     [
+      49500,
+      34
+     ],
+     [
+      51795,
+      36
+     ],
+     [
+      54090,
+      38
+     ],
+     [
+      117450,
+      39
+     ],
+     [
+      176160,
+      40
+     ],
+     [
+      234870,
+      41
+     ],
+     [
+      null,
+      42
+     ]
+    ],
+    "source": "lu-income-tax-personal/references/scale-and-calculation.md",
+    "match": "| €54,090 – €117,450 | 39% |"
+   },
+   "rounding_step": {
+    "value": 50,
+    "source": "lu-income-tax-personal/references/scale-and-calculation.md",
+    "match": "rounded down to a multiple of €50"
+   },
+   "employment_fund_rate": {
+    "value": 7,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "7% of the tax; 9% above €150,000"
+   },
+   "employment_fund_high_rate": {
+    "value": 9,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "7% of the tax; 9% above €150,000"
+   },
+   "employment_fund_threshold_class1": {
+    "value": 150000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "7% of the tax; 9% above €150,000"
+   },
+   "employment_fund_threshold_class2": {
+    "value": 300000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "or €300,000 (class 2)"
+   },
+   "employment_fund_high_deduction_class1": {
+    "value": 931.8,
+    "source": "lu-income-tax-personal/references/scale-and-calculation.md",
+    "match": "€931.80 in class 1"
+   },
+   "employment_fund_high_deduction_class1a": {
+    "value": 885.36,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€885.36 above €150,000"
+   },
+   "employment_fund_high_deduction_class2": {
+    "value": 1863.6,
+    "source": "lu-income-tax-personal/references/scale-and-calculation.md",
+    "match": "€1,863.60"
+   },
+   "extra_professional_abatement": {
+    "value": 4500,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€4,500 per qualifying couple, limited by each spouse's relevant net amount"
+   },
+   "household_help_cap": {
+    "value": 5400,
+    "source": "lu-income-tax-personal/references/extraordinary-charges-and-abatements.md",
+    "match": "€5,400 a year, at most €450 a month"
+   },
+   "household_help_month": {
+    "value": 450,
+    "source": "lu-income-tax-personal/references/extraordinary-charges-and-abatements.md",
+    "match": "€5,400 a year, at most €450 a month"
+   },
+   "cii_low": {
+    "value": 300,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€300 + (profit − €936) × 2.9%"
+   },
+   "cii_min_profit": {
+    "value": 936,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€300 + (profit − €936) × 2.9%"
+   },
+   "cii_ramp_rate": {
+    "value": 2.9,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€300 + (profit − €936) × 2.9%"
+   },
+   "cii_full": {
+    "value": 600,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "**€600** between €11,266 and €40,000"
+   },
+   "cii_full_from": {
+    "value": 11266,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "**€600** between €11,266 and €40,000"
+   },
+   "cii_phaseout_from": {
+    "value": 40000,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€600 − (profit − €40,000) × 1.5%"
+   },
+   "cii_phaseout_rate": {
+    "value": 1.5,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€600 − (profit − €40,000) × 1.5%"
+   },
+   "cii_nil_from": {
+    "value": 80000,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "**from €80,000** of profit neither is granted"
+   },
+   "co2_self_employed": {
+    "value": 192,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€192 (profit €936–€40,000)"
+   },
+   "co2_phaseout_rate": {
+    "value": 0.48,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€192, i.e. × 0.48%"
+   },
+   "ccss_rate_deductible": {
+    "value": 22.8,
+    "source": "lu-social-security/references/figures/2025.md",
+    "match": "22.80% on the capped base + 1.40% dependency"
+   },
+   "ccss_dependency_rate": {
+    "value": 1.4,
+    "source": "lu-social-security/references/figures/2025.md",
+    "match": "22.80% on the capped base + 1.40% dependency"
+   },
+   "ccss_min_base_annual": {
+    "value": 32181.08,
+    "source": "lu-social-security/references/figures/2025.md",
+    "match": "**€32,181.08**"
+   },
+   "childcare_monthly_cap": {
+    "value": 450,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€5,400 a year, at most €450 a month"
+   },
+   "own_home_2020_2023": {
+    "value": 4000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "2020–2023 €4,000"
+   },
+   "own_home_2015_2019": {
+    "value": 3000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "2015–2019 €3,000"
+   },
+   "own_home_before_2015": {
+    "value": 2000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "before 2015 €2,000"
+   },
+   "minimum_tariff_tax": {
+    "value": 12,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "Tariff tax below €12 is treated as zero"
+   },
+   "cis_min_gross": {
+    "value": 936,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Minimum annual gross | 936 |"
+   },
+   "cis_nil_from": {
+    "value": 80000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Zero credit from annual gross | 80,000 |"
+   },
+   "cis_full_from": {
+    "value": 11266,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Full CIS starts at annual gross | 11,266 |"
+   },
+   "cis_phaseout_from": {
+    "value": 40000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Full-credit upper gross | 40,000 |"
+   },
+   "cis_ramp_base": {
+    "value": 300,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| CIS ramp base | 300 |"
+   },
+   "cis_ramp_rate": {
+    "value": 2.9,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| CIS ramp percentage | 2.9 |"
+   },
+   "cis_full": {
+    "value": 600,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Full annual CIS | 600 |"
+   },
+   "cis_phaseout_rate": {
+    "value": 1.5,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| CIS reduction percentage | 1.5 |"
+   },
+   "co2_employee": {
+    "value": 192,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Full annual employee CO2 | 192 |"
+   },
+   "co2_employee_phaseout_rate": {
+    "value": 0.48,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Employee CO2 reduction percentage | 0.48 |"
+   },
+   "credit_recovery_minimum": {
+    "value": 12,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Positive credit-recovery threshold (strictly below; per person) | 12 |"
+   },
+   "pu_base": {
+    "value": 6000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€6,000 + €1,200 per eligible child assigned once"
+   },
+   "pu_child": {
+    "value": 1200,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€6,000 + €1,200 per eligible child assigned once"
+   },
+   "pu_age_rate": {
+    "value": 8,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "8% per completed year above age 30 at subscription"
+   },
+   "pu_age_start": {
+    "value": 30,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "8% per completed year above age 30 at subscription"
+   },
+   "pu_age_extra_max": {
+    "value": 160,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "maximum 160% extra"
+   },
+   "donation_minimum": {
+    "value": 120,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "At least €120"
+   },
+   "donation_percent_cap": {
+    "value": 20,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "at most 20% of total net income"
+   },
+   "donation_absolute_cap": {
+    "value": 1000000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "and €1,000,000"
+   },
+   "class1a_shortfall": {
+    "value": 79380,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "Shortfall to €79,380 reduced by a quarter"
+   },
+   "class1a_reduction_percent": {
+    "value": 25,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "25% (one quarter)"
+   },
+   "class1a_kink": {
+    "value": 51804,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "39% from €51,804"
+   },
+   "class1a_continuation_rate": {
+    "value": 39,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "39% from €51,804"
+   },
+   "employment_fund_threshold_class1a": {
+    "value": 150000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€885.36 above €150,000"
+   },
+   "cim_full": {
+    "value": 3504,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€3,504 below €60,000"
+   },
+   "cim_phaseout_from": {
+    "value": 60000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€3,504 below €60,000"
+   },
+   "cim_phaseout_to": {
+    "value": 105000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "through €105,000"
+   },
+   "cim_phaseout_rate": {
+    "value": 0.0612,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "× 0.0612"
+   },
+   "cim_minimum": {
+    "value": 750,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€750 above"
+   },
+   "cim_support_threshold": {
+    "value": 2712,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "above €2,712/year"
+   },
+   "cim_support_reduction_percent": {
+    "value": 50,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "50% of relevant support"
+   },
+   "employee_occupational_pension_cap": {
+    "value": 1200,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "Up to 1,200; separate from DS minimum and private111bis saving"
+   },
+   "medical_burden_0_0": {
+    "value": 2,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_0_1": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_0_2": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_0_3": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_0_4": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_0_5": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_0_6": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_1_0": {
+    "value": 4,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 10,000–20,000 | 4 | 2 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_1_1": {
+    "value": 2,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 10,000–20,000 | 4 | 2 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_1_2": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 10,000–20,000 | 4 | 2 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_1_3": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 10,000–20,000 | 4 | 2 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_1_4": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 10,000–20,000 | 4 | 2 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_1_5": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 10,000–20,000 | 4 | 2 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_1_6": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 10,000–20,000 | 4 | 2 | 0 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_2_0": {
+    "value": 6,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 20,000–30,000 | 6 | 4 | 2 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_2_1": {
+    "value": 4,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 20,000–30,000 | 6 | 4 | 2 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_2_2": {
+    "value": 2,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 20,000–30,000 | 6 | 4 | 2 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_2_3": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 20,000–30,000 | 6 | 4 | 2 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_2_4": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 20,000–30,000 | 6 | 4 | 2 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_2_5": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 20,000–30,000 | 6 | 4 | 2 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_2_6": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 20,000–30,000 | 6 | 4 | 2 | 0 | 0 | 0 | 0 |"
+   },
+   "medical_burden_3_0": {
+    "value": 7,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 30,000–40,000 | 7 | 6 | 4 | 2 | 0 | 0 | 0 |"
+   },
+   "medical_burden_3_1": {
+    "value": 6,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 30,000–40,000 | 7 | 6 | 4 | 2 | 0 | 0 | 0 |"
+   },
+   "medical_burden_3_2": {
+    "value": 4,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 30,000–40,000 | 7 | 6 | 4 | 2 | 0 | 0 | 0 |"
+   },
+   "medical_burden_3_3": {
+    "value": 2,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 30,000–40,000 | 7 | 6 | 4 | 2 | 0 | 0 | 0 |"
+   },
+   "medical_burden_3_4": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 30,000–40,000 | 7 | 6 | 4 | 2 | 0 | 0 | 0 |"
+   },
+   "medical_burden_3_5": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 30,000–40,000 | 7 | 6 | 4 | 2 | 0 | 0 | 0 |"
+   },
+   "medical_burden_3_6": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 30,000–40,000 | 7 | 6 | 4 | 2 | 0 | 0 | 0 |"
+   },
+   "medical_burden_4_0": {
+    "value": 8,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 40,000–50,000 | 8 | 7 | 5 | 3 | 1 | 0 | 0 |"
+   },
+   "medical_burden_4_1": {
+    "value": 7,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 40,000–50,000 | 8 | 7 | 5 | 3 | 1 | 0 | 0 |"
+   },
+   "medical_burden_4_2": {
+    "value": 5,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 40,000–50,000 | 8 | 7 | 5 | 3 | 1 | 0 | 0 |"
+   },
+   "medical_burden_4_3": {
+    "value": 3,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 40,000–50,000 | 8 | 7 | 5 | 3 | 1 | 0 | 0 |"
+   },
+   "medical_burden_4_4": {
+    "value": 1,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 40,000–50,000 | 8 | 7 | 5 | 3 | 1 | 0 | 0 |"
+   },
+   "medical_burden_4_5": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 40,000–50,000 | 8 | 7 | 5 | 3 | 1 | 0 | 0 |"
+   },
+   "medical_burden_4_6": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 40,000–50,000 | 8 | 7 | 5 | 3 | 1 | 0 | 0 |"
+   },
+   "medical_burden_5_0": {
+    "value": 9,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 50,000–60,000 | 9 | 8 | 6 | 4 | 2 | 0 | 0 |"
+   },
+   "medical_burden_5_1": {
+    "value": 8,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 50,000–60,000 | 9 | 8 | 6 | 4 | 2 | 0 | 0 |"
+   },
+   "medical_burden_5_2": {
+    "value": 6,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 50,000–60,000 | 9 | 8 | 6 | 4 | 2 | 0 | 0 |"
+   },
+   "medical_burden_5_3": {
+    "value": 4,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 50,000–60,000 | 9 | 8 | 6 | 4 | 2 | 0 | 0 |"
+   },
+   "medical_burden_5_4": {
+    "value": 2,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 50,000–60,000 | 9 | 8 | 6 | 4 | 2 | 0 | 0 |"
+   },
+   "medical_burden_5_5": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 50,000–60,000 | 9 | 8 | 6 | 4 | 2 | 0 | 0 |"
+   },
+   "medical_burden_5_6": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| 50,000–60,000 | 9 | 8 | 6 | 4 | 2 | 0 | 0 |"
+   },
+   "medical_burden_6_0": {
+    "value": 10,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+   },
+   "medical_burden_6_1": {
+    "value": 9,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+   },
+   "medical_burden_6_2": {
+    "value": 7,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+   },
+   "medical_burden_6_3": {
+    "value": 5,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+   },
+   "medical_burden_6_4": {
+    "value": 3,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+   },
+   "medical_burden_6_5": {
+    "value": 1,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+   },
+   "medical_burden_6_6": {
+    "value": 0,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+   }
+  },
+  "2026": {
+   "salary_flat_costs": {
+    "value": 540,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "Salary €540"
+   },
+   "insurance_per_member": {
+    "value": 672,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€672 per household member"
+   },
+   "home_savings_per_member": {
+    "value": 672,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "or €672, per household member"
+   },
+   "home_savings_per_member_18_40": {
+    "value": 1344,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€1,344 (youngest adult subscriber aged 18–40)"
+   },
+   "pension_plan_per_person": {
+    "value": 4500,
+    "source": "lu-income-tax-personal/references/figures/2026.md",
+    "match": "**€4,500** per person"
+   },
+   "special_expenses_flat_minimum": {
+    "value": 480,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€480; second salaried-spouse amount subject to art.113(2) low-income reduction"
+   },
+   "commuting_eur_per_unit": {
+    "value": 99,
+    "source": "lu-income-tax-business/references/figures/2026.md",
+    "match": "€99 per unit"
+   },
+   "commuting_free_units": {
+    "value": 4,
+    "source": "lu-income-tax-business/references/figures/2026.md",
+    "match": "first 4 units not counted"
+   },
+   "commuting_max_counted_units": {
+    "value": 26,
+    "source": "lu-income-tax-business/references/figures/2025.md",
+    "match": "(26 units)"
+   },
+   "commuting_cap": {
+    "value": 2574,
+    "source": "lu-income-tax-business/references/figures/2026.md",
+    "match": "max €2,574"
+   },
+   "scale_class1": {
+    "value": [
+     [
+      13230,
+      0
+     ],
+     [
+      15435,
+      8
+     ],
+     [
+      17640,
+      9
+     ],
+     [
+      19845,
+      10
+     ],
+     [
+      22050,
+      11
+     ],
+     [
+      24255,
+      12
+     ],
+     [
+      26550,
+      14
+     ],
+     [
+      28845,
+      16
+     ],
+     [
+      31140,
+      18
+     ],
+     [
+      33435,
+      20
+     ],
+     [
+      35730,
+      22
+     ],
+     [
+      38025,
+      24
+     ],
+     [
+      40320,
+      26
+     ],
+     [
+      42615,
+      28
+     ],
+     [
+      44910,
+      30
+     ],
+     [
+      47205,
+      32
+     ],
+     [
+      49500,
+      34
+     ],
+     [
+      51795,
+      36
+     ],
+     [
+      54090,
+      38
+     ],
+     [
+      117450,
+      39
+     ],
+     [
+      176160,
+      40
+     ],
+     [
+      234870,
+      41
+     ],
+     [
+      null,
+      42
+     ]
+    ],
+    "source": "lu-income-tax-personal/references/scale-and-calculation.md",
+    "match": "| €54,090 – €117,450 | 39% |"
+   },
+   "rounding_step": {
+    "value": 50,
+    "source": "lu-income-tax-personal/references/scale-and-calculation.md",
+    "match": "rounded down to a multiple of €50"
+   },
+   "employment_fund_rate": {
+    "value": 7,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "7% of the tax; 9% above €150,000"
+   },
+   "employment_fund_high_rate": {
+    "value": 9,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "7% of the tax; 9% above €150,000"
+   },
+   "employment_fund_threshold_class1": {
+    "value": 150000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "7% of the tax; 9% above €150,000"
+   },
+   "employment_fund_threshold_class2": {
+    "value": 300000,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "or €300,000 (class 2)"
+   },
+   "employment_fund_high_deduction_class1": {
+    "value": 931.8,
+    "source": "lu-income-tax-personal/references/scale-and-calculation.md",
+    "match": "€931.80 in class 1"
+   },
+   "employment_fund_high_deduction_class1a": {
+    "value": 885.36,
+    "source": "lu-income-tax-personal/references/scale-and-calculation.md",
+    "match": "€885.36 in class 1a"
+   },
+   "employment_fund_high_deduction_class2": {
+    "value": 1863.6,
+    "source": "lu-income-tax-personal/references/scale-and-calculation.md",
+    "match": "€1,863.60"
+   },
+   "extra_professional_abatement": {
+    "value": 4500,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "€4,500 per qualifying couple, limited by each spouse's relevant net amount"
+   },
+   "household_help_cap": {
+    "value": 5400,
+    "source": "lu-income-tax-personal/references/extraordinary-charges-and-abatements.md",
+    "match": "€5,400 a year, at most €450 a month"
+   },
+   "household_help_month": {
+    "value": 450,
+    "source": "lu-income-tax-personal/references/extraordinary-charges-and-abatements.md",
+    "match": "€5,400 a year, at most €450 a month"
+   },
+   "cii_low": {
+    "value": 300,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€300 + (profit − €936) × 2.9%"
+   },
+   "cii_min_profit": {
+    "value": 936,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€300 + (profit − €936) × 2.9%"
+   },
+   "cii_ramp_rate": {
+    "value": 2.9,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€300 + (profit − €936) × 2.9%"
+   },
+   "cii_full": {
+    "value": 600,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "**€600** between €11,266 and €40,000"
+   },
+   "cii_full_from": {
+    "value": 11266,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "**€600** between €11,266 and €40,000"
+   },
+   "cii_phaseout_from": {
+    "value": 40000,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€600 − (profit − €40,000) × 1.5%"
+   },
+   "cii_phaseout_rate": {
+    "value": 1.5,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€600 − (profit − €40,000) × 1.5%"
+   },
+   "cii_nil_from": {
+    "value": 80000,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "**from €80,000** of profit neither is granted"
+   },
+   "co2_self_employed": {
+    "value": 216,
+    "source": "lu-income-tax-personal/references/figures/2026.md",
+    "match": "**€216** (profit €936–€40,000)"
+   },
+   "co2_phaseout_rate": {
+    "value": 0.54,
+    "source": "lu-income-tax-personal/references/tax-credits.md",
+    "match": "€216 − (profit − €40,000) × 0.54%"
+   },
+   "ccss_rate_deductible": {
+    "value": 23.75,
+    "source": "lu-social-security/references/figures/2026.md",
+    "match": "23.75% on the capped base + 1.40% dependency"
+   },
+   "ccss_dependency_rate": {
+    "value": 1.4,
+    "source": "lu-social-security/references/figures/2026.md",
+    "match": "23.75% on the capped base + 1.40% dependency"
+   },
+   "ccss_min_base_annual": {
+    "value": 32918.01,
+    "source": "lu-social-security/references/figures/2026.md",
+    "match": "**€32,918.01**"
+   },
+   "_carry_over_sentence": {
+    "value": null,
+    "source": "lu-income-tax-personal/references/figures/2026.md",
+    "match": "Everything in figures/2025.md applies unless changed below"
+   },
+   "minimum_tariff_tax": {
+    "value": 12,
+    "source": "lu-income-tax-personal/references/figures/2025.md",
+    "match": "Tariff tax below €12 is treated as zero"
+   }
+  }
+ }
+}

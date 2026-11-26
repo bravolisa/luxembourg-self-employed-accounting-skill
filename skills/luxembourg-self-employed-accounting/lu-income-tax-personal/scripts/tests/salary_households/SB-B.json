@@ -1,0 +1,85 @@
+{
+  "tax_year": 2025,
+  "resident_full_year": true,
+  "tax_liability_months": 12,
+  "file_number": "00000000000",
+  "taxpayer": {
+    "last_name": "Example",
+    "first_name": "Taxpayer",
+    "national_id": "@ID:1985-01-01",
+    "status": "CE"
+  },
+  "advances_paid": 0,
+  "salaries": [
+    {
+      "owner": "taxpayer",
+      "employer": "Example Employer taxpayer 0 0",
+      "certificate_id": "SB-B-taxpayer-0-0",
+      "tax_regime": "ordinary",
+      "occupation": "SALA",
+      "all_pay_luxembourg_taxable": true,
+      "tax_card_id": "A",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": "30000"
+        }
+      ],
+      "contributions": "3300",
+      "travel": "1188",
+      "withheld": "3000",
+      "withholding_basis": "before_cis_co2",
+      "cis": 600,
+      "co2": 192
+    },
+    {
+      "owner": "taxpayer",
+      "employer": "Example Employer taxpayer 1 0",
+      "certificate_id": "SB-B-taxpayer-1-0",
+      "tax_regime": "ordinary",
+      "occupation": "SALA",
+      "all_pay_luxembourg_taxable": true,
+      "tax_card_id": "B",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": "20000"
+        }
+      ],
+      "contributions": "2200",
+      "travel": "792",
+      "withheld": "2000",
+      "withholding_basis": "before_cis_co2",
+      "cis": 0,
+      "co2": 0
+    }
+  ],
+  "salary_balance": {
+    "tax_class": 1,
+    "income_and_deductions_complete": true,
+    "evidence": "Invented case; household class, complete ordinary income/deductions and card history independently specified.",
+    "people": {
+      "taxpayer": {
+        "compulsory_affiliation": true,
+        "full_year_eligible": true,
+        "payroll_final": false
+      }
+    }
+  },
+  "address": {
+    "postcode": "4002",
+    "locality": "Esch-sur-Alzette",
+    "street": "Rue Test",
+    "number": "1"
+  }
+}

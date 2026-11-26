@@ -1,0 +1,22 @@
+{
+  "name": "bravolisa-self-employed",
+  "owner": {
+    "name": "BravoLisa",
+    "email": "info@bravolisa.lu"
+  },
+  "metadata": {
+    "description": "BravoLisa's agent skill for the self-employed and small companies and associations in Luxembourg",
+    "version": "0.50.1"
+  },
+  "plugins": [
+    {
+      "name": "luxembourg-self-employed-accounting",
+      "description": "Luxembourg accounting, VAT, social security and taxes for self-employed people and small SARL, SARL-S and ASBL: the rules with their sources, the forms box by box, calculators, and the owner's Form 100 with its tools.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/luxembourg-self-employed-accounting"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "_about": "Invented test household (no real person). Salaried taxpayer, spouse liberal on the balance-sheet basis with a PEPP; a fiduciary files from a PRO space.",
+  "tax_year": 2025,
+  "space": "pro",
+  "filed_by": "agent",
+  "agent": {
+    "capacity": "PRO",
+    "kind": "PM",
+    "company": "Fiduciaire Test S.A.",
+    "last_name": "AGENT",
+    "first_name": "Marc",
+    "phone": "+35200000000"
+  },
+  "consent": true,
+  "eligibility": true,
+  "file_number": "00000000003",
+  "tax_office": "L3",
+  "address": {
+    "postcode": "2222",
+    "locality": "Luxembourg",
+    "street": "Boulevard du Test",
+    "number": "8"
+  },
+  "taxpayer": {
+    "last_name": "PROBE",
+    "first_name": "Jan",
+    "national_id": "@ID:1975-07-04",
+    "status": "MA",
+    "status_since": "2001-06-30"
+  },
+  "spouse": {
+    "last_name": "PROBE",
+    "first_name": "Eva",
+    "national_id": "@ID:1978-02-14",
+    "status": "MA",
+    "status_since": "2001-06-30"
+  },
+  "salaries": [
+    {
+      "owner": "taxpayer",
+      "employer": "Banque Test S.A.",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": 50000.0
+        }
+      ],
+      "contributions": 5525.0,
+      "taxable_base": 44475.0,
+      "withheld": 6000.0,
+      "cis": 0,
+      "co2": 0
+    }
+  ],
+  "businesses": [
+    {
+      "owner": "spouse",
+      "kind": "liberal",
+      "activity": "ARCH",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "main": true,
+      "method": "BILA",
+      "profit": 20000.0
+    }
+  ],
+  "pension_plans": [
+    {
+      "holder": "spouse",
+      "insurer": "Assurances Test",
+      "start": "2022-01-01",
+      "end": "2043-02-28",
+      "amount": 4000.0,
+      "pepp": true,
+      "subaccount_country": "LU",
+      "subaccount_evidence": "Invented qualifying Luxembourg PEPP sub-account"
+    }
+  ],
+  "ccss_self_employed": [
+    {
+      "owner": "spouse",
+      "deductible": 4560.0,
+      "non_deductible": 280.0
+    }
+  ],
+  "dac6": false
+}

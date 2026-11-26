@@ -1,0 +1,69 @@
+{
+  "tax_year": 2025,
+  "resident_full_year": true,
+  "file_number": "00000000000",
+  "address": {
+    "postcode": "4002",
+    "locality": "Esch-sur-Alzette",
+    "street": "Rue Test",
+    "number": "1"
+  },
+  "taxpayer": {
+    "last_name": "Example",
+    "first_name": "Test Single",
+    "national_id": "@ID:1980-01-01",
+    "status": "CE"
+  },
+  "salaries": [
+    {
+      "owner": "taxpayer",
+      "occupation": "SALA",
+      "employer": "Example employer",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": 45000
+        }
+      ],
+      "contributions": 5000,
+      "withheld": 3000,
+      "taxable_base": 39460,
+      "travel": 0,
+      "cis": 0,
+      "co2": 0
+    }
+  ],
+  "children": [
+    {
+      "last_name": "Example",
+      "first_name": "Test Student",
+      "birth_date": "2004-01-01",
+      "in_tax_household": true,
+      "assignment_evidence": "Synthetic household assignment and continuous studies certificate",
+      "custody": "sole_parent",
+      "married_or_partnered": false,
+      "has_children": false,
+      "benefits": [],
+      "benefit_recipient": "NO",
+      "request_rebate": true,
+      "education": "university",
+      "institution": "Example University",
+      "continuous_full_time_over_year": true,
+      "studies_away": true,
+      "national_id_not_assigned": true
+    }
+  ],
+  "insurance": [
+    {
+      "insurer": "Example Insurer",
+      "risk": "RC",
+      "paid_by": "taxpayer",
+      "amount": 1500
+    }
+  ]
+}

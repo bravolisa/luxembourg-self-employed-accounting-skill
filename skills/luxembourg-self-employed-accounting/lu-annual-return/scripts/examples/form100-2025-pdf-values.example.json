@@ -1,0 +1,297 @@
+{
+ "case": "Invented test couple, tax year 2025 - no real person. Input for fill_form100_pdf.py. Marc EXEMPLE, freelance translator (liberal profession), VAT franchise, receipts-and-expenses method (Form 152); Julie EXEMPLE, employee. Married, resident, joint taxation (default). One child, family allowance paid. Own home available since 01/04/2019, joint mortgage.",
+ "fields": {
+  "A.0101": {
+   "value": "EXEMPLE",
+   "why": "Name, taxpayer"
+  },
+  "A.0102": {
+   "value": "EXEMPLE",
+   "why": "Name, spouse"
+  },
+  "A.0103": {
+   "value": "Marc",
+   "why": "First name"
+  },
+  "A.0104": {
+   "value": "Julie",
+   "why": "First name"
+  },
+  "F.0105": {
+   "value": "19840312",
+   "why": "Date of birth (the form accepts it instead of the matricule)"
+  },
+  "F.0106": {
+   "value": "19860722",
+   "why": "Date of birth"
+  },
+  "A.0107": {
+   "value": "Luxembourg / Luxembourg",
+   "why": "Place of birth"
+  },
+  "A.0108": {
+   "value": "Metz / France",
+   "why": "Place of birth"
+  },
+  "A.0110": {
+   "value": "Traducteur indépendant",
+   "why": "Profession"
+  },
+  "A.0111": {
+   "value": "Employée privée",
+   "why": "Profession"
+  },
+  "A.0116": {
+   "value": "1",
+   "why": "House number"
+  },
+  "A.0117": {
+   "value": "rue de l'Exemple",
+   "why": "Street (invented)"
+  },
+  "A.0118": {
+   "value": "1",
+   "why": "House number"
+  },
+  "A.0119": {
+   "value": "rue de l'Exemple",
+   "why": "Street (invented)"
+  },
+  "A.0120": {
+   "value": "L-9999",
+   "why": "Postcode (invented)"
+  },
+  "A.0121": {
+   "value": "Exempleville",
+   "why": "Locality (invented)"
+  },
+  "A.0122": {
+   "value": "L-9999",
+   "why": "Postcode (invented)"
+  },
+  "A.0123": {
+   "value": "Exempleville",
+   "why": "Locality (invented)"
+  },
+  "A.0124": {
+   "value": "LU",
+   "why": "Country"
+  },
+  "A.0125": {
+   "value": "LU",
+   "why": "Country"
+  },
+  "A.0201a": {
+   "value": "EXEMPLE",
+   "why": "Child under 21 in the household - name"
+  },
+  "A.0201b": {
+   "value": "Emma",
+   "why": "Child - first name"
+  },
+  "D.0202": {
+   "value": "20180905",
+   "why": "Child - date of birth; box 203 NOT ticked because the family allowance was paid"
+  },
+  "R.0301": {
+   "value": "/marie",
+   "why": "Married (302)"
+  },
+  "D.0305": {
+   "value": "14/06/2014",
+   "why": "Married since; no option ticked (316-319), so joint taxation applies by default"
+  },
+  "N.0605": {
+   "value": 46500,
+   "why": "Liberal profession, receipts (franchise, so no VAT) - attach the statement of receipts"
+  },
+  "N.0609": {
+   "value": 7800,
+   "why": "Operating expenses per Form 152 (attach Form 152)"
+  },
+  "N.0702": {
+   "value": 58000,
+   "why": "Spouse's salary, first employment contract, per salary certificate (gross; contributions go to page 16)"
+  },
+  "N.0744": {
+   "value": 540,
+   "why": "Flat costs of earning income"
+  },
+  "N.0748": {
+   "value": 792,
+   "why": "Commuting flat rate: 12 units, first 4 not counted: 8 x 99"
+  },
+  "A.0752": {
+   "value": "Luxembourg",
+   "why": "Place of work"
+  },
+  "N.1021": {
+   "value": -3100,
+   "why": "Own-home interest, half (joint mortgage) - notional rental value 0%, so negative income"
+  },
+  "N.1022": {
+   "value": -3100,
+   "why": "Own-home interest, other half"
+  },
+  "A.1033": {
+   "value": "Banque Exemple S.A.",
+   "why": "Lender (invented)"
+  },
+  "A.1034": {
+   "value": "Achat résidence principale",
+   "why": "Purpose of the loan"
+  },
+  "N.1035": {
+   "value": 285000,
+   "why": "Debt at 31/12/2025"
+  },
+  "N.1036": {
+   "value": 3100,
+   "why": "Interest paid, taxpayer half"
+  },
+  "N.1037": {
+   "value": 3100,
+   "why": "Interest paid, spouse half"
+  },
+  "A.1048": {
+   "value": "Exempleville",
+   "why": "Home A - locality"
+  },
+  "A.1049": {
+   "value": "1",
+   "why": "Home A - number"
+  },
+  "A.1050": {
+   "value": "rue de l'Exemple",
+   "why": "Home A - street"
+  },
+  "D.1051": {
+   "value": "01/04/2019",
+   "why": "Available since: 2015-2019 ceiling EUR 3,000 x 3 household members = EUR 9,000 > EUR 6,200 interest"
+  },
+  "A.1436": {
+   "value": "Caisse mutuelle Exemple",
+   "why": "Mutual society contribution (B.b.2)"
+  },
+  "A.1437": {
+   "value": "Complémentaire santé du ménage",
+   "why": "Risk insured"
+  },
+  "N.1438": {
+   "value": 380,
+   "why": "Paid in 2025"
+  },
+  "A.1440": {
+   "value": "Assurances Exemple S.A.",
+   "why": "Insurer"
+  },
+  "A.1441": {
+   "value": "Responsabilité civile vie privée",
+   "why": "Risk insured"
+  },
+  "N.1442": {
+   "value": 140,
+   "why": "Paid in 2025"
+  },
+  "A.1444": {
+   "value": "Assurances Exemple S.A.",
+   "why": "Insurer"
+  },
+  "A.1445": {
+   "value": "Assurance vie, 01/01/2016 - 31/12/2040",
+   "why": "Life insurance: start and end of the contract are required"
+  },
+  "N.1446": {
+   "value": 1200,
+   "why": "Paid in 2025"
+  },
+  "N.1470": {
+   "value": 2016,
+   "why": "Ceiling EUR 672 x 3 (taxpayer, spouse, child)"
+  },
+  "N.1471": {
+   "value": 1720,
+   "why": "Lower of the total (1,720) and the ceiling (2,016)"
+  },
+  "A.1503": {
+   "value": "Assurances Exemple S.A.",
+   "why": "Private pension (art. 111bis), taxpayer"
+  },
+  "D.1504": {
+   "value": "01/03/2017",
+   "why": "Start of contract"
+  },
+  "D.1505": {
+   "value": "31/03/2049",
+   "why": "End of contract"
+  },
+  "N.1506": {
+   "value": 3200,
+   "why": "Paid in 2025 by the taxpayer"
+  },
+  "A.1508": {
+   "value": "Assurances Exemple S.A.",
+   "why": "Private pension (art. 111bis), spouse"
+  },
+  "D.1509": {
+   "value": "01/09/2020",
+   "why": "Start of contract"
+  },
+  "D.1510": {
+   "value": "30/09/2051",
+   "why": "End of contract"
+  },
+  "N.1512": {
+   "value": 1800,
+   "why": "Paid in 2025 by the spouse"
+  },
+  "N.1527": {
+   "value": 3200,
+   "why": "Deductible: ceiling EUR 3,200 per person (2025)"
+  },
+  "N.1528": {
+   "value": 1800,
+   "why": "Deductible: below the ceiling"
+  },
+  "N.1554": {
+   "value": 480,
+   "why": "Flat minimum EUR 480 - not doubled: only one spouse has salaried income"
+  },
+  "N.1601": {
+   "value": 8208,
+   "why": "Taxpayer's compulsory CCSS contributions paid in 2025, dependency insurance excluded (invented: 22.80% x EUR 36,000 provisional base)"
+  },
+  "N.1602": {
+   "value": 6409,
+   "why": "Spouse's employee contributions per salary certificate, dependency excluded (invented: 11.05% x 58,000)"
+  },
+  "A.1615": {
+   "value": "Association Exemple a.s.b.l.",
+   "why": "Donation to an approved body (invented)"
+  },
+  "N.1616": {
+   "value": 250,
+   "why": "Paid in 2025 (at least EUR 120 in total)"
+  },
+  "N.1633": {
+   "value": 250,
+   "why": "Total donations 2025"
+  },
+  "N.1902": {
+   "value": 4100,
+   "why": "Tax withheld on the spouse's salary, per salary certificate (invented)"
+  },
+  "R.1915": {
+   "value": "/DAC6N",
+   "why": "DAC6: no reportable cross-border arrangement"
+  },
+  "A.p16SignLieu": {
+   "value": "Exempleville",
+   "why": "Place - the return still has to be signed by both spouses"
+  },
+  "D.p16SignDate": {
+   "value": "28/10/2026",
+   "why": "Date"
+  }
+ }
+}

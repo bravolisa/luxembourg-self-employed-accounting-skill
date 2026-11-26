@@ -1,0 +1,69 @@
+{
+  "tax_year": 2025,
+  "resident_full_year": true,
+  "file_number": "00000000000",
+  "address": {
+    "postcode": "4002",
+    "locality": "Esch-sur-Alzette",
+    "street": "Rue Test",
+    "number": "1"
+  },
+  "taxpayer": {
+    "last_name": "Example",
+    "first_name": "Test Single",
+    "national_id": "@ID:1980-01-01",
+    "status": "CE"
+  },
+  "salaries": [
+    {
+      "owner": "taxpayer",
+      "occupation": "SALA",
+      "employer": "Example employer",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": 45000
+        }
+      ],
+      "contributions": 5000,
+      "withheld": 3000,
+      "taxable_base": 39460,
+      "travel": 0,
+      "cis": 0,
+      "co2": 0
+    }
+  ],
+  "own_home": {
+    "use": "main_home",
+    "country": "LU",
+    "ownership": "sole",
+    "fully_private": true,
+    "available_since": "2025-06-01",
+    "occupied_since": "2025-06-01",
+    "available_through_year_end": true,
+    "address": {
+      "postcode": "4002",
+      "locality": "Esch-sur-Alzette",
+      "street": "Rue Test",
+      "number": "1"
+    },
+    "evidence": "Synthetic mortgage certificate and availability record",
+    "loans": [
+      {
+        "creditor": "Example Bank",
+        "nature": "FH",
+        "acquisition_only": true,
+        "start": "2025-06-01",
+        "balance_31_dec": 200000,
+        "interest": 9000,
+        "subsidies": 0,
+        "available_period_only": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+# Packages for the Form 100 scripts and their tests (versions tested in October 2026 with Python 3.9).
+# Install once into a virtual environment: the skill's SKILL.md, « Tools », gives the commands.
+pypdf==6.21.3        # fill_form100_pdf.py, read_myguichet_summary.py
+lxml==6.1.3          # build_form100_xml.py, read_myguichet_summary.py (XFA forms)
+reportlab==4.2.5     # make_receipts_annex.py; 4.3 and later need Python 3.10+

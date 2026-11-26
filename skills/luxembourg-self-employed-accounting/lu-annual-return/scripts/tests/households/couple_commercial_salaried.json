@@ -1,0 +1,156 @@
+{
+  "_about": "Invented test household (no real person). Expected figures worked out by hand in ../expected.json. ID numbers are injected by the test from the @ID: birth dates.",
+  "tax_year": 2025,
+  "space": "private",
+  "filed_by": "self",
+  "consent": true,
+  "eligibility": true,
+  "file_number": "00000000001",
+  "tax_office": "L2",
+  "joint_taxation_option": true,
+  "address": {
+    "postcode": "1111",
+    "locality": "Luxembourg",
+    "street": "Rue de l'Exemple",
+    "number": "3"
+  },
+  "taxpayer": {
+    "last_name": "TESTEUR",
+    "first_name": "Paul",
+    "national_id": "@ID:1982-03-15",
+    "status": "MA",
+    "status_since": "2012-09-01",
+    "profession": "Graphiste"
+  },
+  "spouse": {
+    "last_name": "TESTEUR",
+    "first_name": "Anne",
+    "national_id": "@ID:1990-05-01",
+    "status": "MA",
+    "status_since": "2012-09-01"
+  },
+  "businesses": [
+    {
+      "owner": "taxpayer",
+      "kind": "commercial",
+      "activity": "AUTR",
+      "activity_other": "Atelier de test",
+      "trade_name": "Atelier Test",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "main": true,
+      "method": "REDE",
+      "receipts": 60000.0,
+      "expenses": 18500.0,
+      "receipts_breakdown": {
+        "customers": 59400.0,
+        "vat_refunds": [
+          {
+            "vat_year": 2024,
+            "amount": 600.0
+          }
+        ],
+        "mutualite": 0
+      }
+    }
+  ],
+  "salaries": [
+    {
+      "owner": "spouse",
+      "employer": "Employeur Un S.A.",
+      "start": "2025-01-01",
+      "end": "2025-06-30",
+      "workplaces": [
+        "BERTRANGE"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": 30000.0
+        },
+        {
+          "kind": "IMAL",
+          "amount": 500.0
+        }
+      ],
+      "contributions": 3370.25,
+      "travel": 1287.0,
+      "taxable_base": 25842.75,
+      "withheld": 2400.0,
+      "cis": 0,
+      "co2": 0
+    },
+    {
+      "owner": "spouse",
+      "employer": "Employeur Deux S.A.",
+      "start": "2025-07-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "BERTRANGE"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": 31000.0
+        }
+      ],
+      "contributions": 3425.5,
+      "travel": 1287.0,
+      "taxable_base": 26287.5,
+      "withheld": 2500.0,
+      "cis": 0,
+      "co2": 0
+    }
+  ],
+  "insurance": [
+    {
+      "insurer": "Assurances Test",
+      "risk": "RC",
+      "paid_by": "taxpayer",
+      "amount": 120.0
+    },
+    {
+      "insurer": "Assurances Test",
+      "risk": "VV",
+      "paid_by": "spouse",
+      "amount": 600.0
+    },
+    {
+      "insurer": "Mutuelle Test",
+      "risk": "AM",
+      "paid_by": "spouse",
+      "amount": 400.0
+    }
+  ],
+  "home_savings": [
+    {
+      "holder": "spouse",
+      "bank": "BB",
+      "contract_date": "2021-02-01",
+      "amount": 1500.0
+    }
+  ],
+  "pension_plans": [
+    {
+      "holder": "taxpayer",
+      "insurer": "Assurances Test",
+      "start": "2015-01-01",
+      "end": "2047-03-31",
+      "amount": 3500.0
+    }
+  ],
+  "ccss_self_employed": [
+    {
+      "owner": "taxpayer",
+      "deductible": 9000.0,
+      "non_deductible": 500.0,
+      "mutualite": {
+        "illness": 0,
+        "work_injury": 0,
+        "compassionate_leave": 0,
+        "family": 0
+      }
+    }
+  ],
+  "dac6": false
+}

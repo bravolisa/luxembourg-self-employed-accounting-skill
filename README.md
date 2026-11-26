@@ -1,0 +1,79 @@
+# Luxembourg self-employed accounting – an agent skill for your books, VAT and taxes
+
+Give this skill to your AI agent and it can help you with the accounting, VAT, social security and taxes of a small business in Luxembourg. It explains the rules in plain words, says which form and which box, computes the usual figures, and prepares the owner's income tax return.
+
+Made by [BravoLisa](https://bravolisa.lu). Free to use, also in your own business – see [Licence](#licence).
+
+## Who it is for
+
+| You are | It covers |
+|---|---|
+| **Self-employed as a natural person** – freelancer, sole trader (entreprise individuelle), craftsperson, liberal profession | Starting and the business permit, VAT, CCSS, bookkeeping, deductible expenses, the profit and Forms 110, 112, 113 and 152, your own Form 100 |
+| **A small company** – SARL or SARL-S – or its owner-manager | Choosing and founding the company, its accounts and filings, corporate income tax, municipal business tax and net wealth tax (Form 500), VAT, paying yourself, your own Form 100 |
+| **An association** – ASBL | Founding and running it, its accounts, its tax status and exemptions, VAT, donations |
+
+**Not covered:** payroll (BravoLisa recommends [Salary](https://salary.lu), a separate Luxembourg payroll software), SAs, holding and investment companies, groups, regulated financial activities and international tax planning. For companies and associations the skill gives the rules; its tools are for the self-employed and for Form 100.
+
+## What is inside
+
+- **Thirteen areas**, one folder each: starting a business, the business permit, legal forms, Luxembourg VAT, cross-border VAT, business income tax, social security, accounting, company taxes, grants, personal income tax, the annual return, and the shared answering rules.
+- **Every rule has a label and a source:** confirmed by an official text, our interpretation, practice, or still open – with links to the law, the forms and the administrations' pages.
+- **What is not settled is said openly**, with a working answer and who can settle it – the tax office (ACD), the VAT office (AED), the social security centre (CCSS) or the ministry – so you can ask about your own case.
+- **Tools** (Python): car costs by business kilometres, the commuting deduction, the home-office share, an income tax estimate, the Form 100 PDF filler and the file MyGuichet imports.
+
+It includes everything in BravoLisa's smaller skill for households, [luxembourg-form-100](https://github.com/bravolisa/luxembourg-form-100-skill). If you only have a salary or a pension, that one is enough.
+
+## Status
+
+Draft, version 0.50.1 of BravoLisa's knowledge base, built on 2026-11-26. Tax years 2025 and 2026. Every rule was checked against official sources by BravoLisa; the skill has **not** been reviewed by a qualified accountant. It is general information that an AI applies, not tax, legal or accounting advice, and it can be wrong or out of date. You check the result and you file. Please read the [terms of use](TERMS.md).
+
+## Install
+
+**Claude Code**
+
+```
+/plugin marketplace add bravolisa/luxembourg-self-employed-accounting-skill
+/plugin install luxembourg-self-employed-accounting@bravolisa-self-employed
+```
+
+Or copy the folder `skills/luxembourg-self-employed-accounting` into `~/.claude/skills/`.
+
+**Claude apps (claude.ai, desktop)**: zip the folder `skills/luxembourg-self-employed-accounting` and upload the zip under Settings → Capabilities → Skills. Code execution must be on for the tools.
+
+**Other agents**: give the agent the folder `skills/luxembourg-self-employed-accounting` and tell it to start with `SKILL.md`.
+
+**Tools**: Python 3.9 or later. The three business calculators need nothing else. For the Form 100 tools, from the skill folder: `python3 -m venv .venv` and `.venv/bin/pip install -r lu-annual-return/scripts/requirements.txt`.
+
+## Try it
+
+- "I'm a freelance designer in Luxembourg. A client in Germany wants an invoice – do I charge VAT?"
+- "Can I deduct my home office and my car, and how much?"
+- "How much CCSS will I pay on a profit of €45,000?"
+- "SARL-S or sole trader – what changes for my taxes?"
+- "Our ASBL sells tickets for an event. Do we need a VAT number?"
+- "Help me prepare my 2025 tax return. I'm self-employed and my partner is employed."
+
+## Rather not do it yourself?
+
+| | Price | How |
+|---|---|---|
+| **The BravoLisa app** for self-employed people – invoices, receipts and VAT in one place; Lisa prepares your VAT return and Forms 152 and 110 | Free plan; Smart from €14.99 a month | https://bravolisa.lu |
+| **BravoLisa Care** – a registered accountant keeps your books and files for you | €79.99 a month, VAT included | https://bravolisa.lu/care |
+| **Companies and associations** (SARL, SARL-S, ASBL) | On request | info@bravolisa.lu |
+| **Your own Form 100** – filled in the app | Free to prepare, €34 to download | https://bravolisa.lu/form-100 |
+
+Prices as on bravolisa.lu on 26 November 2026; the pages are the current version. Details and limits: [BRAVOLISA-BUSINESS.md](skills/luxembourg-self-employed-accounting/BRAVOLISA-BUSINESS.md) and [BRAVOLISA.md](skills/luxembourg-self-employed-accounting/BRAVOLISA.md).
+
+## Licence
+
+[PolyForm Shield 1.0.0](LICENSE.md): free to use for any purpose – for yourself, your household, your own business, your company or your association – **except to provide a product or service that competes with BravoLisa's**.
+
+Preparing or checking tax returns or books for clients with it, or building it into software or a service offered to others – accountants, fiduciaries, software companies – needs a commercial licence: info@bravolisa.lu.
+
+The ACD's blank form and schema in `official-forms/` belong to the ACD and are not covered by this licence.
+
+## Errors, improvements and suggestions
+
+Found an error or an outdated rule, or is something missing? Open an issue here or write to info@bravolisa.lu. If an administration answered a question that the skill lists as open, tell us – without your personal details – and it helps everyone.
+
+This repository is generated from BravoLisa's internal knowledge base, where every change is checked against the official texts first. Pull requests are read but cannot be merged directly – the fix goes in through the knowledge base and appears here with the next update.

@@ -1,0 +1,33 @@
+{
+ "_about": "Invented household, tax year 2025 - no real person. Input for build_form100_xml.py. Replace the YYYYMMDDNNNNN placeholders with the real 13-digit matricules before running; the script refuses to build without them.",
+ "tax_year": 2025,
+ "space": "private",
+ "filed_by": "self",
+ "consent": null,
+ "eligibility": true,
+ "file_number": "00000000000",
+ "tax_office": null,
+ "address": {"postcode": "1111", "locality": "Luxembourg", "street": "Rue de l'Exemple", "number": "1"},
+ "taxpayer": {"last_name": "EXEMPLE", "first_name": "Marc", "national_id": "YYYYMMDDNNNNN", "status": "MA", "status_since": "2014-06-14"},
+ "spouse": {"last_name": "EXEMPLE", "first_name": "Julie", "national_id": "YYYYMMDDNNNNN", "status": "MA", "status_since": "2014-06-14"},
+ "businesses": [
+  {"owner": "taxpayer", "kind": "liberal", "activity": "TRAD", "start": "2025-01-01", "end": "2025-12-31", "main": true,
+   "method": "REDE", "receipts": 46500, "expenses": 7800}
+ ],
+ "salaries": [
+  {"owner": "spouse", "occupation": "SALA", "employer": "Employeur Exemple S.A.", "start": "2025-01-01", "end": "2025-12-31",
+   "workplaces": ["LUXEMBOURG"], "pay": [{"kind": "S", "amount": 58000}],
+   "contributions": 6409, "travel": 792, "taxable_base": 50799, "withheld": 4100, "cis": 0, "co2": 0}
+ ],
+ "insurance": [
+  {"insurer": "Caisse mutuelle Exemple", "risk": "AM", "paid_by": "taxpayer", "amount": 380},
+  {"insurer": "Assurances Exemple S.A.", "risk": "RC", "paid_by": "taxpayer", "amount": 140},
+  {"insurer": "Assurances Exemple S.A.", "risk": "AV", "paid_by": "taxpayer", "amount": 1200}
+ ],
+ "pension_plans": [
+  {"holder": "taxpayer", "insurer": "Assurances Exemple S.A.", "start": "2017-03-01", "end": "2049-03-31", "amount": 3200, "pepp": false},
+  {"holder": "spouse", "insurer": "Assurances Exemple S.A.", "start": "2020-09-01", "end": "2051-09-30", "amount": 1800, "pepp": false}
+ ],
+ "ccss_self_employed": [{"owner": "taxpayer", "deductible": 8208, "non_deductible": 504}],
+ "dac6": false
+}

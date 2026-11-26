@@ -1,0 +1,80 @@
+{
+  "tax_year": 2025,
+  "resident_full_year": true,
+  "tax_liability_months": 12,
+  "file_number": "00000000000",
+  "taxpayer": {
+    "last_name": "Example",
+    "first_name": "Taxpayer",
+    "national_id": "@ID:1985-01-01",
+    "status": "SV",
+    "status_since": "2024-05-20",
+    "status_changes": [
+      {
+        "status": "DI",
+        "since": "2025-02-10"
+      }
+    ],
+    "separation": {
+      "ground": "court",
+      "since": "2024-05-20",
+      "evidence": "Invented court order."
+    }
+  },
+  "advances_paid": 0,
+  "salaries": [
+    {
+      "owner": "taxpayer",
+      "employer": "Example Employer taxpayer 0 0",
+      "certificate_id": "SB-G-taxpayer-0-0",
+      "tax_regime": "ordinary",
+      "occupation": "SALA",
+      "all_pay_luxembourg_taxable": true,
+      "tax_card_id": "A",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": "72000"
+        }
+      ],
+      "contributions": "5980",
+      "travel": "0",
+      "withheld": "9000",
+      "withholding_basis": "before_cis_co2",
+      "cis": 120,
+      "co2": 38.4
+    }
+  ],
+  "salary_balance": {
+    "tax_class": 2,
+    "class2_alone": {
+      "ground": "separation",
+      "event_year": 2024,
+      "no_use_in_five_years_before": true,
+      "evidence": "Invented court order of 20 May 2024; no transition used before."
+    },
+    "income_and_deductions_complete": true,
+    "evidence": "Invented case; class 2 without joint taxation in the first year after the court's permission.",
+    "people": {
+      "taxpayer": {
+        "compulsory_affiliation": true,
+        "full_year_eligible": true,
+        "payroll_final": true
+      }
+    }
+  },
+  "address": {
+    "postcode": "4002",
+    "locality": "Esch-sur-Alzette",
+    "street": "Rue Test",
+    "number": "1"
+  },
+  "status_review": {
+    "evidence": "Invented court order of 20 May 2024 and divorce judgment of 10 February 2025."
+  }
+}

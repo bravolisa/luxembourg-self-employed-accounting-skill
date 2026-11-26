@@ -1,0 +1,17 @@
+{
+ "_about": "Invented test household (no real person). Single translator, liberal profession with a Mutualité reimbursement.",
+ "tax_year": 2025, "space": "private", "filed_by": "self", "consent": null, "eligibility": true,
+ "file_number": "00000000002", "tax_office": "E1",
+ "address": {"postcode": "4001", "locality": "Esch-sur-Alzette", "street": "Rue du Test", "number": "12"},
+ "taxpayer": {"last_name": "ESSAI", "first_name": "Lea", "national_id": "@ID:1979-11-30", "status": "CE"},
+ "businesses": [
+  {"owner": "taxpayer", "kind": "liberal", "activity": "TRAD", "start": "2025-01-01", "end": "2025-12-31", "main": true,
+   "method": "REDE", "receipts": 45000.00, "expenses": 9000.00,
+   "receipts_breakdown": {"customers": 44700.00, "mutualite": 300.00}}
+ ],
+ "insurance": [{"insurer": "Mutuelle Test", "risk": "AM", "paid_by": "taxpayer", "amount": 500.00}],
+ "pension_plans": [{"holder": "taxpayer", "insurer": "Assurances Test", "start": "2010-01-01", "end": "2044-11-30", "amount": 2000.00}],
+ "ccss_self_employed": [{"owner": "taxpayer", "deductible": 7800.00, "non_deductible": 470.00,
+                         "mutualite": {"illness": 300.00, "work_injury": 0, "compassionate_leave": 0, "family": 0}}],
+ "dac6": false
+}

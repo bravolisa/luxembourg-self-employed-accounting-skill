@@ -1,0 +1,114 @@
+{
+  "tax_year": 2025,
+  "resident_full_year": true,
+  "tax_liability_months": 12,
+  "file_number": "00000000000",
+  "taxpayer": {
+    "last_name": "Example",
+    "first_name": "Taxpayer",
+    "national_id": "@ID:1985-01-01",
+    "status": "MA",
+    "status_since": "2010-06-12",
+    "status_changes": [
+      {
+        "status": "VE",
+        "since": "2025-12-31"
+      }
+    ]
+  },
+  "advances_paid": 0,
+  "salaries": [
+    {
+      "owner": "taxpayer",
+      "employer": "Example Employer taxpayer 0 0",
+      "certificate_id": "SB-I-taxpayer-0-0",
+      "tax_regime": "ordinary",
+      "occupation": "SALA",
+      "all_pay_luxembourg_taxable": true,
+      "tax_card_id": "A",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": "80000"
+        }
+      ],
+      "contributions": "8800",
+      "travel": "0",
+      "withheld": "16000",
+      "withholding_basis": "before_cis_co2",
+      "cis": 0,
+      "co2": 0
+    },
+    {
+      "owner": "spouse",
+      "employer": "Example Employer spouse 0 0",
+      "certificate_id": "SB-I-spouse-0-0",
+      "tax_regime": "ordinary",
+      "occupation": "SALA",
+      "all_pay_luxembourg_taxable": true,
+      "tax_card_id": "B",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": "80000"
+        }
+      ],
+      "contributions": "8800",
+      "travel": "0",
+      "withheld": "15000",
+      "withholding_basis": "before_cis_co2",
+      "cis": 0,
+      "co2": 0
+    }
+  ],
+  "salary_balance": {
+    "tax_class": 2,
+    "income_and_deductions_complete": true,
+    "evidence": "Invented case; joint taxation for the year of the death, which fell on 31 December.",
+    "people": {
+      "taxpayer": {
+        "compulsory_affiliation": true,
+        "full_year_eligible": true,
+        "payroll_final": true
+      },
+      "spouse": {
+        "compulsory_affiliation": true,
+        "full_year_eligible": true,
+        "payroll_final": true
+      }
+    }
+  },
+  "address": {
+    "postcode": "4002",
+    "locality": "Esch-sur-Alzette",
+    "street": "Rue Test",
+    "number": "1"
+  },
+  "spouse": {
+    "last_name": "Example",
+    "first_name": "Spouse",
+    "national_id": "@ID:1986-02-02",
+    "status": "MA",
+    "status_since": "2010-06-12",
+    "status_changes": [
+      {
+        "status": "DE",
+        "since": "2025-12-31"
+      }
+    ]
+  },
+  "status_review": {
+    "evidence": "Invented marriage and death certificates."
+  },
+  "signature": "taxpayer_for_both"
+}

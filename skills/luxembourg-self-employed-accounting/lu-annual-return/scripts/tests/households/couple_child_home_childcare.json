@@ -1,0 +1,160 @@
+{
+  "tax_year": 2025,
+  "resident_full_year": true,
+  "file_number": "00000000000",
+  "address": {
+    "postcode": "4002",
+    "locality": "Esch-sur-Alzette",
+    "street": "Rue Test",
+    "number": "1"
+  },
+  "taxpayer": {
+    "last_name": "Example",
+    "first_name": "Test Parent",
+    "national_id": "@ID:1985-01-01",
+    "status": "MA"
+  },
+  "spouse": {
+    "last_name": "Example",
+    "first_name": "Test Spouse",
+    "national_id": "@ID:1986-02-02",
+    "status": "MA"
+  },
+  "salaries": [
+    {
+      "owner": "taxpayer",
+      "occupation": "SALA",
+      "employer": "Example employer",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": 60000
+        }
+      ],
+      "contributions": 7000,
+      "withheld": 5000,
+      "taxable_base": 52460,
+      "travel": 0,
+      "cis": 0,
+      "co2": 0
+    },
+    {
+      "owner": "spouse",
+      "occupation": "SALA",
+      "employer": "Example employer",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": 30000
+        }
+      ],
+      "contributions": 3500,
+      "withheld": 1000,
+      "taxable_base": 25960,
+      "travel": 0,
+      "cis": 0,
+      "co2": 0
+    }
+  ],
+  "children": [
+    {
+      "last_name": "Example",
+      "first_name": "Test Child",
+      "birth_date": "2018-06-01",
+      "in_tax_household": true,
+      "assignment_evidence": "Synthetic allowance certificate; parents jointly taxed",
+      "custody": "both_parents",
+      "married_or_partnered": false,
+      "has_children": false,
+      "benefits": [
+        "family_allowance"
+      ],
+      "benefit_recipient": "CT",
+      "request_rebate": false,
+      "national_id_not_assigned": true
+    }
+  ],
+  "insurance": [
+    {
+      "insurer": "Example Insurer",
+      "risk": "RC",
+      "paid_by": "taxpayer",
+      "amount": 2400
+    }
+  ],
+  "home_savings": [
+    {
+      "holder": "taxpayer",
+      "bank": "BB",
+      "contract_date": "2020-01-01",
+      "amount": 5000
+    }
+  ],
+  "own_home": {
+    "use": "main_home",
+    "country": "LU",
+    "ownership": "joint_equal",
+    "fully_private": true,
+    "available_since": "2020-01-01",
+    "occupied_since": "2020-01-01",
+    "available_through_year_end": true,
+    "address": {
+      "postcode": "4002",
+      "locality": "Esch-sur-Alzette",
+      "street": "Rue Test",
+      "number": "1"
+    },
+    "evidence": "Synthetic mortgage certificate and availability record",
+    "loans": [
+      {
+        "creditor": "Example Bank",
+        "nature": "FH",
+        "acquisition_only": true,
+        "start": "2019-12-01",
+        "balance_31_dec": 200000,
+        "interest": 17000,
+        "subsidies": 1000,
+        "available_period_only": true
+      }
+    ]
+  },
+  "childcare": [
+    {
+      "paid_by": "taxpayer",
+      "provider": "Example Creche",
+      "provider_address": "1 Rue Test, Luxembourg",
+      "country": "LU",
+      "approval_evidence": "Synthetic accreditation",
+      "certificate": "Synthetic 2025 certificate",
+      "children": [
+        0
+      ],
+      "no_other_claim": true,
+      "monthly": {
+        "1": {
+          "paid": 800,
+          "reimbursed": 100
+        },
+        "2": {
+          "paid": 100,
+          "reimbursed": 0
+        },
+        "3": {
+          "paid": 600,
+          "reimbursed": 0
+        }
+      },
+      "payment_timing": "monthly"
+    }
+  ]
+}

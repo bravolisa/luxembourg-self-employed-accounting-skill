@@ -1,0 +1,50 @@
+{
+  "verification": "Independent hand arithmetic from official2025 rules; internal source review, no live or professional assessment.",
+  "base": {
+    "gross": 30000,
+    "salary_flat": 540,
+    "social": 3300,
+    "insurance": 500,
+    "taxable": 25660,
+    "calculation": "30000-540-3300-500"
+  },
+  "actual": {
+    "taxable": 24700,
+    "calculation": "30000-1500-3300-500"
+  },
+  "occupational": {
+    "paid": 1800,
+    "allowed": 1200,
+    "taxable": 24460,
+    "calculation": "30000-540-3300-500-1200"
+  },
+  "voluntary": {
+    "taxable": 25460,
+    "calculation": "30000-540-3300-(500+200)"
+  },
+  "combined": {
+    "taxable": 23300,
+    "calculation": "30000-1500-3300-1200-(500+200)"
+  },
+  "medical": {
+    "base": 25660,
+    "gross": 7000,
+    "refunds": 3000,
+    "net": 4000,
+    "burden": "1539.60",
+    "allowed": "2460.40",
+    "adjusted": "23199.60",
+    "calculation": "4000-25660*6/100; adjusted25660-2460.40"
+  },
+  "exemption": {
+    "taxable": 24660,
+    "credit_gross": 30000,
+    "calculation": "30000-1000-540-3300-500"
+  },
+  "low_spouse": {
+    "minimum_related": 490,
+    "minimum_unrelated": 540,
+    "extra_professional": 780,
+    "calculation": "spouse2000-540-200-1200-50=10;480+10=490; unrelated excludes50 giving480+60=540;129b2000-540-200-480=780"
+  }
+}

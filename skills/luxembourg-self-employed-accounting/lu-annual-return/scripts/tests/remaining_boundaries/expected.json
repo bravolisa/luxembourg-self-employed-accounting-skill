@@ -1,0 +1,8 @@
+{
+  "verification": "Independent hand arithmetic from the stated invented facts; internal source review, not an ACD or accountant assessment.",
+  "joint_base": {"taxable": "51360", "calculation": "60000 - 2*540 - 2*3300 - max(500,2*480)"},
+  "child_medical": {"net": "8000", "burden": "3081.60", "allowed": "4918.40", "adjusted": "41941.60", "calculation": "51360*6%=3081.60;8000-3081.60=4918.40;51360-4918.40-4500=41941.60"},
+  "spouse_medical": {"net": "8000", "burden": "4108.80", "allowed": "3891.20", "adjusted": "42968.80", "calculation": "51360*8%=4108.80;8000-4108.80=3891.20;51360-3891.20-4500=42968.80"},
+  "mixed_benefit": {"taxable": "56760", "taxpayer_bound": "25080", "spouse_bound": "25680", "allowance": "4500", "adjusted": "52260", "calculation": "66000-1080-7200-960=56760;30000-540-3900-480=25080;30000-540-3300-480=25680;56760-4500=52260"},
+  "cap_boundary": {"ordinary_gross": "9420", "bound": "4500", "calculation": "9420-540-3900-480=4500; one cent less falls below the invariant cap"}
+}

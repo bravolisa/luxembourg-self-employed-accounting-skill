@@ -1,0 +1,84 @@
+{
+  "tax_year": 2025,
+  "resident_full_year": true,
+  "tax_liability_months": 12,
+  "file_number": "00000000000",
+  "taxpayer": {
+    "last_name": "Example",
+    "first_name": "Taxpayer",
+    "national_id": "@ID:1985-01-01",
+    "status": "MA"
+  },
+  "advances_paid": 1000,
+  "salaries": [
+    {
+      "owner": "spouse",
+      "employer": "Example Employer spouse 0 0",
+      "certificate_id": "SB-F-spouse-0-0",
+      "tax_regime": "ordinary",
+      "occupation": "SALA",
+      "all_pay_luxembourg_taxable": true,
+      "tax_card_id": "A",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "workplaces": [
+        "LUXEMBOURG"
+      ],
+      "pay": [
+        {
+          "kind": "S",
+          "amount": "30000"
+        }
+      ],
+      "contributions": "3300",
+      "travel": "0",
+      "withheld": "1500",
+      "withholding_basis": "before_cis_co2",
+      "cis": 600,
+      "co2": 192
+    }
+  ],
+  "salary_balance": {
+    "tax_class": 2,
+    "income_and_deductions_complete": true,
+    "evidence": "Invented case; household class, complete ordinary income/deductions and card history independently specified.",
+    "people": {
+      "spouse": {
+        "compulsory_affiliation": true,
+        "full_year_eligible": true,
+        "payroll_final": true
+      },
+      "taxpayer": {
+        "compulsory_affiliation": true,
+        "full_year_eligible": true
+      }
+    }
+  },
+  "spouse": {
+    "last_name": "Example",
+    "first_name": "Spouse",
+    "national_id": "@ID:1986-02-02",
+    "status": "MA"
+  },
+  "businesses": [
+    {
+      "owner": "taxpayer",
+      "kind": "liberal",
+      "method": "BILA",
+      "profit": 30000
+    }
+  ],
+  "ccss_self_employed": [
+    {
+      "owner": "taxpayer",
+      "deductible": 7500,
+      "non_deductible": 0
+    }
+  ],
+  "address": {
+    "postcode": "4002",
+    "locality": "Esch-sur-Alzette",
+    "street": "Rue Test",
+    "number": "1"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "_about": "Hand-calculated results for the invented households (2025 rules: ceilings €672 per member, home savings €1,344 per member for a subscriber aged 18-40, pension plan €3,200 per person, flat minimum €480, salary flat costs €540). Change only with a new hand calculation.",
+  "couple_commercial_salaried": {
+    "working": "profit 60,000 - 18,500 = 41,500; salaries 61,500 - 540 - 2,574 = 58,386; covered: insurance 1,120 (ceiling 1,344) + home savings 1,500 (ceiling 2,688) + pension 3,200 (cap) = 5,820; contributions 6,795.75 + 9,000; special 21,615.75; taxable 41,500 + 58,386 - 21,615.75",
+    "taxable_income": 78270.25,
+    "pdf": {
+      "N.0501": 41500.0,
+      "N.0702": 30500.0,
+      "N.0706": 31000.0,
+      "N.0748": 2574.0,
+      "N.1470": 1344.0,
+      "N.1471": 1120.0,
+      "N.1527": 3200.0,
+      "N.1552": 1500.0,
+      "N.1554": 480.0,
+      "N.1601": 9000.0,
+      "N.1602": 6795.75,
+      "N.1902": 4900.0,
+      "T.1639": 21615.75,
+      "T.2038": 78270.25
+    },
+    "xml": {
+      "eFormType": "ACD_F100_2025",
+      "SIG_CONT_CONJ": "CONT_CONJ",
+      "EL_DECLARANT": "true",
+      "BCI_MNT_REC_BRU_NEX": "60000.00",
+      "BCI_MNT_DEP_EFF_NEX": "18500.00",
+      "CEL_CAI_EPA_LOG": "BB"
+    },
+    "annex_total": 60000.0,
+    "annex_text": [
+      "modèle 110, ligne 49",
+      "Remboursement du crédit de T.V.A. de l'année 2024",
+      "ne mentionne aucun remboursement Mutualité"
+    ]
+  },
+  "single_liberal": {
+    "working": "profit 45,000 - 9,000 = 36,000; covered: insurance 500 + pension 2,000 = 2,500 (> 480); contributions 7,800; special 10,300; taxable 25,700",
+    "taxable_income": 25700.0,
+    "pdf": {
+      "N.0605": 45000.0,
+      "N.0609": 9000.0,
+      "N.1470": 672.0,
+      "N.1471": 500.0,
+      "N.1527": 2000.0,
+      "N.1554": 480.0,
+      "N.1601": 7800.0,
+      "T.2038": 25700.0
+    },
+    "xml": {
+      "eFormType": "ACD_F100_2025",
+      "BLI_NAT_ACT": "TRAD",
+      "BLI_MNT_REC_BRU_NEX": "45000.00",
+      "MUT_MAL_CONT_NEX": "300.00",
+      "EL_MARIE": "false"
+    },
+    "annex_total": 45000.0,
+    "annex_text": [
+      "modèle 100, case 605",
+      "300,00",
+      "mentionne 300,00"
+    ]
+  },
+  "agent_pro_balance_sheet": {
+    "working": "salary 50,000 - 540 = 49,460; spouse profit 20,000; covered: PEPP 4,000 capped 3,200 (> 480, one salaried); contributions 5,525 + 4,560; special 13,285; taxable 49,460 + 20,000 - 13,285",
+    "taxable_income": 56175.0,
+    "pdf": {
+      "N.0701": 50000.0,
+      "N.0743": 540.0,
+      "N.0602": 20000.0,
+      "N.1519": 4000.0,
+      "N.1528": 3200.0,
+      "N.1554": 480.0,
+      "N.1601": 5525.0,
+      "N.1602": 4560.0,
+      "N.1901": 6000.0,
+      "T.2038": 56175.0
+    },
+    "xml": {
+      "eFormType": "ACD_F100_2025_PRO",
+      "MAN_SIG_CONT_CONJ": "MAN_CONT_CONJ",
+      "MAN_DSGN_SOC_CONT": "Fiduciaire Test S.A.",
+      "EL_DECLARANT": "false",
+      "BLI_MNT_PER_PRO_NEX": "20000.00",
+      "PPV_PEPP": "true"
+    }
+  },
+  "couple_child_home_childcare": {
+    "calculation": "Independent arithmetic, curator 2026-11-04, official 2025 rules. Gross90000 - salary costs1080 =88920. Insurance min2400,672*3=2016; savings min5000,1344*3=4032; social10500 => special16548. Net mortgage17000-1000=16000; 2020 cap4000*3=12000, split6000each. Taxable88920-16548-12000=60372. Childcare net months700,100,600 =>450+100+450=1000 AFTER2038; after extra-professional4500 adjusted54872. PDF annual actual care1400, never1000.",
+    "taxable_income": 60372,
+    "pdf": {
+      "A.0201a": "Example",
+      "A.0201b": "Test Child",
+      "D.0202": "20180601",
+      "N.1470": 2016,
+      "N.1471": 2016,
+      "N.1551": 4032,
+      "N.1036": 8000,
+      "N.1037": 8000,
+      "N.1021": -6000,
+      "N.1022": -6000,
+      "C.1715": "/Yes",
+      "N.1720": 3,
+      "N.1722": 1400,
+      "T.2038": 60372
+    },
+    "xml": {
+      "ENF_DECL_QST": "true",
+      "ENF_MOD_IMP": "false",
+      "ENF_ALL_CAE": "true",
+      "NEX_INT_OCC_CONT": "8000.00",
+      "NEX_INT_OCC_CONJ": "8000.00",
+      "NEX_MNT_OCC_CONT": "6000.00",
+      "NEX_MNT_OCC_CONJ": "6000.00",
+      "ABT_RGD_DOM": "true",
+      "CFD_MNT_FRA": "700.00"
+    }
+  },
+  "single_new_home": {
+    "calculation": "Independent arithmetic, curator2026-11-04:45000-540-5000-480-9000=29980. Available June2025 =>9000 in full, no time-prorated cap.",
+    "taxable_income": 29980,
+    "pdf": {
+      "N.1021": -9000,
+      "N.1036": 9000,
+      "D.1051": "01/06/2025",
+      "T.2038": 29980
+    },
+    "xml": {
+      "NEX_TYPE_OCC": "PA",
+      "NEX_MNT_OCC_CONT": "9000.00",
+      "NEX_DATE_DEB_CONT": "2025-06-01"
+    }
+  },
+  "older_student_child": {
+    "calculation": "Independent arithmetic, curator2026-11-04:21 on1Jan2025; continuous university study documented, noaid so rebate requested. Insurance min1500,672*2=1344.45000-540-5000-1344=38116. Final class1a/rebate calculation deliberately refused by estimate adapter.",
+    "taxable_income": 38116,
+    "pdf": {
+      "A.0213b": "Test Student",
+      "D.0214": "20040101",
+      "C.0215": "/Yes",
+      "A.0216": "Example University",
+      "N.1471": 1344,
+      "T.2038": 38116
+    },
+    "xml": {
+      "ENF_UNI_EXI": "true",
+      "ENF_MOD_IMP": "true",
+      "ENF_ALL_CED": "false"
+    }
+  },
+  "_salary_boundaries": {
+    "tax_year": 2025,
+    "verification": "Independent statutory component arithmetic; internal review, not professional tax sign-off.",
+    "low_receipts": "Receipts 400 - FD 100 = 300; cost flat min(540,300)=300; net salary 0.",
+    "multiple_contracts": "Receipts 3000+2000=5000; one cost flat 540; net salary 4460.",
+    "low_spouse": "Gross 800 - cost flat 540 - related compulsory contributions 140 = 120; minimum 480+min(480,120)=600.",
+    "sufficient_spouse": "Gross 2000 - cost flat 540 - related contributions 200 = 1260; minimum 480+480=960.",
+    "negative_remainder": "Gross 300 - capped cost flat 300 - contributions 30 = -30; stop for PIT-O-20 rather than assume a statutory floor.",
+    "commuting_guards": "FD 301 exceeds receipts 300; two FD inputs 1300+1300=2600 exceed annual person cap 2574; negative FD invalid.",
+    "regime_and_credit_guards": "Flat regime markers and partial liability require reviewed manual output. Missing/null paid credits are unknown and stop XML creation.",
+    "scenario_guard": "Reviewed spouse allowance cannot be carried unchanged into a business scenario that changes qualifying profit; stop for separate review."
+  }
+}
