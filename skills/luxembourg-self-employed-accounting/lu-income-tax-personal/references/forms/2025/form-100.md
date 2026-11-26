@@ -237,3 +237,5 @@ An optional retained-amount recap can be schema-valid even when numerically inco
 Donation carry-only input and incoming vintages remain manual; never invent a current gift to satisfy the required XML detail row. [C · S75 for structure; B/O · S150 for safeguards]
 
 C0228 is checked only when the reviewed annual retained CIM exceeds all paid CIM. This is our paper-generation inference from its unpaid-credit wording and art.154ter(5); XML ENF_CRE_IMP continues to request annual application, independently of payment. No-income CIM households stop because the A0237 means-of-subsistence explanation is not mapped. Neither convention changes legal entitlement; live XML interpretation remains RET-O-01. [I/B/O · S1, S75, S80, S82, S150]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

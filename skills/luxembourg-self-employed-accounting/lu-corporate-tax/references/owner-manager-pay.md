@@ -31,3 +31,5 @@ Paid out of profit already taxed at company level; 15% withholding; 50% exempt f
 2. Directors' fees cost the most in total because the company cannot deduct them. [C · S24]
 3. Dividends are taxed twice (company, then 50% at home), but the 50% exemption and the yearly allowance soften it. [C · S8]
 4. Social security changes the comparison and is not settled here (lu-social-security, company-managers.md): the final mix is a question for an adviser. This is general information, not a tax opinion.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

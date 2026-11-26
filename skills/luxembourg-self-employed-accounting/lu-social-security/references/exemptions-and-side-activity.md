@@ -30,3 +30,5 @@ One way to stay insured for health: a spouse or partner (marriage or PACS) and c
 - The old-age pension at 65 needs **120 months** of insurance (art. 183). Months are counted per calendar month; a self-employed month counts with at least 10 calendar days (art. 175). [C · S28] A month on the reduced base still counts as a full month of insurance. [I · S28 arts 171, 175]
 - The pension has two parts (art. 214): a **flat-rate part** that grows by one fortieth per year of insurance, up to 40 years, and a **proportional part** – a rate times the sum of the revalued contribution bases. [C · S28 art. 214] So the base mainly changes the proportional part; the years count either way. [I · S28 art. 214; S49]
 - Whether paying more is worth it depends on the career, age and other pensions – the skill gives no general answer. The CNAP gives a pension estimate on request to insured people aged 56 to 64 (MyGuichet or post). [C · S51]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

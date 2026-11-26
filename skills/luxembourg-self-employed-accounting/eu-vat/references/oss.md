@@ -10,3 +10,5 @@ _Figures in this file: 2025–2026. The year files of the domain skills (lu-vat,
 | On the Luxembourg return | OSS sales are reported in box 226 of the annual return (annual-return section I.B line 8) and never taxed in Luxembourg | [C · S3; I for the reporting detail] |
 | Franchise users | The Luxembourg franchise covers only Luxembourg supplies. Above the threshold (row above), destination VAT is due anyway – via OSS – unless the EX scheme exempts the sale in that country | [C · S6] |
 | Online events and education (from 2025) | Taxed in the customer's country from the first euro – the €10,000 threshold does not apply (place-of-supply.md) | [C · S19 art. 17(2) 4° b), art. 19quater] |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

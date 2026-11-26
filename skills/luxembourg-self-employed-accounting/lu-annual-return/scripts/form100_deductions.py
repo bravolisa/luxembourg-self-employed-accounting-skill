@@ -1,3 +1,5 @@
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Reviewed 2025 deduction inputs, shared ceilings and official PDF/XML positions.
 
 Rules and contract: references/forms/2025/form100-deductions.md. Amounts are certificate

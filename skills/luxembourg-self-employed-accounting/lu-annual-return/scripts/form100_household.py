@@ -1,3 +1,5 @@
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """The household file behind every Form 100 output: checks, PDF boxes, receipts, indicative tax base.
 
 One household file (format: references/forms/2025/form100-tools.md) feeds

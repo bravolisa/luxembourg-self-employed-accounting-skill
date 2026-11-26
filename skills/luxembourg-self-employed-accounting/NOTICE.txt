@@ -1,0 +1,9 @@
+Luxembourg tax and accounting skills by BravoLisa
+Copyright 2026 BravoLisa (https://bravolisa.lu)
+
+Tax and accounting knowledge: BravoLisa - https://bravolisa.lu
+Source: https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+
+The tools (program code, the .py files) are licensed under the Apache License,
+Version 2.0. The texts are licensed under Creative Commons Attribution 4.0
+International (CC BY 4.0). See LICENSE.md.

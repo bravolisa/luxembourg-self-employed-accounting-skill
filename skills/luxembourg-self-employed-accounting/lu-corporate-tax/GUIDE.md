@@ -41,3 +41,5 @@ Follow lu-tax-core for triage, labels and answer shape. **[C]** Confirmed, **[I]
 ## Related skills
 
 lu-tax-core · lu-entity-profiles (the legal form) · lu-accounting (company accounts) · lu-income-tax-personal (dividends and salary in the owner's return) · lu-social-security (manager status: company-managers.md) · lu-vat.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -25,3 +25,5 @@ A new company receives its first advance notices from the ACD; until then nothin
 - Dividends: the 15% withheld must be declared and paid within 8 days of the dividend being made available (dividends-and-withholding.md). [C · S8 art. 149]
 - Directors' fees: the withholding return (form 510bis) is filed electronically on MyGuichet with LuxTrust since 1 January 2025 (owner-manager-pay.md). [C · S24]
 - Salaries paid to the manager or staff: wage withholding through the payroll – outside this skill.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

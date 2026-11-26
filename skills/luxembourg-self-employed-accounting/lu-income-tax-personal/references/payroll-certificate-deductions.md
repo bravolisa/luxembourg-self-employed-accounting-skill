@@ -74,3 +74,5 @@ Retain dated workplace schedules, frequencies, moves and the annual computation,
 | Same-day home→first12 units, between workplaces8, last→home20 | Global20 units; full-year FD(20−4)×99=1,584 before other limits. |
 
 [I · S82 arts. 105bis,107,113; S119 art. 2; S120–S121]. Examples assume the stated qualifying patterns and a full year; they do not determine a person's actual tax-card history.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

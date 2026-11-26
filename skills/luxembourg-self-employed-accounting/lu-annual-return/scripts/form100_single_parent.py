@@ -1,3 +1,5 @@
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Bounded 2025 resident single-parent request and annual CIM reconciliation.
 
 PIT-O-17 remains open: automatic credit only when both income-base readings agree

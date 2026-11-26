@@ -80,3 +80,5 @@ Amounts: €100 net, 17% VAT. Debits = credits in every entry.
 ## 6. Not covered
 
 Advance payments to suppliers, suppliers on cash accounting (suspense account code not settled), imports paid at customs, foreign VAT to be reclaimed abroad (421811 in the official chart; BravoLisa has not chosen yet), and the depreciation entries. [O]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

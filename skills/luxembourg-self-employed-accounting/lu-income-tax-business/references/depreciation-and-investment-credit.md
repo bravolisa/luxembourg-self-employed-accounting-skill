@@ -56,3 +56,5 @@ Conditions to check, all from art. 152bis [C · S3]:
 - **The price**: without VAT when the VAT is deductible, with VAT under the franchise (the cost rule of the €870 section). [I]
 - **An item written off at once under the €870 rule**: probably still eligible when its usual useful life is three years or more – the write-off is an option « sans égard à leur durée usuelle d'utilisation » (circular 34/1) and does not shorten that life. [I · S7, S31] For no risk, depreciate it over its useful life in the year of the credit. Not confirmed by the ACD: IT-O-26.
 - **A business asset also used privately** (phone, laptop): the credit is on the full price; the private use is taken out through the private share of depreciation and costs (Form 113). [I · S3, S33, S53] Not confirmed by the ACD: IT-O-25.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

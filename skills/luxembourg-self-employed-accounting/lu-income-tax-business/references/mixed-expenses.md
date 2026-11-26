@@ -53,3 +53,5 @@ Keep the same method every year and write the calculation down.
 | Training | Training in the current activity is deductible. The ACD treats the cost of acquiring the knowledge needed to enter a profession as non-deductible lifestyle spending (art. 12 n° 1); it says so for employees, and art. 12 applies to every kind of income | [C for employees · S2; I for self-employed] |
 
 VAT on representation and entertainment is never deductible: lu-vat normal-regime.md.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

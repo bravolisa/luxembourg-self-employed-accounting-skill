@@ -40,3 +40,5 @@ A criminal offence: 8 days to 3 years in prison and/or a fine of €251 to €12
 ## Reform under way (bill, not law)
 
 Bill 8759 (deposited 3 June 2026) would replace the prior permit by an online **notification** for activities without qualification requirements (general commerce, list C crafts…): the dirigeant would get a notification number at once and could start. It would also state that unregulated liberal professions need no qualification – but still a permit. Watch list W-12. [O · S32]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

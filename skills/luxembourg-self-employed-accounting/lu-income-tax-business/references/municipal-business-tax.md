@@ -18,3 +18,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 | Multipliers 2026 | Published in Mémorial A n° 553 (11.12.2025); not opened | [C · S36] |
 
 From companies onward (SARL, SA) this becomes its own skill (lu-municipal-business-tax).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

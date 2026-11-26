@@ -9,3 +9,5 @@ Short on purpose: these are loans and guarantees, not grants, and the official p
 - **Mutualité des P.M.E.** (set up by the Chamber of Skilled Trades) guarantees investment loans of SMEs. [C · S22]
 - **Mutualité de Cautionnement** (Chamber of Commerce, at the House of Entrepreneurship) guarantees bank loans of SMEs lacking collateral – per the chamber's page; no official text found. [I · S23]
 - **Microlux**, a non-profit social enterprise, offers business microcredit up to €50,000 – per the provider's page; no official text found. [I · S24]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

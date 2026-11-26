@@ -56,3 +56,5 @@
 | S52 | Guidance | Guichet.lu – « Visa D pour un titre de séjour 'carte bleue européenne' » (updated 01.10.2026): describes the card for salaried highly qualified work; silent on a self-employed side activity: https://guichet.public.lu/fr/entreprises/ressources-humaines/recrutement/ressortissant-pays-tiers/plus-3-mois/salarie-hautement-qualifie.html | 2026-11-20 |
 
 S1–S35 were researched on 2026-10-25 by a research agent using web search and page reads only (no scraping services); every quote was checked against the saved page text. Legilux consolidated pages also contain repealed text hidden on screen (the « conseil » permit, « ingénieur indépendant »): the law was read as the text in force only.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

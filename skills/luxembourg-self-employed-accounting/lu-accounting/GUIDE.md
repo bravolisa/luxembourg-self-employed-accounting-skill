@@ -38,3 +38,5 @@ Journal entries other than VAT on purchases (sales, depreciation, owner's accoun
 ## Related skills
 
 lu-tax-core · lu-income-tax-business (profit methods) · lu-vat (VAT records, invoices) · lu-annual-return · lu-entity-profiles (company and ASBL forms) · lu-corporate-tax (Form 500 tax package).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

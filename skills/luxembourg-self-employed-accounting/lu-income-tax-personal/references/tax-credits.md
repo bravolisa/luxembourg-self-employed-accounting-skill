@@ -33,3 +33,5 @@ The *CIC indépendant* 2026 (bill 8775, voted at first reading on 28 Oct 2026, n
 ## Where the business skill meets this one
 
 The investment tax credit (Form 800) and the hiring credit are business credits computed on the business annexes but claimed on Form 100 page 18 – lu-income-tax-business, depreciation-and-investment-credit.md; forms/2025/form-100.md. [C · S1]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

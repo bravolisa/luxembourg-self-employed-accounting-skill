@@ -34,3 +34,5 @@ From 15 September 2026 this is **de minimis aid** (de-minimis-and-cumulation.md)
 
 - **Replacement investments can be claimed afterwards**: at most two requests per calendar year, each for an investment of at most **€100,000**, filed up to **one year after paying** the expense. [C · S6]
 - Before 15 September 2026: 20% (small) / 10% (medium) of tangible investments; requests made afterwards were capped at €20,000 / €10,000 of **aid**. [C · S8 – archived official page]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

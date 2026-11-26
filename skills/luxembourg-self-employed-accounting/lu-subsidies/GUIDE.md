@@ -41,3 +41,5 @@ Follow lu-tax-core for triage, labels and answer shape. **[C]** Confirmed, **[I]
 ## Related skills
 
 lu-tax-core · lu-business-permit (the permit every aid requires) · lu-business-start (starting step by step) · lu-income-tax-business (investment tax credit, depreciation) · lu-entity-profiles (company form and single undertaking).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

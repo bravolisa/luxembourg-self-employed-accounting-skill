@@ -32,3 +32,5 @@ The manager's social-security status (employee or self-employed) is in lu-social
 - The dirigeant must not have evaded social or tax charges (withholding taxes included), personally or through a company he or she managed. [C · S18]
 - A company needs a **new permit** when it changes the dirigeant on whom qualification and integrity rest. [C · S18]
 - After the permit, the dirigeant of a SARL, SARL-S or SA declares his or her entry with social security as employee or self-employed. [C · S16] Which status: lu-social-security, company-managers.md.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

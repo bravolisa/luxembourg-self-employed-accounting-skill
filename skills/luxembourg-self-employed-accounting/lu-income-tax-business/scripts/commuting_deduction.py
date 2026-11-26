@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Luxembourg flat commuting deduction (frais de déplacement) for one tax year.
 
 Rule (Forms 112/152, 2025-2026): units x EUR 99, the first 4 units are not counted,

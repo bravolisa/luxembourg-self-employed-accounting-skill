@@ -24,3 +24,5 @@ Title « Dépenses d'exploitation payées »; for taxpayers who « exercent une 
 Detail annexes: no official template exists; a clearly labelled PDF schedule (taxpayer, year, form, line, supplier, invoice reference and date, description, amounts, business share, paid date) reconciled to the line total is our recommended format. Footnote 3 warns that not naming recipients of certain payments can jeopardise the deduction. Do not turn these targeted requirements into a demand to upload every invoice. [I · S27]
 
 Line numbers read from the 2025 PDF; sub-lines 44–51 of the car block were not reliably aligned in extraction. [C · S4 for the list]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

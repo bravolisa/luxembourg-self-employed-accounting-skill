@@ -32,3 +32,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 By grand-ducal decree, if the general-interest purpose goes beyond local interest, is permanent, and the ASBL carried out projects in the last three financial years. An ARUP is automatically a "large" association for accounting (full accounts and audit). Donations to it are deductible for donors (lu-corporate-tax, asbl-taxation.md). [C · S5]
 
 Accounts, size classes and filing: lu-accounting, companies-and-asbl.md. RCS and RBE: rcs-rbe-and-publication.md.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

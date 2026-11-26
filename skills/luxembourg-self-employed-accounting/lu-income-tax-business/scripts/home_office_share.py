@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Office share of housing costs (area method, as in ACD circular L.I.R. n° 105/2).
 
 Share = office m2 / living area m2. The living area EXCLUDES accessory rooms

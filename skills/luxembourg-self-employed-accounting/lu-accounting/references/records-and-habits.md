@@ -24,3 +24,5 @@ _Figures in this file: 2025–2026. The year files of the domain skills (lu-vat,
 
 - Store documents digitally, one folder per year, and review monthly or quarterly depending on activity. [I]
 - Plan ahead for VAT and CCSS thresholds (the VAT franchise threshold – lu-vat; the CCSS provisional base – lu-social-security). [I]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

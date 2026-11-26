@@ -49,3 +49,5 @@ Indemnities for an accessory activity next to a main one – culture, sport, soc
 Salary page 7, pensions page 8, capital income page 9, rental page 10, miscellaneous page 11, withholding credits page 19 – forms/2025/form-100.md. [C · S1]
 
 For pension certificates and CIP, dividend ordering, foreign withholding, RELIBI exclusions and worked cases, read [donations-pensions-and-investments.md](donations-pensions-and-investments.md).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

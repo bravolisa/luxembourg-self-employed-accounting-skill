@@ -24,3 +24,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 A SARL pays its single shareholder a €20,000 dividend from taxed profit: the company withholds €3,000 and pays it within 8 days. In the shareholder's return: €20,000 × 50% = €10,000, minus €1,500 = €8,500 taxable at the personal rate; the €3,000 withheld is credited. [I · our arithmetic on S8]
 
 Choosing between salary, directors' fees and dividends: owner-manager-pay.md.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

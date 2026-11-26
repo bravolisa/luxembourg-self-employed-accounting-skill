@@ -48,3 +48,5 @@ Then load the country skill (lu-vat) for the box, invoice wording and return; fo
 ## Related skills
 
 lu-vat (Luxembourg boxes, invoices, franchise) · lu-tax-core (conventions).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

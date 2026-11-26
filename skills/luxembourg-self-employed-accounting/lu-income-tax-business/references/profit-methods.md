@@ -63,3 +63,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 - "Operating expenses paid (Form 152 or equivalent annex)" allows another presentation; it is not permission to use accrual numbers on the cash method. [I · S27]
 - **Loans:** money borrowed or lent and repayments are neither receipts nor expenses; interest counts when paid or received; a repayment premium is deducted in the year the loan money is received. [C · S61 art. 2; S21 point 3 c)]
 - **Non-depreciable fixed assets** (land, loans granted…): the cost is deducted only on sale or loss; the sale price is a receipt. [C · S61 art. 2; S21 point 3 d)]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

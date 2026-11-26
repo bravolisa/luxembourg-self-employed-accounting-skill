@@ -31,3 +31,5 @@ Sole traders' RCS registration: lu-business-permit. This file covers companies a
 - Registration and every change within **one month** of when the entity knew or should have known (art. 4 RBE law). [C · S13]
 - Fines of **€1,250 to €1,250,000** for not filing or filing inaccurate data. [C · S4]
 - Since the law of 23 January 2025, RBE data are no longer open to the general public: access is for authorities, anti-money-laundering professionals and persons showing a legitimate interest in fighting money laundering. [C · S13]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

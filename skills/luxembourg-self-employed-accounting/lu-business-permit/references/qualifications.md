@@ -33,3 +33,5 @@ Equivalences (grand-ducal regulation of 1 December 2011) [C · S16]:
 - The Minister may require foreign diplomas to be entered in the register of training titles first. [C · S1]
 - Experience gained in another EU country is proved by an **EC certificate** (attestation CE) under Directive 2005/36/EC from the country of origin. [C · S6]
 - Liberal professions: if the Ministry of the Economy finds a foreign training does not meet the criteria, an ad hoc commission reviews it and the **MESR** (higher-education ministry) decides on professional recognition. [C · S29] Fee: figures.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

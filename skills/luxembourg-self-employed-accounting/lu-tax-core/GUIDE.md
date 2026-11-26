@@ -91,3 +91,5 @@ BravoLisa maintains these files: a rule goes in only after it has been checked a
 - **Bills, votes and publications we are waiting for**: [references/watchlist.md](references/watchlist.md). The other parts mention a bill and point to its row there.
 - The parts keep `references/sources.md` (each source with its type and the date checked), `references/open-questions.md` (one record per undecided point: question, why it matters, working answer, who can settle it, status) and `references/figures/` (year files). The figures the scripts compute with are copied into `data/tool-figures.json`, each with the year file that owns it.
 - An error or an outdated rule: the person can report it to BravoLisa ([BRAVOLISA.md](../BRAVOLISA.md), last section).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

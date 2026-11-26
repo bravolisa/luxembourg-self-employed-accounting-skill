@@ -30,3 +30,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 - **Apply before you start** (incentive effect, *effet incitatif* / *Anreizeffekt*): a complete application must reach the ministry **before work on the project starts**. [C · S1] "Start of work" is the start of construction or the **first legally binding order** of equipment, whichever comes first – a signed quote counts; buying land, permits and feasibility studies do not. [C · S5]
 - Exceptions: replacement investments can be claimed afterwards (sme-aid-regime.md); the start-up aid is not project-based.
 - **From 15 September 2026**: decision within 3 months of the complete file, extendable once by 3 months; **no decision in time counts as approval**. [C · S6]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

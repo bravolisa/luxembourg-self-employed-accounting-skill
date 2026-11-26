@@ -17,3 +17,5 @@ _Figures in this file: none – the bookkeeping turnover threshold is stated onc
 The threshold and the test in detail (what counts, unbilled work, advances): lu-income-tax-business, profit-methods.md.
 
 A taxpayer on the simplified method without a detailed record of turnover has turnover determined on cash receipts. [C · S11 §3.3]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Independent 2025 handoff examples, scope refusals and real output checks.
 
 Arithmetic is written inline from stated facts, not copied from calculator results.

@@ -53,3 +53,5 @@ Use the scripts for arithmetic; they return JSON and show their working. They ap
 ## Related skills
 
 lu-tax-core · lu-vat (VAT side of the same costs) · lu-social-security (CCSS in the return) · lu-accounting (books, BS and P&L) · lu-annual-return (step-by-step filing).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

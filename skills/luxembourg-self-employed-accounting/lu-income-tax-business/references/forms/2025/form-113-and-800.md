@@ -7,3 +7,5 @@ Depreciation schedule; its total feeds Form 110 line 42 (route B) or line 56 (ro
 ## Form 800
 
 Claim form for the investment tax credit (art. 152bis LIR). The 2024 version (https://impotsdirects.public.lu/dam-assets/fr/formulaires/entreprises_annexes/2024/800f-2024.pdf) and the 2025 version (S33) were read; use the form of the tax year being filed – a 2024 form is not the one for a 2025 return. Rules: depreciation-and-investment-credit.md. [I · S22, S27]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

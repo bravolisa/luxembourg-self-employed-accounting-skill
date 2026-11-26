@@ -20,3 +20,5 @@
 | S16 | Law | Règlement grand-ducal du 29 mars 2013 (several VAT regulations), art. 16: « A l'article 2 du règlement grand-ducal du 1er décembre 2009 […], le point e) est supprimé » (franchise users no longer discharged from registering): https://data.legilux.public.lu/filestore/eli/etat/leg/rgd/2013/03/29/n1/jo/fr/html/eli-etat-leg-rgd-2013-03-29-n1-jo-fr-html.html | 2026-10-30 |
 
 Researched on 2026-10-25 by a research agent using web search and page reads only; every quote was checked against the saved page text. This workflow holds few rules of its own: the details live in the domain skills it names.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

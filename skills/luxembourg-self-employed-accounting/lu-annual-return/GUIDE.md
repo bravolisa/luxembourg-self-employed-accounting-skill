@@ -115,3 +115,5 @@ A file that is valid against the schema is not proof that MyGuichet accepts it (
 ## Related skills
 
 lu-tax-core · lu-income-tax-business · lu-income-tax-personal · lu-vat · lu-social-security · lu-accounting.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

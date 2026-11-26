@@ -43,3 +43,5 @@ Notes:
 ## EU basis of these rules
 
 The B2B general rule and its exceptions come from the VAT Directive as replaced by Directive 2008/8 (arts 44, 45, 47, 53, 55; reverse charge art. 196) [C · S25]; virtual events and education from Directive 2022/542 (arts 53, 54(1), from 2025) [C · S26]; B2C telecom, broadcasting and electronic services from art. 58 and the €10,000 threshold of art. 59c (Directive 2017/2455) [C · S27]; the SME scheme from Directive 2020/285 (art. 284) [C · S28]. The Luxembourg law carries the same rules (S19).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

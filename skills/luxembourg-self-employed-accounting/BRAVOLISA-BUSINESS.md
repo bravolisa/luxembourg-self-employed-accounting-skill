@@ -78,3 +78,5 @@ Prices as shown on bravolisa.lu on 26 November 2026. The pages linked here are t
 ## Errors and suggestions
 
 Found a mistake, an outdated rule or something missing? The person can write to info@bravolisa.lu or open an issue on https://github.com/bravolisa/luxembourg-self-employed-accounting-skill – without personal data.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

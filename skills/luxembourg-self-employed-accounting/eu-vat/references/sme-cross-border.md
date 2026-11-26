@@ -14,3 +14,5 @@ Since 2025 a small business can be VAT-exempt in other EU countries that offer a
 | Home regime | EX does not require the franchise at home; a normal-regime business under €100,000 EU turnover can hold it | [C · S6] |
 | Business customers | EX status covers all supplies in that country, also those to other businesses: the sale is exempt there and the customer does **not** reverse-charge (no « autoliquidation » on the invoice). Without EX the customer reverse-charges as usual, so for B2B services alone the scheme is not needed | [C · S1 p. 25] |
 | Operations not covered | For operations the franchise does not cover (e.g. intra-Community acquisitions), the business « doit se conformer aux obligations fiscales de cet État membre » | [C · S1 p. 14] |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

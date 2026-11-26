@@ -77,3 +77,5 @@ The supported household route computes the extra-professional allowance from eac
 Keep `cis` and `co2` as the actual annual certificate-paid amounts used by the return; never replace them with the calculator's retained entitlement. Known zero can be entered as 0; missing/null credits stop XML creation and balance calculation. Negative monthly corrections must remain in the annual total. A negative annual paid total requires reviewed manual preparation: the generator and balance estimator's non-negative input scope is narrower than the signed XSD fields and does not invalidate the certificate. [B]
 
 The old ACD withholding-declaration page still reproduces 2009 credit amounts and a blanket no-assessment statement. Those passages are superseded for 2025 by the statute and March 2025 circulars; do not create an unresolved conflict from obsolete guidance. [C · S82; S57; S124]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

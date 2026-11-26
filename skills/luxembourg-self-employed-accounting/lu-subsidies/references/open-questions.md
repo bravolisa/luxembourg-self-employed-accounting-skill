@@ -56,3 +56,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | Was | Settled | Where the rule lives now |
 |---|---|---|
 | SUB-O-06 · Legal basis of the Fit 4 rates | 2026-10-26 | sme-packages.md (de minimis legal basis, Guichet « Références légales ») |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

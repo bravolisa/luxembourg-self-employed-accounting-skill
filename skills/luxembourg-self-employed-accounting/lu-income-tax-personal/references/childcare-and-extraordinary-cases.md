@@ -55,3 +55,5 @@ Collect approval/CCSS details, invoices and bank proof, service and payment peri
 
 The country-specific evidence guide is [cross-border-deductions.md](cross-border-deductions.md).
 Separate actual care reimbursements, ordinary family benefits and foreign tax relief. Do not import a foreign meals rule into qualifying Luxembourg care fees or invent netting of a later foreign childcare credit. [C · S73] [O for foreign tax-relief interaction]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -8,3 +8,5 @@ Unchanged copies, so that the tools work without downloading anything. They belo
 | `F100-XSD-2025.txt` | The schema MyGuichet uses to import a pre-filled Form 100 for tax year 2025 (XSD 0.18.0), as plain text. Its first lines give where and when it was fetched | https://impotsdirects.public.lu/dam-assets/fr/echanges-electroniques/decl_pph/acd-pp-2025-modele-100-xsd-import.zip |
 
 Before filing, check on https://impotsdirects.public.lu that the ACD has not published a newer version. For tax year 2026 neither the form nor the schema is out yet.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

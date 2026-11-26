@@ -35,3 +35,5 @@ The Minister issues the permit when the conditions of establishment (a fixed pla
 - Judged on past conduct and the administrative enquiry, counting only the **last ten years**. [C · S1]
 - Not filing direct-tax (including withholding) or indirect-tax returns for **two consecutive years within three** is a breach of integrity. [C · S1]
 - Proof: residents of more than 10 years – a recent Luxembourg criminal-record extract (bulletin n° 3); the application form asks for one less than 6 months old. [C · S5, S4] Non-residents and residents of less than 10 years add the extracts of every country of residence in the last 10 years and a sworn non-bankruptcy declaration before a notary. [C · S13]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

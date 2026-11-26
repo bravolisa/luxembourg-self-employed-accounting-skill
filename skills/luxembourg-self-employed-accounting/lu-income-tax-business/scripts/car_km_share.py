@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Deductible car costs by business-km share (Luxembourg Forms 112/152 car block).
 
 Deductible = car costs x business km / total km + direct business-trip costs.

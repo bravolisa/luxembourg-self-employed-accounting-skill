@@ -92,3 +92,5 @@
 | S88 | Guidance | Guichet.lu – cessation of a sole trade or partnership: cessation gain, allowance and half rate: https://guichet.public.lu/fr/entreprises/fiscalite/transmission-cessation/cessation-liquidation/cessation-entreprise-individuelle-societe-personnes.html | 2026-11-20 |
 
 S28–S47 were researched on 2026-10-25 with web search and page reads (no scraping tools). The ACD's coordinated LIR PDFs could only be read up to art. 32bis: art. 34, 105bis, 118 and 152bis values come from the forms and ACD pages, not the law text.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

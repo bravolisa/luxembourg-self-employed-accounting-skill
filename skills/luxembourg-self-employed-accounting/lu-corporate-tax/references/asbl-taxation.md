@@ -25,3 +25,5 @@ The ASBL as a legal form (founding, members, accounts): lu-entity-profiles, asbl
 ## Worked example (invented)
 
 A sports club ASBL runs a bar at its events: the club's sports activity is exempt; the bar's profit is taxable as commercial activity; sponsors can deduct gifts only if the club is recognised of public utility. [I · S8]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

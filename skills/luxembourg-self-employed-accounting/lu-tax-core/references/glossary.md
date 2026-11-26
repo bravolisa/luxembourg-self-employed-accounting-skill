@@ -36,3 +36,5 @@ Use the English term in answers; give the French in brackets the first time. Ger
 | profit and loss account | compte de profits et pertes | Gewinn- und Verlustrechnung | |
 
 Administrations: **ACD** = income tax and municipal business tax; **AED** = VAT and registration duties; **CCSS** = social security affiliation and contributions.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

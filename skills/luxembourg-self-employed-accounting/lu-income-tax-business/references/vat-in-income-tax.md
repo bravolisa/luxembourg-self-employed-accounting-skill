@@ -24,3 +24,5 @@ No VAT deduction, so VAT is part of each cost: gross = net, and 152 line 22 is n
 ## VAT timing vs income-tax timing
 
 VAT timing (when VAT is due) and income-tax profit timing are separate legal questions: normal-regime VAT on invoices and the cash method for income tax can coexist, but eligibility for the cash method must still be established. [I · S27]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

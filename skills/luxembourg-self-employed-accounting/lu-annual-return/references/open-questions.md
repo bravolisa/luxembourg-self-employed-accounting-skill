@@ -51,3 +51,5 @@ Employer-interest and termination exemption mappings remain reviewed manual brid
 - Working answer: The address on the day of filing; a move after 31 December is not an "other address" of the year. [I – medium · lu-income-tax-personal S1; lu-income-tax-personal S75]
 - Who can settle: ACD.
 - Status: open
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

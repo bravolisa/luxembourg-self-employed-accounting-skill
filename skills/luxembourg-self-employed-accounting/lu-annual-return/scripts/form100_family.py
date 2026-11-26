@@ -1,3 +1,5 @@
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """2025 household children, childcare and own-home interest.
 
 Rules: personal-tax references household-and-tax-class, extraordinary-charges-and-abatements,

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Read the PDF MyGuichet gives for a Form 100 procedure and list its figures by field code.
 
 Usage:

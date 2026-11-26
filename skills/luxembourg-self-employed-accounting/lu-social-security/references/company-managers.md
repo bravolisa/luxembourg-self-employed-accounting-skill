@@ -45,3 +45,5 @@ Taxes of the manager's pay (salary, directors' fees, dividends): lu-corporate-ta
 
 Classify the activity before applying the ordinary mixed-activity or telework rules. A payslip does not override the social-security status; a real foreign employed activity may change the applicable country for all this person's work. See [cross-border-work.md](cross-border-work.md).
 Disputed classification, marginal work and historical corrections remain SS-O-06; this does not settle CIS eligibility under personal-tax PIT-O-12. [C · S38, S39, S43] [O]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

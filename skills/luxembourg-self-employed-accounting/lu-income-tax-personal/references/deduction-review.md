@@ -44,3 +44,5 @@ Married couple, class 2, both working, tax year 2026: taxable income €90,000; 
 - €3,000 of genuine business costs instead: the profit falls to €35,000, still above the minimum base, and the credits do not change (profit under €40,000). CCSS falls by about €755; taxable income falls by €3,000 less the deductible CCSS saved (23.75%), i.e. €2,288, so half the base falls by €1,144 – €135 at 30% and €1,009 at 28% – and the tax by about 2 × (€40.50 + €282.45) × 1.07 ≈ €691. Together about €1,446, roughly half of €3,000 – but money spent, not saved.
 
 [I · our arithmetic on S2, S36, S40]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

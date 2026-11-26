@@ -96,3 +96,5 @@ For family healthcare, collect own-cover status and the residence institution's 
 The statutory anchor is the IGSS December-2025 collection; the framework notice was updated in March 2024. Current CCSS/CNS/DVKA procedural pages help with today's action but do not prove every website step or administrative duration was identical in 2025. Special personal-scope cases, posting, public service, pensions, unemployment and non-EU work are outside this ordinary tree. [O]
 
 Foreign contribution-component classification is tracked in lu-income-tax-personal PIT-O-29; institutional allocation exceptions remain SS-O-06.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

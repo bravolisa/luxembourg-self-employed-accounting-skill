@@ -170,3 +170,5 @@ For a car that is a business asset. No article names « the sale of a fixed asse
 - **Income tax:** for a business-asset car the subsidy reduces the cost that is depreciated – it is not income of the year. The ACD says the same of a subsidised photovoltaic installation: the capital subsidy « diminue le prix d'acquisition ». [C · S53; I by analogy · S78] The investment tax credit is computed on the price less subsidies. [C · S33] A subsidy paid in a later year, or repaid because the car is sold too early: no text. [O · IT-O-29] For a private car the subsidy changes nothing. [I]
 - **Charging at home:** the business share of the electricity, from the kWh charged (wallbox meter or the car's charging log) × the business km share; no official text on the proof. [I]
 - VAT on charging: lu-vat cars.md §5.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

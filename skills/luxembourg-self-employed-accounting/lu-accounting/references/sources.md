@@ -30,3 +30,5 @@
 | S27 | Internal | BravoLisa's asset categories, depreciation account mapping and expense categories, and its mapping of the car to Forms 112 / 152 (internal design notes; the car block and the commuting deduction are computed outside the ledger) | 2026-11-19 |
 
 S7–S10 are BravoLisa's own design decisions, not official rules: they say which permitted PCN account BravoLisa uses. S6 is BravoLisa's copy of the official PCN chart.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

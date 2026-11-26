@@ -11,3 +11,5 @@ Employer interest support uses ECSP PPPH for the gross benefit and its exemption
 Domestic flat pay on an established regularisation request uses rowE722/723; contributions 1601/1602 and withholding 1901/1902. See salary-certificates.md for exempt-income columns, all-contract scope and XML uncertainty. [C · S1; B/O]
 
 Qualifying extraordinary income is disclosed in page 12 EX after inclusion in its original income category; it is not a second receipt. The annual household generator does not calculate article 131 relief. [C · S1, S82; B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

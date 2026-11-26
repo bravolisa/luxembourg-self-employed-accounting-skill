@@ -65,3 +65,5 @@ Unequal ownership/borrowing, individual assessment, moving, mixed use, rental co
 ## Foreign principal home — 2025
 
 For an assimilated non-resident, qualifying foreign-home interest creates a foreign rental loss in the worldwide **rate base**, not a direct Luxembourg-source deduction. Use [cross-border-deductions.md](cross-border-deductions.md) for evidence, refinancing guards and the separate ownership/borrowing issue. [C · S139, S138] [O · PIT-O-14]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

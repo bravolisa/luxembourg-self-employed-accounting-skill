@@ -32,3 +32,5 @@ Sources: [C · S3 sole trader; S6 capital, partners, deeds; S2, S1 managers; S6 
 5. Social security of the manager: lu-social-security, company-managers.md (self-employed only with more than 25% of the shares and the business permit).
 
 This is general information, not legal or tax advice: the choice usually deserves a meeting with an accountant or the House of Entrepreneurship.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

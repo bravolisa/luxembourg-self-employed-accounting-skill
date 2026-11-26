@@ -38,3 +38,5 @@ So a laptop bought in November after the switch: VAT deductible. Books bought in
 
 - **Is the activity taxable at all?** Some education is exempt (art. 44): private lessons by teachers at school or university level. Private language lessons for adults or companies are often taxable. [I · S6; see exempt-art44.md]
 - **Private customers abroad**: since 2025, educational activities streamed or made available online to private individuals are taxed in the customer's country from the first euro, with no EU-wide threshold. They then fall outside the Luxembourg threshold count and need OSS or a foreign registration. Whether live one-to-one lessons are such an activity is open (eu-vat EUVAT-O-03). [C · S24 art. 17(2) 4° b), art. 19quater; I for one-to-one lessons]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

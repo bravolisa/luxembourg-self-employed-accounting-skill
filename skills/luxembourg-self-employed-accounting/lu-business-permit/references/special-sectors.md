@@ -22,3 +22,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 | Public UV tanning | Whoever supervises the sunbeds: at least **8 hours** of training; declaration to the Ministry of Health one month before | [C · S48 art. 11; S50] |
 
 Workshops and other classified establishments may also need an operating licence (commodo), which can take months – lu-business-start. [C · lu-business-start S9]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

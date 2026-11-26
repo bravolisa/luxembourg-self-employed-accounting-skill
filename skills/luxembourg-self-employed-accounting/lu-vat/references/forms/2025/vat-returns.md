@@ -212,3 +212,5 @@ Worked example – €100 software subscription from a supplier established in I
 - Art. 50 pro-rata of 40%, quarterly: 741 / 742 = 100 / 17; 461 = 17; 095 = 10.20; deductible 6.80.
 
 [I · applies the verified boxes]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

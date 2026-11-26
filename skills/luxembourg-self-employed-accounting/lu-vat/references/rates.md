@@ -33,3 +33,5 @@ A trainer under the normal regime runs (invented figures):
 - the two-day workshop streamed live to people at home → **17%** for the online places (and, for private customers in other EU countries, their country's VAT – eu-vat place-of-supply.md).
 
 [I · S59, S24, S60]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Regression tests for tax_estimate.py – invented cases, each worked out by hand below.
 
 Usage: python scripts/tests/test_tax_estimate.py   (exit code 1 when a case fails)

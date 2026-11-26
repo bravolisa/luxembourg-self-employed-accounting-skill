@@ -40,3 +40,5 @@
 | S36 | Guidance | ADEM – « Formation StartYourBusiness » flyer (PDF modified 4 June 2025: partners, two awareness workshops, three options, at most 6 weeks): https://adem.public.lu/content/dam/adem/fr/publications/demandeurs-emploi/formations/startyourbusiness.pdf | 2026-10-30 |
 
 S1–S33 were researched on 2026-10-25 by a research agent using web search and page reads only (no scraping services); every quote was checked against the saved page text. The publication date of the law of 22 July 2026 (11 September 2026) comes from Legilux metadata.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

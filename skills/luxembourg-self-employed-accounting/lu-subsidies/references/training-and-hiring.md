@@ -18,3 +18,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 - **Apprenticeship aid**: the Employment Fund pays the employer 27% of the gross apprenticeship allowance (DAP/DT) or 40% (CCP); request before 1 July after the apprenticeship year. [C · S15]
 
 Employing staff brings payroll, CCSS employer contributions and the Mutualité des employeurs – outside these skills for now.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

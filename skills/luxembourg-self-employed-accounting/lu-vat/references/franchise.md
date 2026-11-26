@@ -85,3 +85,5 @@ The AED asks for the franchise to be requested: a business that starts asks for 
 ## 6. Leaving the franchise voluntarily
 
 On request to the tax office, with the AED's form; it takes effect on the first day of the month after the AED receives it – for a business that has just started, from the start of the activity if the request is filed within one month. The user stays in the normal regime for at least one calendar year. [C · S1 p. 13; S24 art. 57bis(8)] The AED releases the user from that minimum year when the conditions of the activity change essentially during it. [C · S24 art. 57bis(8)] Joining the franchise from the normal regime: switching-regime.md. Worth considering for heavy exporters of goods or businesses with large VAT-bearing purchases, who would then recover input VAT. [I]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

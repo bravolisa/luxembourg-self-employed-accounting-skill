@@ -17,3 +17,5 @@ These businesses charge no VAT at any turnover. They are not "franchise" users, 
 - Dispensed from VAT registration by default: no VAT number, nothing to file. [C · S6]
 - Must register **before** the first: purchase of services from a foreign business (reverse charge, first euro); intra-EU goods purchases above €10,000; or B2B services supplied to EU customers. A business wholly exempt under art. 44 without any right to deduct is released from the start-of-activity declaration (RGD of 1 December 2009, art. 2 d)) but must ask for a VAT number before such operations (art. 3(1)). [C · S53] Then file the annual return and, for EU B2B services, recapitulative statements. [C · S6] Where the exempt turnover goes on that return is unclear: its box 012 may only hold 481 + 482 (VAT-O-15). [C · S47; O]
 - Mixed taxable and exempt activity: input VAT deduction is restricted (pro rata). [I]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

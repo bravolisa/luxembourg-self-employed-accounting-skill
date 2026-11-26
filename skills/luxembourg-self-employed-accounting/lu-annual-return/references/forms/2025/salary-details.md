@@ -36,3 +36,5 @@ The XSD accepts commune `AUTR`, but no authoritative direct-benefit/no-workplace
 ## Special employment payments require review
 
 Known employer interest support and termination compensation remain manual branches. Preserve `employer_interest_support` on the household, salary or loan record, and `termination_payment` on the household or salary record when present. The tools stop for those markers and for PPPH/IDPT/IDEP/IDCC/REX1/REX2 pay or exemption codes. Read lu-income-tax-personal employer-interest-support.md and termination-compensation.md; do not hide the benefit in ordinary salary or subtract all employer support in `subsidies`. Unmarked embedded components still require document review. [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

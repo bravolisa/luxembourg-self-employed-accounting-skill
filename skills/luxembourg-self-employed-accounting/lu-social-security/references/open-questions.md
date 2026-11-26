@@ -47,3 +47,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | SS-O-01 · Company managers (gérants) | 2026-10-26 | company-managers.md (social-security code, art. 1, point 4) |
 | SS-O-03 · Dependency abatement for the self-employed | 2026-10-26 | figures/2025.md, figures/2026.md (social-security code art. 377) |
 | SS-O-05 · Cash-benefit surcharge for every self-employed person | 2026-10-26 | contributions.md (social-security code arts 15, 29) |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

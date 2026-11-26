@@ -20,3 +20,5 @@ Topic-specific follow-ups:
 - **Home office**: rented or owned? A separate room with a door? Any other office or coworking desk?
 - **Car**: private car or bought/leased for the business? Total km and business km for the year?
 - **CCSS**: main activity or side activity? First year of activity?
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

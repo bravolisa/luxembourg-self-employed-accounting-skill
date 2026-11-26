@@ -1,3 +1,5 @@
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Attach the deduction working, preserving gross certificates and distinct annual limits."""
 from decimal import Decimal
 from xml.sax.saxutils import escape

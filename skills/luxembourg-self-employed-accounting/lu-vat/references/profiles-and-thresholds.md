@@ -47,3 +47,5 @@ The EU-wide ceiling of the EX scheme (eu-vat) is a different pot: it adds turnov
 - A board member of a Luxembourg SA who does not act under their own responsibility and bears no economic risk is **not a taxable person** for the board fees (CJEU C-288/22; district court 22 Nov 2024). The AED applies this beyond SAs, to company directors in general, but each director must check the criteria for themselves. [C · S41]
 - Directors who charged VAT in earlier years could regularise it; they repay the VAT to the companies, which correct their own deduction. [C · S41]
 - So a director's fee is usually not a franchise question at all. Income-tax side (20% withholding, liberal-profession income): lu-corporate-tax, owner-manager-pay.md. [I]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

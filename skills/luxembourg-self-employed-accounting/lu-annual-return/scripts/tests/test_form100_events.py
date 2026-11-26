@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """A change of civil status or address during the year: paper boxes and XML fields.
 
 Invented households. Every expected value below was written by hand from the field map in

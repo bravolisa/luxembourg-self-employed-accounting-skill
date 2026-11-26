@@ -39,3 +39,5 @@ Field meanings confirmed against the official form/schema. [C · lu-income-tax-p
 Hand examples and reproducible refusal cases: `scripts/tests/handoff_extensions/expected.json`, `test_handoff_extensions.py` and the research archive. No project acceptance-case pin is changed by a skill release. [B]
 
 The positive reviewed employee occupational claim also fills the paper affiliation Yes for its owner: R1609/R1610 has the surprising export state `/courrier` (No is `/myguichet`). This is verified widget mapping; inferring positive affiliation from the qualifying personal contribution is an implementation inference. An absent contribution does not establish No and remains blank. [C · lu-income-tax-personal S1; I for positive affiliation inference]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

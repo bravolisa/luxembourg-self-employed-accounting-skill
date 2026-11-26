@@ -29,3 +29,5 @@ For 2025 country allocation, prior employers, foreign spouse income and exact as
 - Belgian residents have the additional strictly-more-than-50% household professional-income route. [C · S139]
 - On joint assimilation, both spouses' worldwide income, computed under Luxembourg rules, sets the rate applied to Luxembourg-taxable income. Evidence of annual foreign income is required. [C · S82, S138]
 - Requests and dates: [the 2025 manual map](forms/2025/cross-border-and-family.md). Foreign deductions: [cross-border-deductions.md](cross-border-deductions.md). Eligibility, actual taxable income and rate income are separate calculations; the complete non-resident engine is not implemented. [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

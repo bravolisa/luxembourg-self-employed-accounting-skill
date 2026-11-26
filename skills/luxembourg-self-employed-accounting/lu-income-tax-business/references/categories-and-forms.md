@@ -38,3 +38,5 @@ Balance sheet and P&L: there is no prescribed ACD form; the taxpayer attaches hi
 - Form 100 with annexes: by 31 December 2026. [C · S24]
 - Income-tax advances: 10 March, 10 June, 10 September, 10 December, amounts set by the ACD's advance notice. [C · lu-income-tax-personal filing-and-assessment.md]
 - ICC advances (commercial only): 10 February, 10 May, 10 August, 10 November. [C · S49]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

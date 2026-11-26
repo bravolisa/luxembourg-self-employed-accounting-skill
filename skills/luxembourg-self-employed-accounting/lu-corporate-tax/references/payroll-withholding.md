@@ -52,3 +52,5 @@ A company that pays a salary – also to its own manager – withholds income ta
 ## Example (invented figures)
 
 A one-person SARL withholds €147 a month from its manager's salary, after tax credits: that is between €75 and €750, so it files and pays **quarterly** – €441 by 10 April, 10 July, 10 October and 10 January. If the €147 is before the tax credits, work out the net amount first: a net below €75 a month means one yearly return by 10 January. If the manager has the own CCSS contributions written on the tax card (box 540), the withholding can drop sharply – possibly below €75 a month. [I · arithmetic on S38; S44]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

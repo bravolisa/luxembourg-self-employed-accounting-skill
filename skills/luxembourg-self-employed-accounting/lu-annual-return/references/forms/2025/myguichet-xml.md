@@ -71,3 +71,5 @@ Actual amounts, allowed deductions and paid credits remain distinct. XSD validat
 ## A change of civil status or address during the year
 
 The schema holds the status on 1 January, then up to ten later statuses with their dates, and the other addresses of the year with their periods. Field map, codes, eligibility answers, the signature after a death and what to enter for each event: [family-events.md](family-events.md). The builder writes them from the household file (`status_changes`, `spouse_address`, `earlier_addresses`, `signature`). [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

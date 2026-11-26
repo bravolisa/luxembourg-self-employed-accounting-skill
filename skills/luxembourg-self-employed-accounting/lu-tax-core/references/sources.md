@@ -43,3 +43,5 @@ When Luxembourg guidance is silent, how Germany, France or Belgium apply the sam
 - **Written request to the competent tax office** (bureau d'imposition) for anything load-bearing. A resident's office depends on the commune of residence or the profession: list of the 28 offices for individuals, https://impotsdirects.public.lu/fr/profil/organigramme/impo_pers.html; questions on tax withheld from wages and pensions go to the RTS offices, https://impotsdirects.public.lu/fr/profil/organigramme/rts.html.
 - **Advance decision** (décision anticipée) for a binding position on a specific case – procedure in the règlement grand-ducal du 23 décembre 2014 (named on the ACD contact page).
 - An open point's record says who can settle it. Write the question about the person's own case: the facts in a line or two, then one short yes/no or either/or question.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

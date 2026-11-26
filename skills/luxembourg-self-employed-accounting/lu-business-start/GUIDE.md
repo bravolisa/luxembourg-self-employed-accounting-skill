@@ -61,3 +61,5 @@ Close with: this is general information, not legal or tax advice; for a company 
 ## Related skills
 
 lu-tax-core · lu-business-permit · lu-entity-profiles · lu-subsidies · lu-social-security · lu-vat · lu-income-tax-personal · lu-accounting.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

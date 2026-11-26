@@ -167,3 +167,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | IT-O-18 · Topics not covered yet | 2026-10-26 | mixed-expenses.md "Gifts, meals and representation, clothing, training" |
 | IT-O-14 · Form 152 on the accrual basis | 2026-10-26 | categories-and-forms.md (RGD of 3 December 1969, art. 1; circular 18/5) |
 | IT-O-22 · Insurance agents and brokers | 2026-10-26 | categories-and-forms.md (circular L.I.R. n° 14/1: insurance agents commercial; brokers by inference) |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

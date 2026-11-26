@@ -35,3 +35,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 A SARL in Luxembourg City with €80,000 taxable profit in 2025: IRC 14% = €11,200; surcharge 7% of that = €784; ICC (€80,000 − €17,500) × 6.75% = about €4,219; total about €16,200 (about 20%), plus net wealth tax. [I · our arithmetic on S8, S5, S4]
 
 Return, deadlines and advances: form-500-and-deadlines.md.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

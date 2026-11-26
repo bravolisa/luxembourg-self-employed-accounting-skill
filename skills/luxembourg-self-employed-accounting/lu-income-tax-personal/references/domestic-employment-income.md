@@ -78,3 +78,5 @@ Historical ACD circular 137/1 §4.3 and example2 require a favourable-only compa
 
 Invented comparison components, with all credit differences already reviewed and no further credit adjustment: without election ordinary liability 1,000 and ordinary withholding 900 leave 100 due;
 flat withholding 1,200 remains outside that assessment. With election, an independently computed all-income liability 1,800 less900+1,200 leaves300 refundable, a400 improvement. If the all-income liability were2,600, the same computation would leave 500 due,400 worse; that calculation is not a reason to recommend the election. These are settlement illustrations, not tax-scale calculations or complete2025 expected returns. [I · S108; S178; B for bounded examples]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

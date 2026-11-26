@@ -122,3 +122,5 @@ Optional `CharExtraPeriodeTauxIncapacite` permits up to 10 periods, each with re
 `id_personne` permits `DECLARER`, `CONJOINT`, and `CHILDREN0` through `CHILDREN19`; legal eligibility and correct referential identity are additional checks. `decimal10_2` is an `xsd:decimal` strictly between -10,000,000,000 and 10,000,000,000 with at most two fractional digits. It does **not** by itself prohibit negative care costs or enforce tax ceilings. `texte30/50/100/200` only enforce maximum string lengths. A schema-valid file does not prove correct household attribution, month allocation, document sufficiency, an ACD calculation or acceptance.
 
 All extraordinary-charge field names and types above: [C · S1, S75].
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

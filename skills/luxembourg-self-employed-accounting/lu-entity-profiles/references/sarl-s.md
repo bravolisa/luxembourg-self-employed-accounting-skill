@@ -44,3 +44,5 @@ A SARL with a capital from €1, created by the law of 23 July 2016 (in force 20
 ## Worked example (invented figures)
 
 A SARL-S with €1,000 capital and €40,000 net profit: 5% = €2,000 goes to the reserve (capital plus reserve still far below €12,000). [I · our arithmetic on S6]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

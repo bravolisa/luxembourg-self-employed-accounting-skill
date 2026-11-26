@@ -42,3 +42,5 @@ _Figures in this file: 2025–2026. The year files of the domain skills (lu-vat,
 - Sending your own goods to your stock or a marketplace warehouse in another member state is a deemed supply, exempt like an intra-Community supply (art. 12 g), art. 43(1)(f)); call-off stock (art. 12bis) is the exception. [C · lu-vat S24]
 - Report it in box 013 (annual) or 457 (periodic) – both name art. 43(1)(f) – and on the recapitulative statement under **your own VAT number in the arrival country**: the regulation asks for « le numéro par lequel l'assujetti est identifié … dans l'État membre d'arrivée ». So a VAT number there is needed; the arrival is an intra-Community acquisition in that country. Franchise users cannot use this exemption. [C · S3; S22 art. 6; S17]
 - Sales from that warehouse follow the rules of that country.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -37,3 +37,5 @@ Used with Form 110 route B; total goes to Form 110 line 41. Columns: total (VAT 
 | 62 | Total general expenses → Form 110 line 41 |
 
 Lines 8, 10, 11, 24, 25 are blank write-in rows. Footnote 4: « Prière de fournir le détail en annexe ». [C · S5]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

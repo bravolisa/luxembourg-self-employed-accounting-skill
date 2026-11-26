@@ -44,3 +44,5 @@ The start-up exception (§7a) lifts the second and third exclusions for assets i
 ## 5. Worked example (invented figures)
 
 Machines worth €6,000 second-hand (her book value €4,000) are contributed as single items to a new SARL-S at €6,000. The company enters them at €6,000 and, with three years of useful life left, deducts €2,000 a year. If the credit is accepted (CT-O-09): 12% × €6,000 = €720. Had her whole business been contributed at book value under art. 59, the company would enter €4,000, continue her depreciation and get no credit. [I – our arithmetic on S8]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

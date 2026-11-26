@@ -107,3 +107,5 @@
 | S103 | Guidance | Guichet.lu – « Déduire la TVA en amont » (page of 26.01.2023): its cessation example repays the remaining fifths of the VAT deducted – differs from arts 13(c) and 28(1)(b) of the law: https://guichet.public.lu/fr/entreprises/fiscalite/impots-benefices/tva/declarations/deduire-tva-amont.html | 2026-11-20 |
 
 Internal sources (S6, S7, S12) record their own official verification; re-check the official page before a release. S22, S33 and S38 are the law in force as reproduced in parliamentary or chamber documents (rated as law); the bill's own proposals are S28 (watch list W-02). Research for S19–S36 was done on 2026-10-25 by research agents (web search and page reads, no scraping tools); the key values in S19 were re-opened by hand.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

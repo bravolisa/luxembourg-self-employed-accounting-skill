@@ -31,3 +31,5 @@ Two different programmes; do not mix them up.
 | Timing | Request before the project; paid after | Request before signing the quote |
 
 [C · S11, S20]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

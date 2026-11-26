@@ -23,3 +23,5 @@ Commercial sole traders whose previous year's turnover exceeded the bookkeeping 
 ## Register of beneficial owners (RBE)
 
 Sole traders are **outside the RBE**: the RBE law covers RCS-registered entities from point 2° onwards, and sole traders are point 1°. [C · S21]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

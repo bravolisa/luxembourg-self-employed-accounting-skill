@@ -45,3 +45,5 @@ Determine which country may tax each component before Luxembourg exemptions. For
 ## Supported scope
 
 This guide supports evidenced classification and reviewed manual calculation. Automatic salary-detail exemptions currently accept only HSUP/SJFE; termination benefits and extraordinary-income computation remain unsupported. Stop rather than disguise IDPT/IDCC as ordinary salary or omit the taxable excess. Tax exemption does not establish social-contribution exemption. [B/O]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

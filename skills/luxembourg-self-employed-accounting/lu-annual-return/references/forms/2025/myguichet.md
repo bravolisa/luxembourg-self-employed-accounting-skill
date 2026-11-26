@@ -33,3 +33,5 @@ From the ACD's English « 123easy » tutorial for the MyGuichet assistant (lu-in
 The XML import (form types, agent filing with Form 101, consent and eligibility answers, file format), what MyGuichet does with an upload (commuting per salary block, required CIS and CO2 fields, the agent's answers) and how to read its PDF back: [myguichet-xml.md](myguichet-xml.md). The scripts: [form100-tools.md](form100-tools.md).
 
 For generated 2025 family sections, read [form100-family.md](form100-family.md) and [RET-O-01](../../open-questions.md). Offline schema checks do not replace an authorised import/read-back. [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

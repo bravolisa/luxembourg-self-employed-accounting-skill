@@ -43,3 +43,5 @@ Careful with private customers abroad: "no VAT" is clear for business customers.
 - Whoever shows VAT on an invoice owes it: « La taxe est due par toute personne qui mentionne la taxe sur la valeur ajoutée sur une facture » (art. 61(8)) – also when the supply was exempt, outside VAT or under the franchise. [C · S24]
 - It can only be undone by correcting the invoice, and only if the issuer acted in good faith or removed in time every risk that the customer deducts it. The Cour d'appel applied this in 2015 to a building contributed to a company: the contribution deed showed VAT, so the VAT was owed whether or not the contribution was taxable. [C · S57]
 - So: never show VAT on an invoice or deed unless it is due; a franchise user shows the art. 57bis mention instead (franchise.md).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

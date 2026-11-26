@@ -36,3 +36,5 @@ After the permit, a sole trader affiliates with the CCSS as self-employed, files
 ## When the activity stops
 
 CCSS deregistration within **8 days**, AED cessation declaration within **15 days**, RCS deregistration (paid), tell the Ministry of the Economy within **one month**; no separate notice to the ACD is needed. [C · S4] The last annual VAT return is due within two months of stopping (lu-vat, normal-regime.md). [I]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

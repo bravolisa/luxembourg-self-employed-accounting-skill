@@ -252,3 +252,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | PIT-O-18 · Capital flat-cost doubling: statute versus form | 2026-11-10 | donations-pensions-and-investments.md (art. 107(4) LIR: doubled only when each spouse receives capital income; ACD Mémento; the Form 100 and ACD page wording is shorthand) |
 | PIT-O-06 · Filing threshold for income without withholding | 2026-11-10 | filing-and-assessment.md, figures/2025.md (RGD of 13 March 1970, art. 2, 2°: dispensed below the tax-free minimum of tax class 1 = 0% band of art. 118, €13,230 for 2025 and 2026) |
 | PIT-O-02 · Certificate for the abatement for staying in work (2026) | 2026-11-10 | extraordinary-charges-and-abatements.md (art. 129g(1), (2), (7) LIR; Guichet CNAP page; commentary in parliamentary file n° 8640: CNAP certificate, sent to the ACD, claimed in the return) – the box of the 2026 Form 100 waits for the form (lu-tax-core watch list W-08) |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

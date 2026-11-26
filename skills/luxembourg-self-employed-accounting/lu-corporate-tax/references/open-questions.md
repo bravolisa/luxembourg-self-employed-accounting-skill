@@ -63,3 +63,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | Was | Settled | Where the rule lives now |
 |---|---|---|
 | CT-O-02 · Net wealth tax reserve and the €535 floor | 2026-10-26 | net-wealth-tax.md (circular I. Fort. n° 56, point 33) |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

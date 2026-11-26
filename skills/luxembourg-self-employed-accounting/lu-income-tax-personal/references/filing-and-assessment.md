@@ -36,3 +36,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 - By post or fax, not by phone or e-mail; in Luxembourgish, French or German. [C · S38]
 - It does **not** suspend payment; a stay (*sursis*) must be asked separately. [C · S38]
 - For a simple mistake (e.g. a forgotten document) a correction request (*demande en redressement*) can be sent by post within 3 months of the first bulletin. [C · S38]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

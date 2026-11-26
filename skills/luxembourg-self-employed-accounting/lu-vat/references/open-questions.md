@@ -180,3 +180,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | VAT-O-05 · How the art. 50 pro-rata is calculated | 2026-10-26 | normal-regime.md (RGD of 21 December 1979 on the pro-rata) |
 | VAT-O-10 · Supplier on cash accounting – when can the customer deduct? | 2026-10-26 | purchases.md (VAT law arts 48(2), 25(1)) |
 | VAT-O-14 · Filing a client's VAT returns through eCDF | 2026-10-26 | forms/2025/vat-returns.md §7b (eCDF help, C.5 and D.2) |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

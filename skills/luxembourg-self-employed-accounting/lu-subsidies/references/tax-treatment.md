@@ -22,3 +22,5 @@ A €25,000 machine with a €5,000 grant: depreciation base €20,000; investme
 ## Tax credits that work like aid
 
 The tax credit for hiring a jobseeker reduces income tax (training-and-hiring.md) [C · S14]; the investment tax credit is in lu-income-tax-business.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

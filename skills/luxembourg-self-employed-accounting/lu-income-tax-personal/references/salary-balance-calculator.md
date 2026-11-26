@@ -138,3 +138,5 @@ The rules are in family-changes.md; the status fields of the household file are 
 | The joint year of a spouse's death | A joint file whose taxpayer becomes `VE` and whose spouse becomes `DE` on the same day (`status_changes`) | Joint class 2 with the couple's ceilings and the extra-professional abatement. Only for a death on 31 December: for an earlier death the estimate stops, because whether the deceased spouse's flat amounts are cut to months is open (PIT-O-40) |
 
 Hand-calculated test households: SB-G, SB-H and SB-I in `scripts/tests/salary_households/`; SB-H gives the ACD's own figure for class 1a. [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

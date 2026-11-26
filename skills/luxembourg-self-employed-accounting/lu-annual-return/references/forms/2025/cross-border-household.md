@@ -38,3 +38,5 @@ Offline schema validity or a filled PDF is not live MyGuichet acceptance or tax 
 RET-O-01 remains open; no live upload or filing was performed by this research release.
 
 Prepared component cases in the research archive are internally reviewed expectations, not professionally verified completed returns. Future document fixtures must state their upstream version and verification status before being used as acceptance answers.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

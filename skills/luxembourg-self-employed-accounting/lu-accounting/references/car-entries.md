@@ -46,3 +46,5 @@ Not designed at all: a car loan, a trade-in, a deposit before delivery, a financ
 - One kilometre share, used once. The current design computes the business share of the car block on the tax form, outside the ledger. [B · S27] So either no private-share entry is posted and the split happens on the form, or the entry is posted and the form starts from the total costs before it. Doing both takes the private share out twice. [I]
 - Home-to-office km are never in the business share: they go with the private share, or the costs are added back on the return, and the flat commuting deduction replaces them (lu-income-tax-business car-and-travel.md §3). [C for the tax rule; I for the entry]
 - If home-to-office km turn out to be business km for VAT (lu-vat VAT-O-20), the VAT private share differs from the income-tax one and the VAT base needs its own percentage. [I]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

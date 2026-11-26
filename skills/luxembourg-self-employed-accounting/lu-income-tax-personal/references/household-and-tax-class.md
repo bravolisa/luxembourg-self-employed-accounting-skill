@@ -47,3 +47,5 @@ The page-2 checkbox requests the alternative rebate; it is not a generic depende
 
 For supported machine input and explicit stops, see lu-annual-return `references/forms/2025/form100-family.md`.
 Do not treat a successful PDF/XML build as a verified class 1a or child-credit calculation. [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

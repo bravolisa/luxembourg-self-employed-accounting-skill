@@ -83,3 +83,5 @@ Collect recipient/payment/carry schedules; each pension's gross amount, contribu
 
 Current-year reviewed cash gifts now have a household mapper and cap calculation. The percentage base is total net income **before** special expenses, including before compulsory contributions classified there. Donations remain outside the flat-minimum comparison. [C · S82 arts7,109,112,113]
 Actual donor rows and paid totals remain gross; the PDF's deductible total is adjusted separately and explained in a calculation/carry annex. This is a generated-output convention, not an ACD instruction. Incoming carryforwards and competing vintages stay manual under PIT-O-19; fractional cent cap treatment stays open under PIT-O-32. Negative or insufficient income is outside this first automatic route. See lu-annual-return `references/forms/2025/form100-deductions.md`. [B/O · S150]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

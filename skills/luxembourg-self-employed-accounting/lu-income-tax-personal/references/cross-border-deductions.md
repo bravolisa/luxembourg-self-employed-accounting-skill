@@ -94,3 +94,5 @@ The matrix applies the sourced rules above; it does not approve any named provid
 These are component expectations. They are not complete returns, professional sign-off or evidence that the automatic household calculator supports these branches. [B]
 
 Open-point register: PIT-O-14/15/16 (existing allocation/timing/insured-role questions), PIT-O-26 (foreign care relief), PIT-O-27 (zero CAE differential), PIT-O-30 (mixed school/care) and PIT-O-31 (refinancing).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

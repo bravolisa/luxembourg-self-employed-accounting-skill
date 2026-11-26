@@ -113,3 +113,5 @@ Child rebates/bonuses, changing arrangements and foreign-only/zero-differential 
 Obtain CAE entitlement and any differential decision separately from foreign benefit evidence.
 A foreign payment alone does not establish whether Luxembourg moderation was already granted;
 zero-differential and foreign-only cases remain under review. See [cross-border-deductions.md](cross-border-deductions.md). [C · S82, S1] [O]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

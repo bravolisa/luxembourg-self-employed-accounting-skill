@@ -43,3 +43,5 @@ Follow lu-tax-core for triage, labels and answer shape. **[C]** Confirmed, **[I]
 ## Related skills
 
 lu-tax-core · lu-corporate-tax (company taxes) · lu-accounting (company and ASBL accounts) · lu-business-permit (permits, dirigeant) · lu-social-security (manager status) · lu-vat · lu-subsidies.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

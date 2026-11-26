@@ -63,3 +63,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | ENT-O-04 · VAT number after incorporation | 2026-10-26 | from-sole-trader-to-company.md (RGD of 1 December 2009, arts 1, 5) |
 | ENT-O-05 · Transfer of a going concern – conditions | 2026-10-26 | from-sole-trader-to-company.md (CJEU C-497/01 Zita Modes; no regulation found) |
 | ENT-O-07 · The sole trader's own permit after incorporation | 2026-10-26 | from-sole-trader-to-company.md (Guichet; permit law arts 28(6), 29) |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

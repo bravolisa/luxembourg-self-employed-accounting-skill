@@ -114,3 +114,5 @@ These expectations are research-derived components, not professionally verified 
 Special income, disputed employer/establishment facts, unusual ratios, part-year residence and complete foreign-return calculations remain manual boundaries. [B; O]
 
 Open-point register: PIT-O-11 (business-owner residence), PIT-O-25 (prior foreign employer), PIT-O-28 (French individual-business relief).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

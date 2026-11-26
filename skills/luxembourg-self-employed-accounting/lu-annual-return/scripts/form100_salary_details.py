@@ -1,3 +1,5 @@
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Bounded replacement benefits, certified exemptions and workplace-period output."""
 from decimal import Decimal as D
 import form100_family as family

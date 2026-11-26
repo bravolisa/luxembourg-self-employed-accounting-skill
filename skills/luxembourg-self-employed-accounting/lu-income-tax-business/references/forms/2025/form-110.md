@@ -15,3 +15,5 @@ Section III « Données diverses » (heading 59–60, data lines 61–68): cash,
 Section V (lines 72–95): declaration for municipal business tax – profit and the § 8 additions (72–80), deductions incl. donations (« libéralités », lines 83–85, with the carry-forward from the two previous years and a detail annex), the split between communes on Form 115 (line 90), loss carry-forwards (91–93), remaining profit (94) and compulsory personal social contributions (95). [C · S20]
 
 Line 95 (compulsory personal contributions paid in the year, including dependency contributions) reduces the municipal business tax base. [C · S20]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

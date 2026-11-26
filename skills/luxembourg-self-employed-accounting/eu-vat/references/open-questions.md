@@ -29,3 +29,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | EUVAT-O-06 · EU refund procedure for Luxembourg normal-regime businesses | 2026-10-26 | reverse-charge-and-reporting.md "Foreign VAT paid abroad – refunds" (VAT law art. 55bis; Directive 2008/9) |
 | EUVAT-O-07 · Own goods moved to a warehouse in another EU country | 2026-10-26 | reverse-charge-and-reporting.md "Moving your own goods to another EU country" |
 | EUVAT-O-08 · Credit notes on the recapitulative statement | 2026-10-26 | reverse-charge-and-reporting.md Forms row (Guichet; RGD of 1 December 2009 on the recapitulative statement, art. 7) |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

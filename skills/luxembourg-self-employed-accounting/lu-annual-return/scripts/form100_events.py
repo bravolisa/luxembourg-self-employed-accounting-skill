@@ -1,3 +1,5 @@
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """A change of civil status or address during the tax year (2025): checks, paper boxes, XML blocks.
 
 Field map and sources: references/forms/2025/family-events.md. Who is taxed jointly, and in which

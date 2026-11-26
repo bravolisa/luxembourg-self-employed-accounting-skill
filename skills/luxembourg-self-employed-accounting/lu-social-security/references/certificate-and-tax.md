@@ -36,3 +36,5 @@ A CCSS remuneration extract for a private-household employee is not a self-emplo
 
 Read [cross-border-work.md](cross-border-work.md) before accepting foreign contribution lines. Verify compulsory legal character, the covered instrument, person and income connection;
 keep exempt-income contributions separate and prevent double counting. Ordinary non-residents are not universally excluded from the specified compulsory deductions. Foreign contribution components and historic corrections may require case review. [C · S46]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -116,3 +116,5 @@ The answer is wrong if it:
 - gives a final answer when a deciding fact is missing.
 
 [I · adapted from the reviewed skill luxembourg-purchase-vat, October 2026]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

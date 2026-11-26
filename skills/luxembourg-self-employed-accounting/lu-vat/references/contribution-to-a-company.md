@@ -136,3 +136,5 @@ Variants: the company is under the franchise – the €1,020 is a final cost. S
 ## 9. What is not settled
 
 The AED's view of the taxable amount (VAT-O-25); the freelancer whose clients follow her (VAT-O-26); deduction on an invoice dated before the company's VAT number (VAT-O-27); the box and the method for goods kept at cessation (VAT-O-28).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

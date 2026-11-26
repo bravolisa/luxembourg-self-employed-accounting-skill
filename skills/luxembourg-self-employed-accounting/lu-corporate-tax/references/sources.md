@@ -54,3 +54,5 @@
 | S50 | Case law | Cour administrative, 17 avril 2025, n° 50602C – reproduces the ACD director's decision of 14 January 2022 with its definition of a hidden contribution (« apport caché »); the case concerned a loan, and the definition is the director's, not the court's: https://ja.public.lu/50001-55000/50602C.pdf | 2026-11-20 |
 
 S1–S31 were researched on 2026-10-25 by a research agent using web search and page reads only (no scraping services); every quote was checked against the saved page text. The net wealth tax and municipal business tax laws exist only as original 1934/1936 texts on Legilux; their exemptions are read from those texts and labelled [I].
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -64,3 +64,5 @@ Collect the policy, subscription date, insurer's premium/payment certificate, id
 Form 100 page 14: premium in the insurance rows; **1474/1475 are housing-purpose checkboxes**, not amounts; **1476/1477 are child counts**. The correctly combined ceiling goes in **1470**, and the allowed total in **1471**. See `forms/2025/form-100.md` for PDF/XML mapping. [C · S1]
 
 The household tools now calculate the reviewed own-life personal-housing branch and generate PDF fields plus a calculation annex. Zero-history XML is supported with a real residence registry; nonzero five-year use stops XML until retained-cap semantics are checked live. Crossed subscriber/insured roles, multiple contracts per adult and mixed-purpose cover retain review stops. See lu-annual-return `references/forms/2025/form100-deductions.md`. Never relabel PU as ordinary insurance or replace its paid amount with the allowed deduction. [B · S150]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

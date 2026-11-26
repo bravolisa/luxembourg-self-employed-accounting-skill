@@ -90,3 +90,5 @@ Use the corresponding personal-tax guides for the legal calculation. Preserve an
 The employer's certificate, bank certificate and prior return may contain overlapping information, not three additional deductions. [B]
 
 For structured household or salary input, optionally attach `special_payment_review` with `status` (`clear`, `present`, `unclear`) and a non-empty `evidence` reference. `clear` means a documented check found no special-payment issue needing this manual branch; it does not mean an unsupported payment has been approved for automation. Present/unclear, unknown status or missing evidence stops. Known codes and existing benefit/regime markers still override a clear assertion. Legacy inputs without this field remain accepted; this optional record does not claim that an OCR detector exists. [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -123,3 +123,5 @@ Had the sole trade gone on, the €2,000 would be ordinary profit of the year.
 ## 10. What is not settled
 
 Share premium in a SARL-S (ENT-O-12); €12 or €75 for a SARL-S private deed (ENT-O-13); proportional duty when part of the value becomes a debt to her (ENT-O-14); how long founders answer for the value (ENT-O-15). General information, not legal or tax advice: a contribution in kind is worth an hour with a notary or accountant.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

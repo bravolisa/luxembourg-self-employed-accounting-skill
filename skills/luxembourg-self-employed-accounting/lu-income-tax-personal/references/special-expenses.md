@@ -74,3 +74,5 @@ Reviewed consumer-loan interest now has its own household input and joins insura
 Ordinary111bis/111ter contracts must satisfy ten years and the exact60th/75th-birthday limits cumulatively; subscription precedes the 65th birthday. Each contract is considered independently; a qualifying PEPP requires a Luxembourg sub-account. Pre2002 contracts have separate transitional rules. [C · S144 §3.1; S82]
 
 The 2025 household tools now check these dates, require payment timing in subscription/maturity years, and stop legacy/leap-day ambiguity. Occupational employee contributions and voluntary statutory contributions use separate arrays and separate minimum/cap treatment. See lu-annual-return forms/2025/employment-deductions.md. Product/provider qualification still requires documentary review; dates do not prove it. [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

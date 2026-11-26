@@ -90,3 +90,5 @@ Had the equipment been fully written off (book value nil), the gain would be €
 ## 8. What is not settled
 
 Equipment only in the deed while the company carries on the activity (IT-O-30); the split-business doctrine for rented movable equipment (IT-O-31).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

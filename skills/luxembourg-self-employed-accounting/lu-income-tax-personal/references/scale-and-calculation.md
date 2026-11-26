@@ -68,3 +68,5 @@ annual CIM is calculated only where both income-base readings coincide and no fr
 ## Exact class 1a annual continuation, 2025
 
 The official annual formulas confirm that the capped continuation does not revert to ordinary class 1 at the shortfall reference income. After flooring adjusted income to the tariff step, use the transformed class 1 base below the kink, without a second income floor. Above the kink, continue at the capped marginal rate, then the ordinary higher marginal rates. Exact coefficients are in Mémorial A590, printed page 112 section4.3; tests independently compare its explicit formulas with the implementation. Tariff euro floor, small-tax zero and Fund rounding stay in their existing order. [C · S151; I for equivalent integration implementation]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

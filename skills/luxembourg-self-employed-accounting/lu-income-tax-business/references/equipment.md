@@ -49,3 +49,5 @@ An item keeps the rules of the year it was bought; its credit is claimed for tha
 - **Design software subscription €40 a month**: €480 a year as an office expense; no credit.
 
 [I · S3, S7]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

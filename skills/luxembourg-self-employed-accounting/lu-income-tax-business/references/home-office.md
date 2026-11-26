@@ -96,3 +96,5 @@ Landlord agreement [I]: not a tax requirement, but the landlord may object to a 
 [I]
 
 The 2026-11-04 home research reconfirmed the **value-based** asset test and 2018 amendment/grandfathering; floor area alone is not that statutory test. Circular 105/2 addresses employees and does not settle IT-O-03 for a self-employed office remaining private. Private own-home versus rental schedules: lu-income-tax-personal/complex-home-and-rental-cases.md. [C · S56, S57, S2; O for IT-O-03]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

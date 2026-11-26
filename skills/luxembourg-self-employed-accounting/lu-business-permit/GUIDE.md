@@ -45,3 +45,5 @@ What to do after the permit (CCSS, VAT, ACD, chambers): lu-business-start.
 ## Related skills
 
 lu-tax-core · lu-business-start (the steps after the permit) · lu-entity-profiles (companies, the dirigeant) · lu-subsidies (aids need a permit) · lu-income-tax-business (permit category vs tax category).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

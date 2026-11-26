@@ -50,3 +50,5 @@ No official form; attach your own presentation, unabridged, with PCN captions re
 ## Childcare detail (2025)
 
 `fill_form100_pdf.py --household` produces a `.childcare.pdf` schedule alongside the return. It shows provider/payer, actual monthly costs, reimbursements and the separate household capped calculation. Attach the schedule and certificates; do not replace actual costs by the abatement in page-17 expense boxes. See [form100-family.md](forms/2025/form100-family.md). [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

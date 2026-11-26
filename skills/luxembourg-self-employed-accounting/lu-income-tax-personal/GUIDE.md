@@ -74,3 +74,5 @@ The finer traps – employer interest support, cross-border workday rules, care 
 ## Related skills
 
 lu-tax-core · lu-income-tax-business (the profit, Forms 110/112/113/152/800) · lu-social-security (contributions as special expenses) · lu-annual-return (preparing the whole return step by step, and the 2025 Form 100 tools) · lu-corporate-tax (dividends and salary from one's own company).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

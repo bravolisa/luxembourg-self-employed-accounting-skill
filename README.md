@@ -2,7 +2,7 @@
 
 Give this skill to your AI agent and it can help you with the accounting, VAT, social security and taxes of a small business in Luxembourg. It explains the rules in plain words, says which form and which box, computes the usual figures, and prepares the owner's income tax return.
 
-Made by [BravoLisa](https://bravolisa.lu). Free to use, also in your own business – see [Licence](#licence).
+Made by [BravoLisa](https://bravolisa.lu). Free to use, change and share, also commercially – see [Licence](#licence).
 
 ## Who it is for
 
@@ -76,11 +76,14 @@ Prices as on bravolisa.lu on 26 November 2026; the pages are the current version
 
 ## Licence
 
-[PolyForm Shield 1.0.0](LICENSE.md): free to use for any purpose – for yourself, your household, your own business, your company or your association – **except to provide a product or service that competes with BravoLisa's**.
+Free to use for any purpose, also a commercial one: for yourself, in your business, for your clients, in your own product or service. You may copy it, change it and share it. The summary is in [LICENSE.md](LICENSE.md).
 
-Preparing or checking tax returns or books for clients with it, or building it into software or a service offered to others – accountants, fiduciaries, software companies – needs a commercial licence: info@bravolisa.lu.
+- **The texts** (rules, figures, guides): [CC BY 4.0](LICENSE-CC-BY-4.0.txt). When you share them, or texts made from them, credit BravoLisa with a link and say if you changed them.
+- **The tools** (the Python code): [Apache 2.0](LICENSE-APACHE-2.0.txt). Keep [NOTICE.txt](NOTICE.txt) and the copyright lines in the files.
 
-The ACD's blank form and schema in `official-forms/` belong to the ACD and are not covered by this licence.
+If you build on this, please say "Tax and accounting knowledge: BravoLisa" with a link to https://bravolisa.lu.
+
+The name and logo "BravoLisa" are not licensed. The ACD's blank form and schema in `official-forms/` belong to the ACD.
 
 ## Errors, improvements and suggestions
 

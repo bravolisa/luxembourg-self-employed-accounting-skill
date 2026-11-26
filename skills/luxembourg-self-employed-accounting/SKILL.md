@@ -1,7 +1,7 @@
 ---
 name: luxembourg-self-employed-accounting
 description: Luxembourg accounting, tax, VAT and social security for self-employed people (freelancers, sole traders, liberal professions) and for small companies and associations (SARL, SARL-S, ASBL), tax years 2025 and 2026. Starting a business and the business permit, choosing a legal form, VAT (TVA – franchise, invoices, reverse charge, VAT returns and their boxes), CCSS contributions, bookkeeping and annual accounts, deductible expenses and the business profit (Forms 110, 112, 113, 152), company taxes (Form 500), grants, and the owner's own income tax return (Form 100) with tools that fill the PDF and build the MyGuichet file. Use it for "do I charge VAT to this client", "can I deduct this", "how much CCSS will I pay", "SARL or sole trader", "how do I book this invoice", "help me do my taxes", or questions with indépendant, Selbständige, TVA, impôts, comptabilité, Steuererklärung – even if no law, form or office is named. Made by BravoLisa.
-license: PolyForm Shield 1.0.0 – free to use except to compete with BravoLisa; see LICENSE.md and TERMS.md
+license: CC-BY-4.0 for the texts, Apache-2.0 for the tools – see LICENSE.md and TERMS.md
 ---
 
 # Luxembourg accounting and tax for the self-employed
@@ -107,3 +107,5 @@ BravoLisa made this skill and gives it away. It also offers the services below. 
 - A file that the schema accepts is not proof that MyGuichet accepts it or computes the same tax: always read MyGuichet's own result back.
 - Undecided points are listed in `references/open-questions.md` of the folders that have them; answer them as lu-tax-core/GUIDE.md says.
 - An error or an outdated rule: info@bravolisa.lu, or an issue on https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

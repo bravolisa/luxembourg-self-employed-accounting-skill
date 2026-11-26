@@ -16,3 +16,5 @@ _Figures in this file: 2025–2026. The year files of the domain skills win if t
 | First year | Income-tax advances may be set on an estimate; CCSS bills on a provisional base | – | [C · lu-income-tax-personal S38; lu-social-security S6] |
 
 A realistic order for a sole trader without premises issues: permit (about a week) → RCS (if commercial; a craft when it counts as commercial) → CCSS and VAT in the first days of activity → first invoice. [I · S7, S5, S2]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

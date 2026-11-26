@@ -39,3 +39,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | ACC-O-01 · PCN for liberal professions | 2026-10-26 | balance-sheet-and-pl.md (circular L.G.–A n° 63; Code de commerce scope) |
 | ACC-O-02 · Abridged eCDF schemas | 2026-10-26 | balance-sheet-and-pl.md (RGD of 13 March 1970, art. 8) |
 | ACC-O-07 · Annex of a small ASBL | 2026-10-26 | companies-and-asbl.md (RGD of 17 February 2025, annex A; LBR FAQ) |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -30,3 +30,5 @@ Law of 10 August 1915 on commercial companies, arts 710-1 ff. (numbering since 2
 ## Worked example (invented figures)
 
 A one-person SARL with €12,000 capital and €40,000 net profit: 5% = €2,000, but only until the reserve reaches €1,200 – so €1,200 if the reserve is empty. [I · our arithmetic on S6]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

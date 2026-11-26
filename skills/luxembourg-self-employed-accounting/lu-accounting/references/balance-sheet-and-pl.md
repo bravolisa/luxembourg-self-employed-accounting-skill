@@ -28,3 +28,5 @@ Money and goods moving between the owner and the business are neither income nor
 - **Why profit does not change**: the tax profit is closing net invested assets − opening net invested assets + withdrawals (cash and in kind) − additional contributions (art. 18(1) LIR; Form 110 section A, lines 12–18). [C · lu-income-tax-business S20]
 - **Value**: a withdrawal or contribution in kind counts at its operating value (« valeur d'exploitation ») on the day; a contributed asset's operating value becomes its cost for depreciation (art. 43(1) LIR). [C · lu-income-tax-personal S2]
 - **Example (invented figures)**: the owner moves €3,000 from the business bank account to a private account – Dr 10611 3,000 / Cr 5131 3,000. No expense, no effect on profit. [I · S21]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

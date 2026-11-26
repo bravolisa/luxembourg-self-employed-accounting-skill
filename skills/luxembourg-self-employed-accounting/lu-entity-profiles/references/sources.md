@@ -57,3 +57,5 @@
 | S53 | Professional | C. Pignon (counsel, DLA Piper Luxembourg), « Contribution in kind to an SARL directly at incorporation », LexGO, 24 September 2021 – what notaries ask for in practice: https://www.lexgo.lu/en/news-and-articles/11222-contribution-in-kind-to-an-sarl-directly-at-incorporation | 2026-11-20 |
 
 S1–S26 were researched on 2026-10-25 by a research agent using web search and page reads only (no scraping services); every quote was checked against the saved page text. The 1915 company law has no consolidated text after 2017 on Legilux; the laws of 23 January and 17 February 2025 amending it were not read.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

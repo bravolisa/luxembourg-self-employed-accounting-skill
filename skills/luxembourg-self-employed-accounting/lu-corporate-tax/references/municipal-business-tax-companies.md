@@ -13,3 +13,5 @@ Sole traders: lu-income-tax-business, municipal-business-tax.md. This file cover
 - Declared on Form 500 together with the IRC (form-500-and-deadlines.md). [C · S29]
 
 Not covered yet: rounding of the base, a short first financial year, splitting the base between municipalities when a company has premises in several.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

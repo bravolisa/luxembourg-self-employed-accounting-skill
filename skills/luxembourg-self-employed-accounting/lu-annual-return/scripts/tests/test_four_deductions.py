@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Independent arithmetic, refusal, PDF and XSD tests for four 2025 branches.
 
 Literal expected results and derivations: four_deductions/expected.json.

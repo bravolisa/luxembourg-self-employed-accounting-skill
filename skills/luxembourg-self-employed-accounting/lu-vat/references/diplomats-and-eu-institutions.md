@@ -46,3 +46,5 @@ The law points to Protocol No 7 and the headquarters agreements, but we have fou
 ## Related
 
 Box layout: forms/2025/vat-returns.md · invoice mentions: invoicing.md · art. 44 activities: exempt-art44.md · pro-rata: normal-regime.md.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

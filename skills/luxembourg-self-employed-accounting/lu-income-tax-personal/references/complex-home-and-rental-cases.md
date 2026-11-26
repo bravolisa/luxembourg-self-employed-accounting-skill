@@ -55,3 +55,5 @@ Invented checks, not approved assessments. [B]
 | Joint assessment; one spouse alone owns and borrows | Whole family ceiling, interest in the owner's column [I · S27, S64]; borrower who is not the owner: PIT-O-14 review [O] |
 
 Rental, sale and complex ownership paths remain outside automatic household generation. Manual 2025 field evidence is in [forms/2025/other-income-and-charges.md](forms/2025/other-income-and-charges.md). [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

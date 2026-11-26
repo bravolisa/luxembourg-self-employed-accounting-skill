@@ -23,3 +23,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
 ## The EU framework ends in 2026
 
 The GBER, on which the SME aid law relies, applies until **31 December 2026**; a successor was not found adopted (watch list W-11). [O · S18]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

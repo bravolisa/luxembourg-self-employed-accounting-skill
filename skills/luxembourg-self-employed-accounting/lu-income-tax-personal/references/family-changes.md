@@ -124,3 +124,5 @@ Keep foreign annual income certificates, relevant tax assessments, partnership/c
 For children, keep residence/assignment, benefit, study and support evidence. [B]
 
 Foreign judgment recognition, disputed status, maintenance with a foreign payer, mixed-residence periods and exact non-resident rate calculations still require their specific legal and factual analysis. Existing household PDF/XML support is not proof of those calculations. [O]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

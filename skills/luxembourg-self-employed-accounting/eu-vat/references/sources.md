@@ -32,3 +32,5 @@
 | S28 | Law | Council Directive (EU) 2020/285: SME scheme (art. 284: €85,000 national ceiling, €100,000 EU turnover) from 1 January 2025: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32020L0285 | 2026-10-26 |
 
 Directive (EU) 2020/285 (SME scheme) and Directive (EU) 2022/542 (virtual events) are still cited from secondary sources; add direct links when re-verified.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

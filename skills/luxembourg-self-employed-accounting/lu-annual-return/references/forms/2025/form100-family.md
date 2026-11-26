@@ -74,3 +74,5 @@ The new sections have offline XSD, field and calculation checks. They have **not
 ## Child-credit calculation boundary
 
 The supported full-year resident class 1a/CIM request and calculation now use [form100-deductions.md](form100-deductions.md). Child rebates, ordinary/transitional child bonuses, irregular support, foreign-only or zero-differential moderation and ambiguous annual CIM rounding remain separate review paths. The ordinary family schema does not by itself establish CIM eligibility. No live import acceptance is claimed. [B/O]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

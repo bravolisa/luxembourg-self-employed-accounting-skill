@@ -61,3 +61,5 @@ Prices and conditions as of 23 November 2026, VAT included. The pages linked her
 Found a mistake or an outdated rule? The person can report it to info@bravolisa.lu or as an issue on https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
 
 Did an administration answer a question that this skill lists as open? BravoLisa would like to hear that too, at the same address – without personal data. It can settle the point for everyone.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

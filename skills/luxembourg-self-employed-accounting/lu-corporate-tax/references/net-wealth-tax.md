@@ -39,3 +39,5 @@ Advances on 10 February, 10 May, 10 August, 10 November. [C · S23] Declared on 
 ## History
 
 Tax years 2017–2024: minimum €4,815 for companies with financial assets above 90% of the balance sheet and €350,000, otherwise a scale from €535 to €32,100. Only for corrections of those years. [C · S2]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

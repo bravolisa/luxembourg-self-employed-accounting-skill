@@ -33,3 +33,5 @@ All benefits, eligibility and annual exemption allocations are explicitly assume
 ## Remaining boundaries
 
 A change of family status during the year does not prorate the limit: the doubling follows joint taxation, which holds for the whole tax year (marriage during the year – joint for that year; spouses not separated on 1 January – joint for that year; partners only if the partnership lasted all year). [C · S172, S82; I for the conclusion] Individual assessment, the order across several loans or employers, contributions and paid-credit reconciliation need further evidence before automatic preparation. PIT-O-36 records the unresolved scope; RET-O-01 retains live import semantics. A known employer benefit must not be hidden in ordinary gross or a generic subsidy field. [O/B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -26,3 +26,5 @@ _Figures in this file: 2025–2026. The year files in `figures/` win if they dif
   - a **pharmacist** works under a health-law authorisation, yet the Cour administrative held the profit commercial (22 July 2026, n° 54190C – lu-income-tax-business);
   - an **IT developer or consultant** holds the commercial permit, while the income may still count as liberal-profession profit (lu-income-tax-business IT-O-21). [I · S34]
 - Working without a permit is a criminal offence (procedure-and-fees.md).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

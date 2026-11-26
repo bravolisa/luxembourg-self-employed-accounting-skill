@@ -50,3 +50,5 @@ neither proves an amount or a final tax assessment. Do not carry an old-year ded
 Interest support, termination compensation and extraordinary amounts: see [special-employment.md](special-employment.md). Certificate pay and exemption codes are distinct; do not copy exempt employer support into a generic interest-subsidy subtraction. [B]
 
 For benefits embedded in ordinary salary subtotals, follow lu-annual-return references/documents.md special-payment review. Retain the original component code and whether its amount is included in gross. Lack of a separate code does not establish absence. [B]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

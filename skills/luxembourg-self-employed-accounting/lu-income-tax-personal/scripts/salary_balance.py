@@ -1,3 +1,5 @@
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """2025 ordinary-salary assessment bridge; see references/salary-balance-calculator.md.
 
 No payroll engine: use certified paid credits and reviewed annual deductions. Source rules:

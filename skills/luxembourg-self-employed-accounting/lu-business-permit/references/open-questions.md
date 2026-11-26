@@ -71,3 +71,5 @@ Answer an open point by saying it is not settled, giving the working answer with
 | Was | Settled | Where the rule lives now |
 |---|---|---|
 | BP-O-05 · Lapse after two years of non-use | 2026-10-26 | procedure-and-fees.md (law of 26 July 2023 replaced art. 28(6)) |
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

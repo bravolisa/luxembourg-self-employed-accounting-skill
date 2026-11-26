@@ -38,3 +38,5 @@ Follow lu-tax-core for triage, labels and answer shape. **[C]** Confirmed, **[I]
 ## Related skills
 
 lu-tax-core · lu-income-tax-business (profit, municipal business tax) · lu-annual-return (where the certificate goes in the return).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

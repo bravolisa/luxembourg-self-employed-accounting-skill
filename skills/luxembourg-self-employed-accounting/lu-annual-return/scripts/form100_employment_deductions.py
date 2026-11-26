@@ -1,3 +1,5 @@
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Evidence-led salary costs/contributions and ordinary retirement-contract checks.
 
 2025 household extensions. Law, scope and field map: forms/2025/employment-deductions.md.

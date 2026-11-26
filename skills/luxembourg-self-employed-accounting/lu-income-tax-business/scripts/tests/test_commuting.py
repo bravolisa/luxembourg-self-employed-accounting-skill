@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
+# SPDX-License-Identifier: Apache-2.0
 """Regression test for commuting_deduction.py (hand-calculated cases; figures from tool-figures.json).
 
 Usage: python scripts/tests/test_commuting.py   (exit code 1 when a case fails)

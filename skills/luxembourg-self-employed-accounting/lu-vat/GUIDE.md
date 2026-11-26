@@ -58,3 +58,5 @@ The place of supply decides which country's VAT applies; lu-vat then says what t
 ## Related skills
 
 lu-tax-core (conventions) · eu-vat (place of supply, OSS, EU SME scheme) · lu-income-tax-business (VAT inside income-tax figures, cars and mixed use) · lu-accounting (records, bank account, VAT journal entries).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

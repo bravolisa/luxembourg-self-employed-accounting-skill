@@ -90,3 +90,5 @@ Use exempt-income taxpayer/spouse columns for the qualifying foreign-property co
 construction-period rental loss in **1019/1020**, available-home deductible interest in **1023/1024**. L2 records lender, debt purpose, year-end balance and actual interest net of subsidies/bonuses, plus property and availability details. The source certificate's interest and the capped deductible amount are distinct. [C · S1]
 
 The qualifying foreign loss belongs in the worldwide rate computation. It does not reduce the Luxembourg-source base directly; joint owner/borrower allocation remains PIT-O-14 where not established. [C · S139, S138] [O · PIT-O-14]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

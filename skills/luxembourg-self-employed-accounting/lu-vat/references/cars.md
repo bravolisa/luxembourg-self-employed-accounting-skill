@@ -133,3 +133,5 @@ For a depreciable capital good on which the VAT exceeded €125, the deduction i
 - A sale under the franchise carries no VAT. [C · S24 art. 57bis(1)]
 - A **new** car from another EU country is always taxed in Luxembourg (section 3); a lease from a foreign lessor is reverse-charged (section 4). Both make the simplified return compulsory. [C · S24 arts 2(2)(b), 57bis(4)]
 - A car bought under the franchise when the business later moves to the normal regime: whether part of the VAT can be recovered is open (VAT-O-01). Once in the normal regime the car is a business asset whose sale is taxed on the whole price, unless it is taken out of the business first. [O · VAT-O-01; I · S66]
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*
