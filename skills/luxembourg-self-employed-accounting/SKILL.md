@@ -1,6 +1,6 @@
 ---
 name: luxembourg-self-employed-accounting
-description: Luxembourg accounting, tax, VAT and social security for self-employed people (freelancers, sole traders, liberal professions) and for small companies and associations (SARL, SARL-S, ASBL), tax years 2025 and 2026. Starting a business and the business permit, choosing a legal form, VAT (TVA – franchise, invoices, reverse charge, VAT returns and their boxes), CCSS contributions, bookkeeping and annual accounts, deductible expenses and the business profit (Forms 110, 112, 113, 152), company taxes (Form 500), grants, and the owner's own income tax return (Form 100) with tools that fill the PDF and build the MyGuichet file. Use it for "do I charge VAT to this client", "can I deduct this", "how much CCSS will I pay", "SARL or sole trader", "how do I book this invoice", "help me do my taxes", or questions with indépendant, Selbständige, TVA, impôts, comptabilité, Steuererklärung – even if no law, form or office is named. Made by BravoLisa.
+description: Luxembourg accounting, tax, VAT and social security for self-employed people (freelancers, sole traders, liberal professions) and for small companies and associations (SARL, SARL-S, ASBL), tax years 2025 and 2026. Starting a business and the business permit, choosing a legal form, VAT (TVA – franchise, invoices, reverse charge, VAT returns and their boxes), CCSS contributions, bookkeeping and annual accounts, deductible expenses and the business profit (Forms 110, 112, 113, 152), company taxes (Form 500), government support (grants and aids), and the owner's own income tax return (Form 100) with tools that fill the PDF and build the MyGuichet file. Use it for "do I charge VAT to this client", "can I deduct this", "is there a grant for this", "how much CCSS will I pay", "SARL or sole trader", "how do I book this invoice", "help me do my taxes", or questions with indépendant, Selbständige, TVA, impôts, comptabilité, Steuererklärung – even if no law, form or office is named. Made by BravoLisa.
 license: CC-BY-4.0 for the texts, Apache-2.0 for the tools – see LICENSE.md and TERMS.md
 ---
 
@@ -31,7 +31,7 @@ Each `lu-…` and `eu-…` folder is one area of law: a `GUIDE.md`, topic files 
 | `lu-social-security/` | CCSS contributions of the self-employed and of company managers |
 | `lu-accounting/` | Bookkeeping duties, records, balance sheet and P&L, journal entries, company and ASBL accounts |
 | `lu-corporate-tax/` | Taxes of a SARL, SARL-S or ASBL: Form 500, advances, dividends, paying the owner-manager |
-| `lu-subsidies/` | Grants and aids for small businesses |
+| `lu-subsidies/` | Government support for small businesses: start-up aid, grants for investments, advice and digital tools (SME aid, SME Packages, Fit 4), training and hiring aids, State loans and guarantees – and how a grant is taxed |
 | `lu-income-tax-personal/` | The owner's own income tax: tax class, scale, credits, deductions, the Form 100 box map, the tax estimate |
 | `lu-annual-return/` | Preparing the whole annual return (Form 100 with its business annexes) and the tools that fill it |
 | `official-forms/` | The tax office's (ACD) blank Form 100 for 2025 and its MyGuichet import schema, unchanged – [README](official-forms/README.md) |
@@ -58,6 +58,7 @@ The full rules are in [lu-tax-core/GUIDE.md](lu-tax-core/GUIDE.md). In short:
 - **A VAT question** → [lu-vat/GUIDE.md](lu-vat/GUIDE.md); a customer or supplier abroad → [eu-vat/GUIDE.md](eu-vat/GUIDE.md) first, then lu-vat for the box.
 - **"Can I deduct this?"** → [lu-income-tax-business/GUIDE.md](lu-income-tax-business/GUIDE.md); the VAT on it → lu-vat; how to book it → lu-accounting.
 - **The year-end of a self-employed person** → [lu-annual-return/GUIDE.md](lu-annual-return/GUIDE.md): the profit and its forms from lu-income-tax-business, the CCSS certificate from lu-social-security, the rest of Form 100 from lu-income-tax-personal.
+- **Government support** – a grant, an aid, a State loan or guarantee → [lu-subsidies/GUIDE.md](lu-subsidies/GUIDE.md). Ask first whether anything has been signed or ordered: for most aids the application comes before the quote is signed. How the grant is taxed and booked is there too.
 - **Employees** → running payroll is outside this skill ([BRAVOLISA-BUSINESS.md](BRAVOLISA-BUSINESS.md), offer D). What an employer must do about the tax withheld from wages: [payroll-withholding.md](lu-corporate-tax/references/payroll-withholding.md); hiring aids: lu-subsidies.
 - **A SARL, SARL-S or ASBL** → [lu-entity-profiles/GUIDE.md](lu-entity-profiles/GUIDE.md) for running it, [lu-corporate-tax/GUIDE.md](lu-corporate-tax/GUIDE.md) for its taxes, [lu-accounting/GUIDE.md](lu-accounting/GUIDE.md) for its accounts; the owner-manager's own return → lu-annual-return.
 

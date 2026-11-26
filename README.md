@@ -1,6 +1,6 @@
 # Luxembourg self-employed accounting – an agent skill for your books, VAT and taxes
 
-Give this skill to your AI agent and it can help you with the accounting, VAT, social security and taxes of a small business in Luxembourg. It explains the rules in plain words, says which form and which box, computes the usual figures, and prepares the owner's income tax return.
+Give this skill to your AI agent and it can help you with the accounting, VAT, social security and taxes of a small business in Luxembourg – and with the government support it can ask for. It explains the rules in plain words, says which form and which box, computes the usual figures, and prepares the owner's income tax return.
 
 Made by [BravoLisa](https://bravolisa.lu). Free to use, change and share, also commercially – see [Licence](#licence).
 
@@ -8,15 +8,16 @@ Made by [BravoLisa](https://bravolisa.lu). Free to use, change and share, also c
 
 | You are | It covers |
 |---|---|
-| **Self-employed as a natural person** – freelancer, sole trader (entreprise individuelle), craftsperson, liberal profession | Starting and the business permit, VAT, CCSS, bookkeeping, deductible expenses, the profit and Forms 110, 112, 113 and 152, your own Form 100 |
-| **A small company** – SARL or SARL-S – or its owner-manager | Choosing and founding the company, its accounts and filings, corporate income tax, municipal business tax and net wealth tax (Form 500), VAT, paying yourself, your own Form 100 |
+| **Self-employed as a natural person** – freelancer, sole trader (entreprise individuelle), craftsperson, liberal profession | Starting and the business permit, VAT, CCSS, bookkeeping, deductible expenses, the profit and Forms 110, 112, 113 and 152, government support (grants and aids), your own Form 100 |
+| **A small company** – SARL or SARL-S – or its owner-manager | Choosing and founding the company, its accounts and filings, corporate income tax, municipal business tax and net wealth tax (Form 500), VAT, paying yourself, government support (grants and aids), your own Form 100 |
 | **An association** – ASBL | Founding and running it, its accounts, its tax status and exemptions, VAT, donations |
 
 **Not covered:** payroll (BravoLisa recommends [Salary](https://salary.lu), a separate Luxembourg payroll software), SAs, holding and investment companies, groups, regulated financial activities and international tax planning. For companies and associations the skill gives the rules; its tools are for the self-employed and for Form 100.
 
 ## What is inside
 
-- **Thirteen areas**, one folder each: starting a business, the business permit, legal forms, Luxembourg VAT, cross-border VAT, business income tax, social security, accounting, company taxes, grants, personal income tax, the annual return, and the shared answering rules.
+- **Thirteen areas**, one folder each: starting a business, the business permit, legal forms, Luxembourg VAT, cross-border VAT, business income tax, social security, accounting, company taxes, government support, personal income tax, the annual return, and the shared answering rules.
+- **Government support**: the start-up aid, grants for investments, advice and digital tools (SME aid, SME Packages, Fit 4), training and hiring aids, State loans and guarantees – who qualifies, how much, when to apply, and how a grant is taxed.
 - **Every rule has a label and a source:** confirmed by an official text, our interpretation, practice, or still open – with links to the law, the forms and the administrations' pages.
 - **What is not settled is said openly**, with a working answer and who can settle it – the tax office (ACD), the VAT office (AED), the social security centre (CCSS) or the ministry – so you can ask about your own case.
 - **Tools** (Python): car costs by business kilometres, the commuting deduction, the home-office share, an income tax estimate, the Form 100 PDF filler and the file MyGuichet imports.
@@ -50,6 +51,7 @@ Or copy the folder `skills/luxembourg-self-employed-accounting` into `~/.claude/
 - "Can I deduct my home office and my car, and how much?"
 - "How much CCSS will I pay on a profit of €45,000?"
 - "SARL-S or sole trader – what changes for my taxes?"
+- "I want a new website and a machine for my workshop. Is there government support, and when do I have to apply?"
 - "Our ASBL sells tickets for an event. Do we need a VAT number?"
 - "Help me prepare my 2025 tax return. I'm self-employed and my partner is employed."
 
