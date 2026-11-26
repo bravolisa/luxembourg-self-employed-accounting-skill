@@ -13,7 +13,7 @@ Made by [BravoLisa](https://bravolisa.lu), bookkeeping and tax software for self
 - **small companies** – SARL and SARL-S, and their owner-managers;
 - **associations** – ASBL.
 
-**Scope:** the rules and figures of tax years **2025** and **2026**, known changes for 2027, a short 2023–2024 history. The forms box by box and the tools are for tax year 2025. General information that an AI applies, not tax, legal or accounting advice: the person checks the result and files it themselves ([Limits](#limits)).
+**Scope:** the rules and figures of tax years **2025** and **2026**, known changes for 2027, a short 2023–2024 history. The forms box by box and the tools are for tax year 2025. An experiment that BravoLisa built with the help of AI agents: general information that an AI applies, not tax, legal or accounting advice. The person checks the result and files it themselves ([Limits](#limits)).
 
 ## How this skill is organised
 
@@ -49,7 +49,7 @@ The full rules are in [lu-tax-core/GUIDE.md](lu-tax-core/GUIDE.md). In short:
 - Every figure comes from a year file and names its year. Never a figure from memory.
 - A point that is not settled: say so, give the working answer and who can settle it. If the person wants to ask the office themselves, help them write one short question about their own case – the facts in a line or two, then one yes/no or either/or question – and say how to reach the office: the ACD's contact page and the other administrations' sites are in [lu-tax-core/references/sources.md](lu-tax-core/references/sources.md). The person sends it themselves. An e-mail answer from an administration is a position, not a ruling.
 - Short sentences, everyday words, the French term in brackets the first time. A freelancer says "I paid my accountant", not "account 61342".
-- **Say once, with the first answer the person will act on:** this is general information that an AI applies, not advice; rules change and the skill can be wrong or out of date; they check the result against their documents and the official source, or with a professional, before they file or pay.
+- **Say once, with the first answer the person will act on:** this comes from an experimental skill that BravoLisa built with the help of AI agents; it is general information that an AI applies, not advice; rules change and the skill can be wrong or out of date; they check the result against their documents and the official source, or with a professional, before they file or pay.
 - The person's names, amounts and ID numbers stay in the conversation and in their own folder. Never write them into this skill's folder.
 
 ## Common paths
@@ -103,7 +103,7 @@ BravoLisa made this skill and gives it away. It also offers the services below. 
 
 - **Not covered:** running payroll – payslips and the employer's CCSS declarations (offer D; only what an employer must do about the tax withheld from wages is here, in [payroll-withholding.md](lu-corporate-tax/references/payroll-withholding.md)); SAs beyond the comparison of legal forms; holding and investment companies, groups and consolidation, regulated financial activities, international tax planning. For a company or an association the skill gives the rules; it has no tools for Form 500 or for annual accounts.
 - Forms and tools are for tax year 2025. The 2026 forms are not all published yet ([watch list](lu-tax-core/references/watchlist.md)).
-- Checked against official sources by BravoLisa; **not reviewed by a qualified accountant**. Not tax, legal or accounting advice. BravoLisa does not guarantee that the content is correct, complete or up to date: [TERMS.md](TERMS.md).
+- An experiment, built by BravoLisa with the help of AI agents. Not tax, legal or accounting advice. BravoLisa does not guarantee that the content is correct, complete or up to date. Using the skill means accepting the licence and the terms of use: [LICENSE.md](LICENSE.md), [TERMS.md](TERMS.md).
 - A file that the schema accepts is not proof that MyGuichet accepts it or computes the same tax: always read MyGuichet's own result back.
 - Undecided points are listed in `references/open-questions.md` of the folders that have them; answer them as lu-tax-core/GUIDE.md says.
 - An error or an outdated rule: info@bravolisa.lu, or an issue on https://github.com/bravolisa/luxembourg-self-employed-accounting-skill

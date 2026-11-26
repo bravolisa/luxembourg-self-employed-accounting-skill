@@ -25,7 +25,7 @@ It includes everything in BravoLisa's smaller skill for households, [luxembourg-
 
 ## Status
 
-Draft, version 0.50.1 of BravoLisa's knowledge base, built on 2026-11-26. Tax years 2025 and 2026. Every rule was checked against official sources by BravoLisa; the skill has **not** been reviewed by a qualified accountant. It is general information that an AI applies, not tax, legal or accounting advice, and it can be wrong or out of date. You check the result and you file. Please read the [terms of use](TERMS.md).
+**An experiment.** BravoLisa built this skill with the help of AI agents. This is version 0.50.1 of its knowledge base, built on 2026-11-26, for tax years 2025 and 2026. It is general information that an AI applies, not tax, legal or accounting advice, and it can be wrong or out of date. You check the result and you file. By installing or using the skill you accept the [licence](LICENSE.md) and the [terms of use](TERMS.md).
 
 ## Install
 
@@ -86,4 +86,4 @@ The ACD's blank form and schema in `official-forms/` belong to the ACD and are n
 
 Found an error or an outdated rule, or is something missing? Open an issue here or write to info@bravolisa.lu. If an administration answered a question that the skill lists as open, tell us – without your personal details – and it helps everyone.
 
-This repository is generated from BravoLisa's internal knowledge base, where every change is checked against the official texts first. Pull requests are read but cannot be merged directly – the fix goes in through the knowledge base and appears here with the next update.
+This repository is generated from BravoLisa's internal knowledge base. Pull requests are read but cannot be merged directly – the fix goes in through the knowledge base and appears here with the next update.
