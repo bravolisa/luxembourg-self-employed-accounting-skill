@@ -30,7 +30,7 @@
    "special_expenses_flat_minimum": {
     "value": 480,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "€480; second salaried-spouse amount subject to art.113(2) low-income reduction"
+    "match": "€480; second salaried-spouse amount subject to art. 113(2) low-income reduction"
    },
    "commuting_eur_per_unit": {
     "value": 99,
@@ -453,42 +453,42 @@
    "employee_occupational_pension_cap": {
     "value": 1200,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "Up to 1,200; separate from DS minimum and private111bis saving"
+    "match": "Up to 1,200; separate from DS minimum and private 111bis saving"
    },
    "medical_burden_0_0": {
     "value": 2,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+    "match": "| Below 10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
    },
    "medical_burden_0_1": {
     "value": 0,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+    "match": "| Below 10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
    },
    "medical_burden_0_2": {
     "value": 0,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+    "match": "| Below 10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
    },
    "medical_burden_0_3": {
     "value": 0,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+    "match": "| Below 10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
    },
    "medical_burden_0_4": {
     "value": 0,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+    "match": "| Below 10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
    },
    "medical_burden_0_5": {
     "value": 0,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+    "match": "| Below 10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
    },
    "medical_burden_0_6": {
     "value": 0,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Below10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
+    "match": "| Below 10,000 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |"
    },
    "medical_burden_1_0": {
     "value": 4,
@@ -668,37 +668,37 @@
    "medical_burden_6_0": {
     "value": 10,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+    "match": "| Above 60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
    },
    "medical_burden_6_1": {
     "value": 9,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+    "match": "| Above 60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
    },
    "medical_burden_6_2": {
     "value": 7,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+    "match": "| Above 60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
    },
    "medical_burden_6_3": {
     "value": 5,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+    "match": "| Above 60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
    },
    "medical_burden_6_4": {
     "value": 3,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+    "match": "| Above 60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
    },
    "medical_burden_6_5": {
     "value": 1,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+    "match": "| Above 60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
    },
    "medical_burden_6_6": {
     "value": 0,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "| Above60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
+    "match": "| Above 60,000 | 10 | 9 | 7 | 5 | 3 | 1 | 0 |"
    }
   },
   "2026": {
@@ -730,7 +730,7 @@
    "special_expenses_flat_minimum": {
     "value": 480,
     "source": "lu-income-tax-personal/references/figures/2025.md",
-    "match": "€480; second salaried-spouse amount subject to art.113(2) low-income reduction"
+    "match": "€480; second salaried-spouse amount subject to art. 113(2) low-income reduction"
    },
    "commuting_eur_per_unit": {
     "value": 99,

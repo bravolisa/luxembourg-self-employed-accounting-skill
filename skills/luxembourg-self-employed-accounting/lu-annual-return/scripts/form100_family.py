@@ -92,7 +92,7 @@ def validate_partnership(h):
         if p.get('status_since'):
             need(iso(p['status_since'], 'partnership status_since') == start,
                  'partnership: supplied status date contradicts declaration date')
-    need(not h.get('single_parent_credit'), 'partnership: joint class2 cannot retain annual CIM')
+    need(not h.get('single_parent_credit'), 'partnership: joint class 2 cannot retain annual CIM')
     for child in h.get('children', []):
         need(child.get('custody') == 'both_parents' and child.get('common_child_of_partners') is True,
              'partnership: only reviewed common-child joint assignment supported; other parentage needs review')
@@ -170,7 +170,7 @@ def validate(h):
             need('family_allowance' in c['benefits'], 'children: continued allowance needs family_allowance evidence')
         counts[kind] += 1
     need(counts['young'] <= 4 and counts['student'] <= 3 and counts['continued'] <= 1,
-         'children: exceeds physical PDF rows (4 under21, 3 students, 1 continued allowance); use manual annex')
+         'children: exceeds physical PDF rows (4 under 21, 3 students, 1 continued allowance); use manual annex')
     if home:
         need(home.get('use') == 'main_home' and home.get('country') == 'LU', 'own_home: only a Luxembourg main home is supported')
         need(home.get('ownership') == ('joint_equal' if h.get('spouse') else 'sole'),
@@ -207,7 +207,7 @@ def validate(h):
         need(ids and all(type(i) is int and 0 <= i < len(children) for i in ids), 'childcare: children must reference household child indexes')
         for i in ids:
             need(child_age(children[i], h['tax_year']) < 14 or (children[i].get('disabled') is True and children[i].get('disability_evidence')),
-                 'childcare: child must be under14 on 1 January, unless disabled')
+                 'childcare: child must be under 14 on 1 January, unless disabled')
         need(item.get('no_other_claim') is True, 'childcare: confirm no double claim/other household-help or dependence-care abatement')
         monthly = item.get('monthly', {})
         need(monthly and all(str(m) in {str(i) for i in range(1, 13)} for m in monthly), 'childcare: monthly amounts use month keys 1..12')

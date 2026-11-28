@@ -78,7 +78,7 @@ Answer an open point by saying it is not settled, giving the working answer with
 - Who can settle: ACD guidance or a tax adviser checking the assessment.
 - Status: open
 
-- Handoff review2026-11-04: nonnegative remainder now uses actual earning costs, certified exemptions, retained employee occupational contributions and salary-related voluntary payments. Article 129b separately uses only article 110(1)/(2). Negative remainder is still guarded; this implementation does not settle the question. [C · S82 arts.113,129b; I for retained occupational allocation; B for scope]
+- Handoff review 2026-11-04: nonnegative remainder now uses actual earning costs, certified exemptions, retained employee occupational contributions and salary-related voluntary payments. Article 129b separately uses only article 110(1)/(2). Negative remainder is still guarded; this implementation does not settle the question. [C · S82 arts. 113, 129b; I for retained occupational allocation; B for scope]
 
 ## PIT-O-21 · CIS base with unelected domestic flat income
 - Question: How does ordinary CIS/CO2 reconciliation include article 137(5) gross when mixed ordinary/domestic income exists and no domestic regularisation is requested?
@@ -247,7 +247,7 @@ Answer an open point by saying it is not settled, giving the working answer with
 | PIT-O-08 · Surcharge before or after the tax credits | 2026-10-26 | scale-and-calculation.md (law of 30 June 1976, art. 6(1); art. 152ter(4) LIR) |
 | PIT-O-09 · Extending the 31 December filing deadline | 2026-10-26 | filing-and-assessment.md (§ 167(3) AO; ACD FAQ) |
 | PIT-O-10 · Length of stay for "habitual abode" | 2026-10-26 | residents-and-non-residents.md (§ 14(1) StAnpG) |
-| PIT-O-13 · Higher ceiling for a single-premium home-loan death cover | 2026-11-04 | mortgage-death-insurance.md; RGD 19 Dec 2008 replacing art.3 of RGD 7 Mar 1969 (S74), circular 111/1 (S77), ACD Prime unique (S78), 2025 Form 100; crossed subscriber/insured roles remain PIT-O-16 |
+| PIT-O-13 · Higher ceiling for a single-premium home-loan death cover | 2026-11-04 | mortgage-death-insurance.md; RGD 19 Dec 2008 replacing art. 3 of RGD 7 Mar 1969 (S74), circular 111/1 (S77), ACD Prime unique (S78), 2025 Form 100; crossed subscriber/insured roles remain PIT-O-16 |
 
 | PIT-O-18 · Capital flat-cost doubling: statute versus form | 2026-11-10 | donations-pensions-and-investments.md (art. 107(4) LIR: doubled only when each spouse receives capital income; ACD Mémento; the Form 100 and ACD page wording is shorthand) |
 | PIT-O-06 · Filing threshold for income without withholding | 2026-11-10 | filing-and-assessment.md, figures/2025.md (RGD of 13 March 1970, art. 2, 2°: dispensed below the tax-free minimum of tax class 1 = 0% band of art. 118, €13,230 for 2025 and 2026) |

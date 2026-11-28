@@ -19,7 +19,7 @@ def validate(h):
     if not detailed:
         return
     need(int(h['tax_year']) == 2025 and h.get('resident_full_year') is True and h.get('tax_liability_months', 12) == 12,
-         'salary details: full-year resident2025 route only')
+         'salary details: full-year resident 2025 route only')
     totals = {'taxpayer': [], 'spouse': []}
     certificates, fingerprints = set(), set()
     record_ids = [s.get('certificate_id') for s in h.get('salaries', [])]
@@ -41,7 +41,7 @@ def validate(h):
         gross = sum((money(x['amount'], 'gross salary/benefit') for x in s['pay']), D(0))
         if replacement(s):
             begin, end = iso(s.get('start'), 'replacement start'), iso(s.get('end'), 'replacement end')
-            need(begin.year == end.year == int(h['tax_year']) and begin <= end, 'replacement benefit: reviewed2025 payment period required')
+            need(begin.year == end.year == int(h['tax_year']) and begin <= end, 'replacement benefit: reviewed 2025 payment period required')
             need('tax_card_id' in s and (s['tax_card_id'] is None or isinstance(s['tax_card_id'], str) and s['tax_card_id'].strip()),
                  'replacement benefit: known tax-card identity or explicit null required')
             need(s.get('withholding_basis') in ('before_cis_co2', 'after_cis_co2', 'before_cis_co2_cim', 'after_cis_co2_cim')

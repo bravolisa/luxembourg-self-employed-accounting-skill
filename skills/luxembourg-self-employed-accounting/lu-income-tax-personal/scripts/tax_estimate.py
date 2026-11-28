@@ -14,7 +14,7 @@ twice the class-1 tax on half) → rounded down to the euro → + Employment Fun
 ACD's deduction above the threshold) → − the self-employed credits (CII and CO2 credit; only one when
 both spouses have a profit – open point PIT-O-05) → + paid-minus-retained salary credit
 reconciliation → − pre-credit tax withheld − advances paid = balance (minus = refund).
-The positive final balance floors to whole euros (art.154(2)); refund cents are preserved. Rules:
+The positive final balance floors to whole euros (art. 154(2)); refund cents are preserved. Rules:
 references/scale-and-calculation.md and tax-credits.md.
 
 --household reads the Form 100 household file of lu-annual-return (form100-tools.md): taxable income as
@@ -31,7 +31,7 @@ What-if (references/deduction-review.md), each option alone and then all togethe
                     dependency on all of it), taxable income falls by X less the deductible CCSS saved,
                     and the credits follow the new profit. The CCSS saving comes with the regularisation.
 
-Supported 2025 class1a and bounded CIM: forms/2025/form100-deductions.md in lu-annual-return.
+Supported 2025 class 1a and bounded CIM: forms/2025/form100-deductions.md in lu-annual-return.
 Not covered (the script says so): other child reductions, non-residents and the 15% minimum,
 extraordinary income, the overtime credit and pension/mixed-category credit reconciliation.
 2025 ordinary salary households use explicit salary_balance facts (salary-balance-calculator.md);
@@ -98,7 +98,7 @@ def class1a_tax(base, scale, f):
         if base <= high:
             return tax, D(rate)
         low = high
-    raise AssertionError("class1a continuation missing")
+    raise AssertionError("class 1a continuation missing")
 
 
 def income_tax(adjusted, tax_class, f):
@@ -194,7 +194,7 @@ def estimate(year, taxable, tax_class, both_professional=False, profits=None, wi
         single_parent = parent_credit.reconcile(adjusted, single_parent_context, f)
     after = t["tax"] - sum(credits.values(), D(0)) + salary_adjustment + single_parent.get("adjustment", D(0))
     raw_balance = after - D(withheld) - D(advances)
-    # LIR154(2): positive final balance floors to euros;154(7) does not erase refund cents.
+    # LIR 154(2): positive final balance floors to euros; 154(7) does not erase refund cents.
     balance = floor(raw_balance) if raw_balance > 0 else raw_balance
     return {"year": year, "class": tax_class, "taxable": D(taxable), "extra_professional_abatement": extra_prof,
             "other_abatements": D(abatement), "adjusted": adjusted, **t, "credits": credits, "tax_after_credits": after, "amount_before_payments": after,
@@ -308,7 +308,7 @@ def main():
     ap.add_argument("--taxable", type=float, help="taxable income, Form 100 box 2038")
     ap.add_argument("--class", dest="tax_class", type=lambda x: x if x == "1a" else int(x), choices=(1, 2, "1a"))
     ap.add_argument("--both-professional", action="store_true", help="class 2: qualifying professional income, with a separately reviewed allowance")
-    ap.add_argument("--extra-professional-amount", type=str, help="reviewed allowance after art.129b income and liability-period limits")
+    ap.add_argument("--extra-professional-amount", type=str, help="reviewed allowance after art. 129b income and liability-period limits")
     ap.add_argument("--profit", type=float, help="taxpayer's business profit (for the CII and CO2 credit)")
     ap.add_argument("--spouse-profit", type=float)
     ap.add_argument("--withheld", type=float, default=0)

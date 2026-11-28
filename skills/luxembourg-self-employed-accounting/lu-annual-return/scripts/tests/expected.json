@@ -86,7 +86,7 @@
     }
   },
   "couple_child_home_childcare": {
-    "calculation": "Independent arithmetic, curator 2026-11-04, official 2025 rules. Gross90000 - salary costs1080 =88920. Insurance min2400,672*3=2016; savings min5000,1344*3=4032; social10500 => special16548. Net mortgage17000-1000=16000; 2020 cap4000*3=12000, split6000each. Taxable88920-16548-12000=60372. Childcare net months700,100,600 =>450+100+450=1000 AFTER2038; after extra-professional4500 adjusted54872. PDF annual actual care1400, never1000.",
+    "calculation": "Independent arithmetic, curator 2026-11-04, official 2025 rules. Gross 90000 - salary costs 1080 = 88920. Insurance min 2400, 672*3=2016; savings min 5000, 1344*3=4032; social 10500 => special 16548. Net mortgage 17000-1000=16000; 2020 cap 4000*3=12000, split 6000 each. Taxable 88920-16548-12000=60372. Childcare net months 700, 100, 600 => 450+100+450=1000 AFTER 2038; after extra-professional 4500 adjusted 54872. PDF annual actual care 1400, never 1000.",
     "taxable_income": 60372,
     "pdf": {
       "A.0201a": "Example",
@@ -117,7 +117,7 @@
     }
   },
   "single_new_home": {
-    "calculation": "Independent arithmetic, curator2026-11-04:45000-540-5000-480-9000=29980. Available June2025 =>9000 in full, no time-prorated cap.",
+    "calculation": "Independent arithmetic, curator 2026-11-04: 45000-540-5000-480-9000=29980. Available June 2025 => 9000 in full, no time-prorated cap.",
     "taxable_income": 29980,
     "pdf": {
       "N.1021": -9000,
@@ -132,7 +132,7 @@
     }
   },
   "older_student_child": {
-    "calculation": "Independent arithmetic, curator2026-11-04:21 on1Jan2025; continuous university study documented, noaid so rebate requested. Insurance min1500,672*2=1344.45000-540-5000-1344=38116. Final class1a/rebate calculation deliberately refused by estimate adapter.",
+    "calculation": "Independent arithmetic, curator 2026-11-04: 21 on 1 Jan 2025; continuous university study documented, no aid so rebate requested. Insurance min 1500, 672*2=1344. 45000-540-5000-1344=38116. Final class 1a/rebate calculation deliberately refused by estimate adapter.",
     "taxable_income": 38116,
     "pdf": {
       "A.0213b": "Test Student",

@@ -9,7 +9,7 @@ This map supports manual preparation and future implementation review. It does n
 ## Pension, capital income, donations and tax already paid
 
 
-Rendered and visually checked original blank PDF pages 8,9,16,19 on 2026-11-04. **N** numeric-entry fields and **A** text fields are `/Tx`; totals use **T** (several are read-only), not independently editable money entries. Printed tax-office codes are not widget names. Do not confuse form box numbers with XSD identifiers.
+Rendered and visually checked original blank PDF pages 8, 9, 16, 19 on 2026-11-04. **N** numeric-entry fields and **A** text fields are `/Tx`; totals use **T** (several are read-only), not independently editable money entries. Printed tax-office codes are not widget names. Do not confuse form box numbers with XSD identifiers.
 
 | Page / topic | Paper box and actual widget | Meaning |
 |---|---|---|
@@ -18,30 +18,30 @@ Rendered and visually checked original blank PDF pages 8,9,16,19 on 2026-11-04. 
 | 8 other annuity | N.0821–N.0828; A.0829 etc. | other gross/exemption; specify other exemptions |
 | 8 total and costs | T.0848–T.0851; N.0852–N.0855; T.0856–T.0859 | total before category costs, costs, net pension; carry to 2017–2020 |
 | 8 abatement | **C.0860 `/Btn`**; **D.0861 `/Tx`** | request; pension start date, not an amount |
-| 8 dependency | printed862–865 | **No corresponding AcroForm widgets** in thisPDF; never invent N.0862–N.0865 |
+| 8 dependency | printed 862–865 | **No corresponding AcroForm widgets** in this PDF; never invent N.0862–N.0865 |
 | 9 dividends | N.0901–N.0902; N.0903–N.0906 | domestic qualifying dividends after 50% exemption; foreign qualifying category, taxable/exempt columns |
 | 9 other categories | N.0907–N.0914; N.0915–N.0918; N.0919–N.0922 | other issuers; assessable interest; other capital income |
 | 9 deductions/results | T.0923–T.0926; N.0927–N.0930; N.0931–N.0934; N.0935–N.0938 | sum; costs; income allowance; net to 2021–2024 |
-| 9 dependency | printed939–940 | **No corresponding AcroForm widgets** |
+| 9 dependency | printed 939–940 | **No corresponding AcroForm widgets** |
 | 16 social contributions | N.1601–N.1604 | taxable/exempt, each person; exclude dependency |
-| 16 gifts carryforward | N.1611–N.1612; N.1613–N.1614 | unused2023; unused2024, taxpayer/spouse |
-| 16 gifts current | A.1615,1618,1621,1624,1627,1630 and adjacent N amounts | six beneficiary rows;2025 taxpayer/spouse amounts 1616/17,1619/20,1622/23,1625/26,1628/29,1631/32 |
+| 16 gifts carryforward | N.1611–N.1612; N.1613–N.1614 | unused 2023; unused 2024, taxpayer/spouse |
+| 16 gifts current | A.1615, 1618, 1621, 1624, 1627, 1630 and adjacent N amounts | six beneficiary rows; 2025 taxpayer/spouse amounts 1616/17, 1619/20, 1622/23, 1625/26, 1628/29, 1631/32 |
 | 16 totals | N.1633/N.1634; T.1639 | current gifts per person; special-expense aggregate includes other sections too; attach excess ledger |
 | 19 withholding | N.1901/N.1902; N.1903/N.1904 | salary; pension, each person |
 | 19 capital tax | N.1905/N.1906 | Luxembourg capital withholding |
 | 19 foreign credit | N.1907/N.1908; N.1909/N.1910 | treaty credit; no-treaty credit with annex; not raw foreign tax paid |
 | 19 business interest | N.1911/N.1912 | non-final RELIBI business route; private final interest does not go here |
 
-Page9 says direct earning costs should be deducted from the related income, with detail in an annex or Form 180. Keep the annex's gross → exemption → allocated actual costs → subtotal explicit. Do not deduct the same actual costs again in the category summary. If a preparer's software places those costs in a summary box instead, reconcile net income and confirm its form-filling convention before treating it as an authoritative map. The ordinary no-actual-cost examples below avoid this presentation ambiguity. [C · S1, S75]
+Page 9 says direct earning costs should be deducted from the related income, with detail in an annex or Form 180. Keep the annex's gross → exemption → allocated actual costs → subtotal explicit. Do not deduct the same actual costs again in the category summary. If a preparer's software places those costs in a summary box instead, reconcile net income and confirm its form-filling convention before treating it as an authoritative map. The ordinary no-actual-cost examples below avoid this presentation ambiguity. [C · S1, S75]
 
-The official2025 XSD import is **v0.18.0, last modified09 March 2026**, from the ACD2025 ZIP, cached evidence read2026-11-04. Relevant elements (exact symbols; confirm surrounding required fields before emitting XML):
+The official 2025 XSD import is **v0.18.0, last modified 09 March 2026**, from the ACD 2025 ZIP, cached evidence read 2026-11-04. Relevant elements (exact symbols; confirm surrounding required fields before emitting XML):
 
 - `DonneesImpositionContribuable/PensionsRentes/Pension`: issuer `P0055_PEN_NOM_CAISSE`, period `P0060_PEN_DAT_DEB_ACT` / `P0080_PEN_DAT_FIN_ACT`; inside non-exempt detail, `P0160_PEN_MNT_BRUT_NEX`, `P0360_PEN_COT_SOC_DED`, `P0460_PEN_MNT_RETENUE`, **already-paid** `P0480_PEN_MNT_CIP`, `P0495_PEN_MNT_CO2`. Exempt gross `P0560_PEN_MNT_BRUT_EXO` and exempt contributions `P0640_PEN_COT_SOC_DED` are separate. Spouse nodes use their distinct P1180… identifiers; never reuse taxpayer IDs blindly.
 - Private annuity: `P0760_PEN_RVI_IMP_LUX`, `P0780_PEN_RVI_111BIS`, `P0800_PEN_RVI_COM_ASS`, `P0820_PEN_RVI_MNT_BRU_AN`, `P0840_PEN_RVIA_EXP_115_14A`. Earning-cost choice `P0980_PEN_FO_MIN_FOR_EFF`, taxable/exempt amounts `P1000_PEN_FO_MNT_IMP` / `P1020_PEN_FO_MNT_EXO`.
 - `AbattExtraProfPensions`: `P1040_PEN_ABATT_EXTRA_PROF` boolean; `P1060_PEN_RENT_PENS_DEPUIS` date.
 - `CapitauxMobiliers/CapMobExemption50`: source country `M1000_CAP_MOB_PAYS_PROV`, company `M1020_CAP_MOB_DES_SOC`, type `M1040_CAP_MOB_TYPE_SOC`, **gross before exemption** `M1080_CAP_MOB_MNT_BRUT`; actual-cost detail `M1140...` / `M1160...` / `M1180...` / `M1200_CAP_MOB_NAT_FRA_MNT`; substantial participation `M1210_CAP_MOB_SOC_PAR_IMP`; withholding `M1220_CAP_MOB_RET_IMP_SOURCE`. Unlike paper box 901, XML gross is full gross, so do not halve twice.
 - Capital recap: `M1601_CAP_MOB_REC_FOB_CHOIX`, `M1602_CAP_MOB_REC_FOB_MIN_FORF`, `M1600_CAP_MOB_REC_FOB` actual-cost summary, `M1620_CAP_MOB_REC_TRA_EXE`; foreign credit `M1680_CAP_MOB_REC_IMP_ETR_CNV` / `M1690_CAP_MOB_REC_IMP_ETR_HCNV`. Detailed and summary expense values represent the same expense, not two deductions.
-- `DepensesSpeciales/DepSpeLiberalites/DepSpeLiberalitesDetail`: `D2080_LIB_NOM_BEN`, `D2100_LIB_VER_PAR_CONT`, `D2120_LIB_VER_PAR_CONJ`. Carry flag `D2220_LIB_REPORT`;2023 `D2240_LIB_REP_ANN_MN2_CONT` / `D2260_LIB_REP_ANN_MN2_CONJ`;2024 `D2300_LIB_REP_ANN_MN1_CONT` / `D2320_LIB_REP_ANN_MN1_CONJ`.
+- `DepensesSpeciales/DepSpeLiberalites/DepSpeLiberalitesDetail`: `D2080_LIB_NOM_BEN`, `D2100_LIB_VER_PAR_CONT`, `D2120_LIB_VER_PAR_CONJ`. Carry flag `D2220_LIB_REPORT`; 2023 `D2240_LIB_REP_ANN_MN2_CONT` / `D2260_LIB_REP_ANN_MN2_CONJ`; 2024 `D2300_LIB_REP_ANN_MN1_CONT` / `D2320_LIB_REP_ANN_MN1_CONJ`.
 - Securities disposals have `RevenusNetsDivers` nodes including acquisition/disposal dates and proceeds. They are not `CapitauxMobiliers` distributions.
 
 No CIP request box appears on paper pages 8/19; retain certificates/annex for reconciliation. Do not write a calculated entitlement into XML's credit-already-paid field. XSD shape is evidence of data structure, not proof the law permits a deduction. No XML payload or filled PDF was generated.

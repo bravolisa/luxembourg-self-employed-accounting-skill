@@ -3,7 +3,7 @@
 """2025 ordinary-salary assessment bridge; see references/salary-balance-calculator.md.
 
 No payroll engine: use certified paid credits and reviewed annual deductions. Source rules:
-LIR 154/154quater/129b and circular 152ter/1,154quater/2,154quinquies/2 of 12 March 2025.
+LIR 154/154quater/129b and circular 152ter/1, 154quater/2, 154quinquies/2 of 12 March 2025.
 """
 from datetime import date, timedelta
 from decimal import Decimal, InvalidOperation, ROUND_CEILING, ROUND_FLOOR
@@ -82,7 +82,7 @@ def full_year_coverage(periods, year):
 
 
 def replacement_allowance_bounds(h, hh, f, records):
-    """Prove the full129b cap without relying on95a eligibility or benefit gross.
+    """Prove the full 129b cap without relying on 95a eligibility or benefit gross.
 
     All costs/contributions are subtracted, even those attributable to excluded
     replacement income. S may contain unitemised CNS advances, so its label alone
@@ -100,8 +100,8 @@ def replacement_allowance_bounds(h, hh, f, records):
              and facts.get('ordinary_activity_affiliation_confirmed') is True
              and facts.get('ordinary_gross_excludes_replacements') is True
              and facts.get('activity_evidence') and facts.get('gross_split_evidence'),
-             side + ': ordinary article95 activity, affiliation and gross excluding all replacements must be evidenced')
-        ordinary = money(facts.get('ordinary_article95_gross'), side + ' ordinary article95 gross')
+             side + ': ordinary article 95 activity, affiliation and gross excluding all replacements must be evidenced')
+        ordinary = money(facts.get('ordinary_article95_gross'), side + ' ordinary article 95 gross')
         # Only ordinary S can support this bound; exclude direct benefits and known IMAL.
         maximum = sum((money(p['amount'], 'ordinary salary component')
                        for s in records if s['owner'] == side and not hh.salary_details.replacement(s)
@@ -113,7 +113,7 @@ def replacement_allowance_bounds(h, hh, f, records):
         costs += hh.contributions(h, side) + Decimal(str(f['special_expenses_flat_minimum']))
         limits[side] = ordinary - costs
         need(limits[side] >= cap,
-             'replacement benefit: conservative ordinary-income bound is below the full extra-professional cap; article95a interaction needs review')
+             'replacement benefit: conservative ordinary-income bound is below the full extra-professional cap; article 95a interaction needs review')
     return limits
 
 
@@ -268,7 +268,7 @@ def prepare(h, hh, f, year):
         owner = business["owner"]
         profits[owner] = profits.get(owner, Decimal(0)) + profit
     # Art.129b(3): supported ordinary active income, less earning costs, related
-    # compulsory contributions and the person's article113 minimum. No pension/cessation route.
+    # compulsory contributions and the person's article 113 minimum. No pension/cessation route.
     both = bool(spouse) and owners == {"taxpayer", "spouse"}
     allowance, limits = Decimal(0), {}
     allowance_method = 'ordinary_income_limiter'

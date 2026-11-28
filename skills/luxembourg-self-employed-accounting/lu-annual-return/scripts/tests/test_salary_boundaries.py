@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
 # SPDX-License-Identifier: Apache-2.0
-"""Salary preparation boundaries; independently worked art.105bis/107/113 examples."""
+"""Salary preparation boundaries; independently worked art. 105bis/107/113 examples."""
 import copy
 import json
 import re
@@ -36,12 +36,12 @@ def complete(h):
         h['spouse']={'last_name':'Example spouse','national_id':'19820101'+'0'*5,'status':'MA'}
     return h
 
-# Annual receipts400, FD100 -> remaining300: the540 flat is limited to300, net salary0.
+# Annual receipts 400, FD 100 -> remaining 300: the 540 flat is limited to 300, net salary 0.
 h=complete({'tax_year':2025,'salaries':[salary('taxpayer',400,100)]})
-check('low receipts: flat300',hh.salary_flat_costs(h,'taxpayer')==Decimal(300))
+check('low receipts: flat 300',hh.salary_flat_costs(h,'taxpayer')==Decimal(300))
 check('low receipts: no negative salary from flats',hh.indicative_check(h)['net salaries']==0)
 h['salaries']=[salary('taxpayer',3000),salary('taxpayer',2000)]
-check('two contracts: one540 flat',hh.indicative_check(h)['net salaries']==4460)
+check('two contracts: one 540 flat',hh.indicative_check(h)['net salaries']==4460)
 h['salaries']=[salary('taxpayer',300,301)]
 stops('commuting cannot exceed receipts',lambda:hh.indicative_check(h))
 h['salaries']=[salary('taxpayer',10000,1300),salary('taxpayer',10000,1300)]
@@ -49,11 +49,11 @@ stops('combined commuting cannot exceed annualcap',lambda:hh.indicative_check(h)
 h['salaries']=[salary('taxpayer',10000,-1)]
 stops('negative commuting stops',lambda:hh.indicative_check(h))
 
-# Lower spouse: gross800 − flat540 − compulsory140 =120. Second DS flat120: total600.
+# Lower spouse: gross 800 − flat 540 − compulsory 140 = 120. Second DS flat 120: total 600.
 h=complete({'tax_year':2025,'salaries':[salary('taxpayer',30000,0,3000),salary('spouse',800,0,140)]})
-check('low-paid spouse: DSminimum600',hh.allowed(h)['flat_minimum']==600)
+check('low-paid spouse: DS minimum 600',hh.allowed(h)['flat_minimum']==600)
 h['salaries'][1]=salary('spouse',2000,0,200)
-check('sufficient spouse income: DSminimum960',hh.allowed(h)['flat_minimum']==960)
+check('sufficient spouse income: DS minimum 960',hh.allowed(h)['flat_minimum']==960)
 h['salaries'][1]=salary('spouse',300,0,30)
 stops('negative salary remainder: DSminimum manualreview',lambda:hh.allowed(h))
 

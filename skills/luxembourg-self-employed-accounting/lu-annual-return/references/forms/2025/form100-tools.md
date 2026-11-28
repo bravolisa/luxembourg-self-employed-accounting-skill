@@ -85,7 +85,7 @@ Invented example: `scripts/examples/form100-2025-myguichet.example.json`; three 
 | `dac6` | `false` unless a reportable arrangement was used |
 | `advances_paid` | Income-tax advances paid in the year – no box on the form; read only by lu-income-tax-personal `tax_estimate.py --household` for the balance |
 | `receipts_breakdown` (in a business) | `customers`, `vat_refunds` (`vat_year`, `amount`), `mutualite`, `other` (`label`, `amount`), `notes` (French sentences printed under the table, e.g. the VAT-turnover reconciliation); must add up to `receipts` – the « Détail des recettes » (attachments.md) |
-| PDF only | `birth_place`, `profession` (per person); `tax_office_address` (lines separated by `\r`); `joint_taxation_option` (married316/317, reviewed partner312; see partnership guide); `workplace_label` (a salary's place of work as printed, e.g. the locality); `label` (an insurance line's caption); `bank_name`, `subscriber_id` (home savings); `signature_place` |
+| PDF only | `birth_place`, `profession` (per person); `tax_office_address` (lines separated by `\r`); `joint_taxation_option` (married 316/317, reviewed partner 312; see partnership guide); `workplace_label` (a salary's place of work as printed, e.g. the locality); `label` (an insurance line's caption); `bank_name`, `subscriber_id` (home savings); `signature_place` |
 
 ## The values file (box by box, PDF only)
 

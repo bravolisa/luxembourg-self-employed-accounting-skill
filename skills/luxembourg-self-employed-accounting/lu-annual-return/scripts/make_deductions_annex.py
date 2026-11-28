@@ -41,7 +41,7 @@ def write(h, output, check, allowed):
     if h.get('medical_expenses'):
         m = check['medical calculation']
         rows += [['Actual eligible medical cost after all refunds', fmt(m['net'])],
-                 ['Taxable income before abatements (box2038)', fmt(m['income_base'])],
+                 ['Taxable income before abatements (box 2038)', fmt(m['income_base'])],
                  ['Normal burden (' + str(m['rate']) + '%), applied once', fmt(m['burden'])],
                  ['Medical abatement, after normal burden', fmt(m['allowed'])]]
     table = Table([[Paragraph(escape(str(c)), styles['BodyText']) for c in row] for row in rows], colWidths=[137*mm, 33*mm])

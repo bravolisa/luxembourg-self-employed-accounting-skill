@@ -6,7 +6,7 @@ license: CC-BY-4.0 for the texts, Apache-2.0 for the tools – see LICENSE.md an
 
 # Luxembourg accounting and tax for the self-employed
 
-Made by [BravoLisa](https://bravolisa.lu), bookkeeping and tax software for self-employed people in Luxembourg. Built from BravoLisa's knowledge base, version 0.50.1 (2026-11-26).
+Made by [BravoLisa](https://bravolisa.lu), bookkeeping and tax software for self-employed people in Luxembourg. Built from BravoLisa's knowledge base, version 0.50.3 (2026-11-28).
 
 **Who it is for:**
 - **self-employed natural persons** – freelancers, sole traders (entreprise individuelle), craftspeople, liberal professions;

@@ -1,6 +1,6 @@
 # Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
 # SPDX-License-Identifier: Apache-2.0
-"""Bounded actual article127 medical costs; preserve gross, refunds and burden separately."""
+"""Bounded actual article 127 medical costs; preserve gross, refunds and burden separately."""
 from decimal import Decimal as D
 import form100_family as family
 need, money = family.need, family.money
@@ -34,7 +34,7 @@ def _patient(h, row):
     child = h['children'][index]
     born = family.birth(child)
     need(child.get('in_tax_household') is True and born > family.date(int(h['tax_year']) - 18, 12, 31),
-         'medical_expenses: child patient must be a minor throughout2025 in this tax household')
+         'medical_expenses: child patient must be a minor throughout 2025 in this tax household')
     need(born <= family.iso(row.get('payment_date'), 'medical payment_date'),
          'medical_expenses: child treatment payment before birth needs separate review')
     need(row.get('extraordinary_child_treatment') is True and row.get('treatment_evidence'),
@@ -74,7 +74,7 @@ def validate(h):
          'medical_expenses: full-year resident single/joint 2025 route only')
     need(review.get('income_complete') is True and review.get('no_foreign_or_exempt_progression') is True
          and review.get('all_actual_article127_costs_included') is True and review.get('evidence'),
-         'medical_expenses: complete reviewed income and actual article127 expenses required')
+         'medical_expenses: complete reviewed income and actual article 127 expenses required')
     need(all(s.get('all_pay_luxembourg_taxable', True) is True for s in h.get('salaries', [])),
          'medical_expenses: explicit foreign/exempt salary contradicts the reviewed ordinary-income scope')
     expected_class = 2 if h.get('spouse') else '1a' if h.get('single_parent_credit') else 1
@@ -83,7 +83,7 @@ def validate(h):
     if not h.get('spouse') and not h.get('single_parent_credit'):
         born = family.birth({'national_id': h['taxpayer']['national_id']})
         need(not h.get('children') and h['taxpayer'].get('status') == 'CE' and born > family.date(1961, 1, 1),
-             'medical_expenses: childless class1a/transition entitlement needs a separate supported class calculation')
+             'medical_expenses: childless class 1a/transition entitlement needs a separate supported class calculation')
     need(isinstance(rows, list) and 0 < len(rows) <= 20, 'medical_expenses: one to twenty reviewed rows required')
     seen = set()
     for row in rows:
@@ -98,9 +98,9 @@ def validate(h):
              and row.get('refunds_final_and_complete') is True,
              'medical_expenses: eligibility, payer, net cost and non-overlap evidence required')
         need(isinstance(row.get('description'), str) and 0 < len(row['description']) <= 50,
-             'medical_expenses: description must fit official50-character XML field')
+             'medical_expenses: description must fit official 50-character XML field')
         need(family.iso(row.get('payment_date'), 'medical payment_date').year == int(h['tax_year']),
-             'medical_expenses: payment must belong to2025')
+             'medical_expenses: payment must belong to 2025')
         _refunds(h, row)
     for child in h.get('children', []):
         need(child.get('moderation') not in ('foreign_only', 'zero_differential')
@@ -116,7 +116,7 @@ def calculation(h, taxable, f):
     need(taxable.is_finite() and taxable >= 0, 'medical_expenses: negative taxable income needs review')
     kids = family.child_count(h)
     need(kids <= 5, 'medical_expenses: more than five moderated children requires burden-table review')
-    # First column is class1 without child; remaining columns cover1a/2 by child count.
+    # First column is class 1 without child; remaining columns cover 1a/2 by child count.
     column = 0 if not h.get('spouse') and not h.get('children') else kids + 1
     row = 0 if taxable < 10000 else 1 if taxable < 20000 else 2 if taxable < 30000 else 3 if taxable < 40000 else 4 if taxable < 50000 else 5 if taxable <= 60000 else 6
     net = sum((money(x['gross'], 'medical gross') - money(x['refunds'], 'medical refunds') for x in h['medical_expenses']), D(0))

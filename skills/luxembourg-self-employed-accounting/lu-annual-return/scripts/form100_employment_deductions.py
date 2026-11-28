@@ -100,7 +100,7 @@ def validate(h):
                      and row.get('not_compulsory_or_dependency') is True
                      and type(row.get('salary_related')) is bool
                      and (not row['salary_related'] or side in salary_owners),
-                     'voluntary_contributions: establish article110(4) scheme and exclude mandatory/dependency insurance')
+                     'voluntary_contributions: establish article 110(4) scheme and exclude mandatory/dependency insurance')
 
 
 def actual_cost(h, side):

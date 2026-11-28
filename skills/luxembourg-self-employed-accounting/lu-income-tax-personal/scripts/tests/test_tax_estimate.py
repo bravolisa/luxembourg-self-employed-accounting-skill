@@ -85,7 +85,7 @@ check("what-if business 1000: total saved", w["business=1000"]["saved"], "595.80
 
 # 3. Single, 2026, taxable €20,000: €176.40 + €198.45 + €220.50 + 11% × €155 = €612.40 → €612; × 1.07
 #    = €654.84 → €654. Profit €5,000: CII €300 + (€5,000 − €936) × 2.9% = €417.856 → rounded up €417.86;
-#    CO2 €216. Raw balance €654 − €633.86 = €20.14; art.154(2) floors amount due to €20.
+#    CO2 €216. Raw balance €654 − €633.86 = €20.14; art. 154(2) floors amount due to €20.
 r = te.estimate(year=2026, taxable=20000, tax_class=1, profits={"taxpayer": 5000})
 check("low profit: CII on the ramp, rounded up", r["credits"]["CII taxpayer"], "417.86")
 check("low profit: positive final balance floors", r["balance"], "20")
@@ -131,11 +131,11 @@ except SystemExit:
 r = te.estimate(year=2025, taxable=30000, tax_class=2, both_professional=True, extra_professional_amount=1200)
 check("reviewed limited spouse allowance", r["adjusted"], 28800)
 
-# LIR art. 124: tariff tax below EUR12 becomes zero before Fund, not after credits.
-# Class1 R=13350: (13350-13230)*8%=9.60 ->9 ->0, Fund0.
-# Class1 R=13400:170*8%=13.60 ->13; Fund0.91; final13.
-# Class2 R=26600:2*((13300-13230)*8%)=11.20 ->11 ->0.
-# Class2 R=26650:2*((13325-13230)*8%)=15.20 ->15; Fund1.05; final16.
+# LIR art. 124: tariff tax below EUR 12 becomes zero before Fund, not after credits.
+# Class 1 R=13350: (13350-13230)*8%=9.60 -> 9 -> 0, Fund 0.
+# Class 1 R=13400: 170*8%=13.60 -> 13; Fund 0.91; final 13.
+# Class 2 R=26600: 2*((13300-13230)*8%)=11.20 -> 11 -> 0.
+# Class 2 R=26650: 2*((13325-13230)*8%)=15.20 -> 15; Fund 1.05; final 16.
 for cls, income, wanted in ((1, 13350, 0), (1, 13400, 13), (2, 26600, 0), (2, 26650, 16)):
     r = te.estimate(year=2025, taxable=income, tax_class=cls)
     check(f"small-tax boundary class{cls} at {income}", r["tax"], wanted)

@@ -113,7 +113,7 @@ for name,mutate in [
     h=fixture('premium');mutate(h);rejects(name,hh.validate,h)
 
 for income,want in expected['class1a_tax'].items():
-    check('class1a official annual check '+income,tax.income_tax(D(income),'1a',f)['tax']==D(want))
+    check('class 1a official annual check '+income,tax.income_tax(D(income),'1a',f)['tax']==D(want))
 for income,support,want in expected['cim_cases']:
     check('annual CIM '+str(income)+'/'+str(support),hh.single_parent.entitlement(D(income),D(support),f)==D(want))
 rejects('ambiguous annual CIM income floor stops',hh.single_parent.entitlement,D('75001'),D(0),f,contains='PIT-O-17')
@@ -128,7 +128,7 @@ for name,mutate in [
  ('foreign-only moderation',lambda h:h['single_parent_credit']['support'][0].update(moderation='foreign_only')),
  ('unknown paid CIM',lambda h:h['salaries'][0].pop('cim')),
  ('ambiguous CIM withholding',lambda h:h['salaries'][0].update(withholding_basis='before_cis_co2')),
- ('class2 transition',lambda h:h['single_parent_credit'].update(no_class2_transition=False)),
+ ('class 2 transition',lambda h:h['single_parent_credit'].update(no_class2_transition=False)),
  ('partial eligibility',lambda h:h['single_parent_credit'].update(full_year_eligibility=False)),
  ('third-party support',lambda h:h['single_parent_credit']['support'][0].update(all_support_from_other_parent=False))]:
     h=fixture('single_parent');mutate(h);rejects(name,hh.validate,h)
@@ -149,7 +149,7 @@ child=copy.deepcopy(source['children'][0]);child.update(moderation_origin='lu_po
 h=fixture('consumer');h['taxpayer']['status']='MA';h['spouse']=copy.deepcopy(source['spouse']);h['children']=[copy.deepcopy(child)]
 h['consumer_loans'][0]['interest']=700
 h['insurance']=[{'insurer':'Example','risk':'RC','paid_by':'spouse','amount':900}]
-check('joint child shared pool1600 below2016',hh.allowed(h)['insurance']==1600 and hh.allowed(h)['insurance_ceiling']==2016)
+check('joint child shared pool 1600 below 2016',hh.allowed(h)['insurance']==1600 and hh.allowed(h)['insurance_ceiling']==2016)
 h['children'][0].pop('moderation_origin');rejects('unknown child origin stops multiplier',hh.allowed,h)
 h['children'][0].update(moderation_origin='lu_positive_benefit',moderation='foreign_only')
 rejects('contradictory foreign-only child stops',hh.validate,h)
@@ -164,8 +164,8 @@ root=xml.build(h,schema).to_xml();check('two-adult PU XSD registry',schema.valid
 h['insurance'][1]['single_premium']['children']=[0];rejects('PU child cannot be assigned twice',hh.validate,h)
 
 h=fixture('single_parent');row=h['single_parent_credit']['support'][0];row.update(monthly_support=300,annual_support=3600)
-root=xml.build(h,schema).to_xml();check('support exported monthly300 not annual3600',element(root,'ENF_MNT_ALL')==['300.00'] and hh.to_pdf_values(h)['N.0230']==300)
-check('support reduction balances3060retained',estimate(h)['single_parent_reconciliation']['retained']==3060 and estimate(h)['balance']==-2106)
+root=xml.build(h,schema).to_xml();check('support exported monthly 300 not annual 3600',element(root,'ENF_MNT_ALL')==['300.00'] and hh.to_pdf_values(h)['N.0230']==300)
+check('support reduction balances 3060 retained',estimate(h)['single_parent_reconciliation']['retained']==3060 and estimate(h)['balance']==-2106)
 second=copy.deepcopy(h['children'][0]);second['first_name']='Second';second.pop('national_id',None);second.update(national_id_not_assigned=True,birth_date='2019-06-01');h['children'].append(second)
 row2=copy.deepcopy(row);row2.update(child=1,monthly_support=100,annual_support=1200);h['single_parent_credit']['support'].append(row2)
 check('lowest child support one CIM only',estimate(h)['single_parent_reconciliation']['retained']==3504)
@@ -199,7 +199,7 @@ with tempfile.TemporaryDirectory() as tmp:
         if run.returncode:
             print(run.stdout+run.stderr);continue
         reader=PdfReader(out);fields=reader.get_fields()
-        check(name+' final2038',D(fields['T.2038']['/V'])==D(expected[expected_name]['taxable']))
+        check(name+' final 2038',D(fields['T.2038']['/V'])==D(expected[expected_name]['taxable']))
         if name=='donations_cents':
             check('fractional donation excess total correct',D(fields['T.1639']['/V'])==11672 and D(fields['N.1633']['/V'])==D('12000.01'))
         if name=='donations':

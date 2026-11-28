@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
 # SPDX-License-Identifier: Apache-2.0
-"""Independent family-medical and replacement-benefit boundary regressions,2025."""
+"""Independent family-medical and replacement-benefit boundary regressions, 2025."""
 import copy,json,re,sys,tempfile,subprocess,os,shutil
 from pathlib import Path
 from decimal import Decimal as D
@@ -45,7 +45,7 @@ for name,h,key in [('child',med(joint(True),'child'),'child_medical'),('spouse',
 h=med(joint(True),'child',gross=7000,refunds=3000)
 second=copy.deepcopy(med(joint(True),'spouse','spouse',5000,1000)['medical_expenses'][0]);second['invoice_id']='MED2';h['medical_expenses'].append(second)
 check('mixed patients share one burden',hh.indicative_check(h)['medical abatement']==D(E['child_medical']['allowed']))
-check('mixed payer columns retain each net4000',hh.to_pdf_values(h)['N.1702']==4000 and hh.to_pdf_values(h)['N.1703']==4000);outputs['mixed']=h
+check('mixed payer columns retain each net 4000',hh.to_pdf_values(h)['N.1702']==4000 and hh.to_pdf_values(h)['N.1703']==4000);outputs['mixed']=h
 h=med(base(),gross=7000,refunds=3000)
 root=xml.build(h,schema).to_xml();check('self-paid XML retains schema route',schema.validator.validate(root))
 for label,change,part in [
@@ -94,12 +94,12 @@ for label,change in [
  ('unreconciled embedded benefit',lambda x:x['salary_balance']['extra_professional_review']['people']['taxpayer'].update(ordinary_gross_excludes_replacements=False)),
  ('unproved split',lambda x:x['salary_balance']['extra_professional_review']['people']['taxpayer'].pop('gross_split_evidence'))]:
  q=copy.deepcopy(h);change(q);rejects(label,prepared,q,contains='ordinary gross' if label=='benefit-only spouse' else None)
-q=copy.deepcopy(h);q['salaries'][0]['includes_cns_advances']=True;q['salary_balance']['extra_professional_review']['people']['taxpayer']['ordinary_article95_gross']=E['cap_boundary']['ordinary_gross'];check('exact conservative4500 cap allowed',prepared(q)['extra_professional_amount']==4500)
+q=copy.deepcopy(h);q['salaries'][0]['includes_cns_advances']=True;q['salary_balance']['extra_professional_review']['people']['taxpayer']['ordinary_article95_gross']=E['cap_boundary']['ordinary_gross'];check('exact conservative 4500 cap allowed',prepared(q)['extra_professional_amount']==4500)
 q['salary_balance']['extra_professional_review']['people']['taxpayer']['ordinary_article95_gross']='9419.99';rejects('one cent below conservative cap stops',prepared,q,contains='below')
 # Known IMAL, or CNS advances embedded in S, trigger the same guard.
 for kind in ('IMAL','embedded'):
  q=joint();q['salaries'][0]['pay'].append({'kind':'IMAL','amount':1000}) if kind=='IMAL' else q['salaries'][0].update(includes_cns_advances=True)
- rejects(kind+' cannot silently grant129b',prepared,q,contains='replacement benefit')
+ rejects(kind+' cannot silently grant 129b',prepared,q,contains='replacement benefit')
  q['salary_balance']['extra_professional_review']=copy.deepcopy(h['salary_balance']['extra_professional_review'])
  if kind=='embedded':q['salary_balance']['extra_professional_review']['people']['taxpayer']['ordinary_article95_gross']=29000
  check(kind+' evidenced invariant works',prepared(q)['extra_professional_amount']==4500)

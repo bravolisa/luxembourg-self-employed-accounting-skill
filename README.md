@@ -26,7 +26,7 @@ It includes everything in BravoLisa's smaller skill for households, [luxembourg-
 
 ## Status
 
-**An experiment.** BravoLisa built this skill with the help of AI agents. This is version 0.50.1 of its knowledge base, built on 2026-11-26, for tax years 2025 and 2026. It is general information that an AI applies, not tax, legal or accounting advice, and it can be wrong or out of date. You check the result and you file. By installing or using the skill you accept the [licence](LICENSE.md) and the [terms of use](TERMS.md).
+**An experiment.** BravoLisa built this skill with the help of AI agents. This is version 0.50.3 of its knowledge base, built on 2026-11-28, for tax years 2025 and 2026. It is general information that an AI applies, not tax, legal or accounting advice, and it can be wrong or out of date. You check the result and you file. By installing or using the skill you accept the [licence](LICENSE.md) and the [terms of use](TERMS.md).
 
 ## Install
 
