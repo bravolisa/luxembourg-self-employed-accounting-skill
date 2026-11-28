@@ -163,7 +163,7 @@ The insurer's paid premium is distinct from the increased ceiling and the final 
 | N.1470 | Ordinary shared ceiling plus the correctly calculated current increases |
 | N.1471 | Lower of the actual eligible total (1468 + 1469) and the combined ceiling (1470) |
 
-[C · S1 p.14, form fields and page visually checked; calculation: S74, S77]
+[C · S1 p. 14, form fields and page visually checked; calculation: S74, S77]
 
 The 2025 XSD has insurance risk `PU`; `D0860_PAC_RIS_APU` is `HA` for personal housing (`EP` for professional equipment); `D0820_PAC_PRI_NBENF_CONT` / `D0840_PAC_PRI_NBENF_CONJ` are child counts, `D0680_PAC_DAT_DEB_CON` is the contract start, and `D0720_PAC_MNT_PRI_CONT` / `D0740_PAC_MNT_PRI_CONJ` are actual premiums. `D0870_PAC_HAB_APU` is a residence reference when used, not a free-form address. These definitions establish input structure, not the assistant's handling of earlier deductions or unusual insured-person allocations. [C · S75]
 
@@ -187,7 +187,7 @@ Read [single-parent-and-child-relief.md](../../single-parent-and-child-relief.md
 | C.1837 | Transitional shared-residence bonus request for children outside this fiscal household |
 | A.1838a/b, A.1840a/b, A.1842a/b, A.1844a/b and D.1839/1841/1843/1845 | Transitional-bonus surname/given-name pairs and identification/date-of-birth fields |
 
-[C · S1 pp.2,18; fields extracted and pages visually inspected 2026-11-04]
+[C · S1 pp. 2, 18; fields extracted and pages visually inspected 2026-11-04]
 
 The A/D/N widgets are PDF text fields (`/Tx`); C widgets are buttons (`/Btn`). Each bonus branch has four child slots and no claimant-entered bonus amount. Never enter the credit in a child's date/ID field, or silently omit children beyond the printed capacity. [C · S1; B for the stop]
 
@@ -221,21 +221,21 @@ Read [salary-certificates.md](salary-certificates.md) for domestic-flat row E, c
 
 ## Implemented four-branch mapping and output conventions
 
-The following mappings were checked against actual2025 widgets and XSD0.18.0, including their calculation scripts and required nodes. Full household input contract: lu-annual-return `references/forms/2025/form100-deductions.md`. [C · S1, S75; B · S150 for implemented scope]
+The following mappings were checked against actual 2025 widgets and XSD 0.18.0, including their calculation scripts and required nodes. Full household input contract: lu-annual-return `references/forms/2025/form100-deductions.md`. [C · S1, S75; B · S150 for implemented scope]
 
 | Branch | Paper fields | XML |
 |---|---|---|
-| Consumer interest | Seven rows starting1401, step5: A.creditor/address, A.purpose, N.balance, N.taxpayer interest, N.spouse interest; shared allowed1471 and cap 1470 | DepSpeInteretsDebiteursDetail: IDE_NOM_CRE, IDE_REL_ECO, IDE_MNT_DETTE_31DEC, IDE_MNT_INT_CONT/CONJ |
-| Current gifts | Six rows starting1615, step3; genuine paid totals N.1633/N.1634 | DepSpeLiberalitesDetail: LIB_NOM_BEN, LIB_VER_PAR_CONT/CONJ; mandatory LIB_REPORT=false for this current-only route |
-| Housing PU | Actual insurance rows; C.1474/1475 housing request; N.1476/1477 assigned child counts; combined cap 1470/allowed1471 | PU detail PAC_DAT_DEB_CON, PAC_RIS_APU=HA, PAC_PRI_NBENF_CONT/CONJ; D0870 references direct resPrincipale/ID_RESPRINCIPALE registry |
+| Consumer interest | Seven rows starting 1401, step 5: A.creditor/address, A.purpose, N.balance, N.taxpayer interest, N.spouse interest; shared allowed 1471 and cap 1470 | DepSpeInteretsDebiteursDetail: IDE_NOM_CRE, IDE_REL_ECO, IDE_MNT_DETTE_31DEC, IDE_MNT_INT_CONT/CONJ |
+| Current gifts | Six rows starting 1615, step 3; genuine paid totals N.1633/N.1634 | DepSpeLiberalitesDetail: LIB_NOM_BEN, LIB_VER_PAR_CONT/CONJ; mandatory LIB_REPORT=false for this current-only route |
+| Housing PU | Actual insurance rows; C.1474/1475 housing request; N.1476/1477 assigned child counts; combined cap 1470/allowed 1471 | PU detail PAC_DAT_DEB_CON, PAC_RIS_APU=HA, PAC_PRI_NBENF_CONT/CONJ; D0870 references direct resPrincipale/ID_RESPRINCIPALE registry |
 | CIM | C.0228; four name/monthly support pairs A.0229/N.0230 through A.0235/N.0236 | Child ENF_CRE_IMP=true, ENF_MNT_ALL monthly other-parent support; salary SAL_MNT_CIM is paid credit, not annual entitlement |
 
-Paid gift totals remain actual amounts. Their default contribution to T.1639 is replaced by the allowed donation in the generated snapshot; downstream2037/2038 follow it. The conflicting calculation action is removed and a calculation/carry annex is emitted. This is a documented output convention, not an officially observed portal workflow. Decimal-cent adjustment and stored/rendered values are tested. [B · S150]
+Paid gift totals remain actual amounts. Their default contribution to T.1639 is replaced by the allowed donation in the generated snapshot; downstream 2037/2038 follow it. The conflicting calculation action is removed and a calculation/carry annex is emitted. This is a documented output convention, not an officially observed portal workflow. Decimal-cent adjustment and stored/rendered values are tested. [B · S150]
 
 PU child counts must serialize as integers, not two-decimal amounts. The residence key reference uses the direct declaration registry, not merely the nested rental-income home's attribute.
 An optional retained-amount recap can be schema-valid even when numerically inconsistent; do not infer live calculation authority from it. Prior-used PU stays PDF/calculation-only in this release.
 Donation carry-only input and incoming vintages remain manual; never invent a current gift to satisfy the required XML detail row. [C · S75 for structure; B/O · S150 for safeguards]
 
-C0228 is checked only when the reviewed annual retained CIM exceeds all paid CIM. This is our paper-generation inference from its unpaid-credit wording and art.154ter(5); XML ENF_CRE_IMP continues to request annual application, independently of payment. No-income CIM households stop because the A0237 means-of-subsistence explanation is not mapped. Neither convention changes legal entitlement; live XML interpretation remains RET-O-01. [I/B/O · S1, S75, S80, S82, S150]
+C0228 is checked only when the reviewed annual retained CIM exceeds all paid CIM. This is our paper-generation inference from its unpaid-credit wording and art. 154ter(5); XML ENF_CRE_IMP continues to request annual application, independently of payment. No-income CIM households stop because the A0237 means-of-subsistence explanation is not mapped. Neither convention changes legal entitlement; live XML interpretation remains RET-O-01. [I/B/O · S1, S75, S80, S82, S150]
 
 *Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -25,11 +25,11 @@ def validate(h):
     need(claim.get('tax_class') == '1a' and claim.get('unmarried_full_year') is True
          and claim.get('no_class2_transition') is True and claim.get('full_year_eligibility') is True
          and claim.get('evidence'),
-         'single_parent_credit: establish child-based class1a, full-year eligibility and no class2 transition')
+         'single_parent_credit: establish child-based class 1a, full-year eligibility and no class 2 transition')
     if h['taxpayer'].get('status_since'):
         since = family.iso(h['taxpayer']['status_since'], 'single_parent_credit status_since')
         need(h['taxpayer']['status'] != 'VE' or since.year < int(h['tax_year']) - 3,
-             'single_parent_credit: widowhood in the preceding three years has class2 priority')
+             'single_parent_credit: widowhood in the preceding three years has class 2 priority')
         need(since.year < int(h['tax_year']), 'single_parent_credit: current-year or future civil-status event contradicts the full-year supported scope')
     declared_income = any(D(p['amount']) != 0 for salary in h.get('salaries', []) for p in salary.get('pay', [])) or any(
         (D(b['profit']) if b.get('method') == 'BILA' else D(b['receipts']) - D(b['expenses'])) != 0

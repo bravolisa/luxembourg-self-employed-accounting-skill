@@ -92,12 +92,12 @@ Each salary additionally needs known non-negative `cim`, and a new explicit `wit
 `before_cis_co2_cim` or `after_cis_co2_cim`. The latter is normalized once by adding all three paid credits. Keep `cis`, `co2`, `cim` as **paid certificate values**, never overwrite them with calculated entitlement. The existing `salary_balance.tax_class` is also `"1a"` for this branch.
 A CIM reconciliation occurs even with one tax card; the CIS/CO2 recalculation gate is separate.
 The balance adds paid-minus-final CIM, not a second full credit. [B; statutory reconciliation:
-lu-income-tax-personal S82 arts154bis/154ter]
+lu-income-tax-personal S82 arts. 154bis/154ter]
 
 The annual formula uses adjusted income after abatements. PIT-O-17 remains open: the tool calculates only if unrounded-income and tariff-floored-income readings give the same credit and the credit is already exact to cents. Otherwise it stops, without importing payroll rounding.
 The lowest relevant per-child support determines the one household credit. Output exposes `single_parent_reconciliation` with paid, retained, adjustment and support. [B/O]
 
-Direct `tax_estimate.py --year 2025 --taxable ... --class 1a` computes the tariff only unless a reviewed CIM context is supplied through the household route. Class1a alone is not CIM eligibility.
+Direct `tax_estimate.py --year 2025 --taxable ... --class 1a` computes the tariff only unless a reviewed CIM context is supplied through the household route. Class 1a alone is not CIM eligibility.
 No paid credit is silently assumed in a complete household balance. [B]
 
 The bounded household mapper requires nonzero declared supported salary or business income.

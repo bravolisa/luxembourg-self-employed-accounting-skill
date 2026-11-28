@@ -4,13 +4,13 @@ Figures in this file: 2025. The personal-tax year file owns the values. Sources 
 
 ## Rules applied
 
-Actual professional salary costs replace the minimum; they are not added to it. Commuting remains separate. Each employee has a separate election, regardless of the number of certificates. [C · lu-income-tax-personal S82 arts.105,107; lu-income-tax-personal S152; lu-income-tax-personal S153]
+Actual professional salary costs replace the minimum; they are not added to it. Commuting remains separate. Each employee has a separate election, regardless of the number of certificates. [C · lu-income-tax-personal S82 arts. 105, 107; lu-income-tax-personal S152; lu-income-tax-personal S153]
 
-Personal employee contributions to a qualifying employer supplementary pension scheme are article 110(3), capped per employee, outside the article 113 minimum. Private retirement contracts are article 111bis/111ter and have a different shared per-holder cap. Voluntary/continued/optional statutory health or pension contributions and qualifying period buybacks are article 110(4), inside the article 113 minimum comparison, without an invented separate cap. Employer contributions and dependency contributions are not relabelled as these payments. [C · lu-income-tax-personal S82 arts.110,111bis,111ter,113; lu-income-tax-personal S154]
+Personal employee contributions to a qualifying employer supplementary pension scheme are article 110(3), capped per employee, outside the article 113 minimum. Private retirement contracts are article 111bis/111ter and have a different shared per-holder cap. Voluntary/continued/optional statutory health or pension contributions and qualifying period buybacks are article 110(4), inside the article 113 minimum comparison, without an invented separate cap. Employer contributions and dependency contributions are not relabelled as these payments. [C · lu-income-tax-personal S82 arts. 110, 111bis, 111ter, 113; lu-income-tax-personal S154]
 
-For the low-earning spouse's article 113 minimum, subtract actual earning costs and the related article 110 deductions. Using the deductible occupational amount in this remainder is our statutory interpretation. For article 129b's extra-professional limiter, subtract only article 110(1)/(2) compulsory contributions and the applicable minimum, not occupational or voluntary contributions. [C · lu-income-tax-personal S82 arts.113,129b; I for retained occupational allocation]
+For the low-earning spouse's article 113 minimum, subtract actual earning costs and the related article 110 deductions. Using the deductible occupational amount in this remainder is our statutory interpretation. For article 129b's extra-professional limiter, subtract only article 110(1)/(2) compulsory contributions and the applicable minimum, not occupational or voluntary contributions. [C · lu-income-tax-personal S82 arts. 113, 129b; I for retained occupational allocation]
 
-Ordinary retirement contracts require a qualifying product/provider, a minimum ten-year term and maturity between the exact sixtieth and seventy-fifth birthdays, cumulatively. Subscription must precede the sixty-fifth birthday. Each contract must qualify independently. A PEPP requires a Luxembourg sub-account. Prior-to-2002 contracts have separate transitional rules. [C · lu-income-tax-personal S82 arts.111bis/111ter; lu-income-tax-personal S144 §3.1 and legacy provisions]
+Ordinary retirement contracts require a qualifying product/provider, a minimum ten-year term and maturity between the exact sixtieth and seventy-fifth birthdays, cumulatively. Subscription must precede the sixty-fifth birthday. Each contract must qualify independently. A PEPP requires a Luxembourg sub-account. Prior-to-2002 contracts have separate transitional rules. [C · lu-income-tax-personal S82 arts. 111bis/111ter; lu-income-tax-personal S144 §3.1 and legacy provisions]
 
 ## Household input contract
 
@@ -28,7 +28,7 @@ Private `pension_plans` retain `holder`, `insurer`, `start`, `end`, `amount`, bo
 
 ## Output and limits
 
-| Item | Paper Form100 | XML |
+| Item | Paper Form 100 | XML |
 |---|---|---|
 | Actual salary costs | 743/744, replacing the flat | FE choice and SAL_FO_REV_IMP |
 | Voluntary contributions | 1501/1502 | DepSpeCotisationsPers / CTP_MNT_CONT or CONJ |

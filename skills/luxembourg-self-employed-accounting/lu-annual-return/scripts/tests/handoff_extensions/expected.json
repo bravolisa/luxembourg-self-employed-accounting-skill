@@ -1,5 +1,5 @@
 {
-  "verification": "Independent hand arithmetic from official2025 rules; internal source review, no live or professional assessment.",
+  "verification": "Independent hand arithmetic from official 2025 rules; internal source review, no live or professional assessment.",
   "base": {
     "gross": 30000,
     "salary_flat": 540,
@@ -34,7 +34,7 @@
     "burden": "1539.60",
     "allowed": "2460.40",
     "adjusted": "23199.60",
-    "calculation": "4000-25660*6/100; adjusted25660-2460.40"
+    "calculation": "4000-25660*6/100; adjusted 25660-2460.40"
   },
   "exemption": {
     "taxable": 24660,
@@ -45,6 +45,6 @@
     "minimum_related": 490,
     "minimum_unrelated": 540,
     "extra_professional": 780,
-    "calculation": "spouse2000-540-200-1200-50=10;480+10=490; unrelated excludes50 giving480+60=540;129b2000-540-200-480=780"
+    "calculation": "spouse 2000-540-200-1200-50=10; 480+10=490; unrelated excludes 50 giving 480+60=540; 129b 2000-540-200-480=780"
   }
 }

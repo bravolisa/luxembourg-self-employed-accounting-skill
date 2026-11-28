@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "BravoLisa's agent skill for the self-employed and small companies and associations in Luxembourg",
-    "version": "0.50.1"
+    "version": "0.50.3"
   },
   "plugins": [
     {

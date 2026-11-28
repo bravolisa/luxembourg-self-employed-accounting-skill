@@ -123,7 +123,7 @@ h=fixture('SB-A')
 child=json.loads((HERE.parents[2]/'lu-annual-return/scripts/tests/households/couple_child_home_childcare.json').read_text())['children'][0]
 child=copy.deepcopy(child);child.update(custody='sole_parent',request_rebate=False)
 h['children']=[child]
-rejects('class1 cannot override assigned-child facts',h,'class 1a/CIM')
+rejects('class 1 cannot override assigned-child facts',h,'class 1a/CIM')
 check('clear payment-bridge alias',estimate(fixture('SB-B'))['amount_before_payments']==D(5168))
 try:
     te.what_if({'year':2025}, [('business',D(-1))])

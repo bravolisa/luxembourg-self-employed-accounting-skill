@@ -25,7 +25,7 @@ it is not the certificate's withholding base after AC/FD/social deductions. The 
 
 The employer uses available information to estimate annual gross and pays the appropriate fraction when the card permits CIS. On the last remuneration payment it regularises its year's payments, including relevant earlier periods. The correction may be negative: retain the certificate's net credit paid rather than adding only favourable monthly amounts. [C · S124]
 
-For assessment, first apply the circular's gate. With **one credit category**, regularisation occurs where the taxpayer had several tax cards during the year or qualifying Luxembourg-taxable salary/pension without a tax card. Filing Form 100 alone does not universally trigger a fresh annual CIS. An erroneous one-card payroll certificate needs the employer/RTS correction route, not an invented second credit. [C · S57 p.3; S124; I for preparation]
+For assessment, first apply the circular's gate. With **one credit category**, regularisation occurs where the taxpayer had several tax cards during the year or qualifying Luxembourg-taxable salary/pension without a tax card. Filing Form 100 alone does not universally trigger a fresh annual CIS. An erroneous one-card payroll certificate needs the employer/RTS correction route, not an invented second credit. [C · S57 p. 3; S124; I for preparation]
 
 Aggregate simultaneous/successive ordinary employment **within the salary category**, using actual periods and card history. For mixed business/salary/pension categories use the circular's monthly grid and highest average monthly income ordering; do not apply that ranking separately to each employer or choose whichever credit is most generous. [C · S57]
 
@@ -35,7 +35,7 @@ Keep four distinct amounts: gross remuneration; the payroll withholding base; se
 Corrected certificates replace the relevant earlier version; duplicate images/bundles do not add another payment. [C · S112; S124; B for extraction]
 
 Let P be credits already paid and E the entitlement retained after the applicable reconciliation.
-The adjustment is **P−E**: positive is recovery, negative is extra relief. A positive credit recovery strictly below EUR 12 is treated as zero **per spouse**. Exactly 12 is not below 12; this is not a waiver of all small tax balances and does not erase small refunds. [C · S57 p.3]
+The adjustment is **P−E**: positive is recovery, negative is extra relief. A positive credit recovery strictly below EUR 12 is treated as zero **per spouse**. Exactly 12 is not below 12; this is not a waiver of all small tax balances and does not erase small refunds. [C · S57 p. 3]
 Whether CIS and CO2 share this threshold or are tested separately is not explicit in the paid-versus-retained examples. PIT-O-24 records that uncertainty; automatic calculation stops where the two readings change the result. [O; B for the guard]
 
 With T the assessed tax before these credits, W separately certified withholding **before** CIS/CO2, and A advances, an ordinary-salary-only indicative calculation is:
@@ -55,17 +55,17 @@ crossing it later affects the later month's test in the official example. This i
 Ordinary CISSM is granted through proper tax-card payroll. **Exception:** article 139quater(6) permits ACD payment after year end on request for qualifying Luxembourg-taxable salary not subject to tax-card withholding. Do not say it can never be requested after the year, but do not invent a Form 100 CISSM box either. The exact filing route remains RET-O-02. [C · S82 art. 139quater(4),(6);
 O for the submission mechanism]
 
-For simplified domestic employment, CCSS CISSM is per contract; CCSS CIS/CO2 instead requires all salary income to fall under 137(5). Consult domestic-employment-income.md for the household-wide income election and unresolved mixed/no-election credit case. [C · S82 arts. 139quater(5),154quater(3);
+For simplified domestic employment, CCSS CISSM is per contract; CCSS CIS/CO2 instead requires all salary income to fall under 137(5). Consult domestic-employment-income.md for the household-wide income election and unresolved mixed/no-election credit case. [C · S82 arts. 139quater(5), 154quater(3);
 S113; O · PIT-O-21]
 
 ## Worked examples — invented components
 
-- Full qualifying year, ordinary multi-card gross 60,000: retained CIS300 and CO296. If already paid CIS600 and CO2192, recovery396. With taxbeforecredits8,000 and withholding 7,000, indicative balance1,396, not 604. [I · S82; S57]
-- Already paid 792 and correctly retained 792: adjustment0. Do not subtract792 again from tax less separately certified withholding. [I · S57]
-- Recoveries 11.99 and 12 for two spouses: waive only the first; do not pool23.99 before the test.
+- Full qualifying year, ordinary multi-card gross 60,000: retained CIS 300 and CO2 96. If already paid CIS 600 and CO2 192, recovery 396. With tax before credits 8,000 and withholding 7,000, indicative balance 1,396, not 604. [I · S82; S57]
+- Already paid 792 and correctly retained 792: adjustment 0. Do not subtract 792 again from tax less separately certified withholding. [I · S57]
+- Recoveries 11.99 and 12 for two spouses: waive only the first; do not pool 23.99 before the test.
   An extra-credit amount 11.99 is not suppressed by this recovery rule. [I · S57]
 - Annual gross 40,000.99 floors to 40,000 before the 2025 schedule; a partial-year credit still needs its qualifying-period adjustment. [I · S124]
-- A part-time CISSM case needs hours and fixed-benefit treatment. The official January half-time example uses92/184 hours and produces40.50; do not infer that result from annual gross alone.
+- A part-time CISSM case needs hours and fixed-benefit treatment. The official January half-time example uses 92/184 hours and produces 40.50; do not infer that result from annual gross alone.
   [C · S125 example 3]
 
 ## Software and source boundaries

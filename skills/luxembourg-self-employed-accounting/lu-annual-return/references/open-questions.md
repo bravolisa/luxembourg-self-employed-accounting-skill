@@ -13,9 +13,9 @@
 
 - Automation review 2026-11-04: Added offline-valid consumer-interest, donation, regular monthly CIM support/paid-credit and zero-history own-life PU fields. The residence registry/keyref is verified. Donation gross-versus-allowed PDF convention is explicit; PU prior-use retained recap remains live-unverified and XML stops. No live acceptance claimed. Paper C0228 requests only an unpaid remainder by documented inference; XML ENF_CRE_IMP retains the separate annual-application meaning. The distinction still needs live read-back. No-income A0237 completion remains outside mapper scope. [I/B/O]
 
-- Handoff repair2026-11-04: offline support now includes reviewed actual salary costs, occupational/voluntary contributions, PACS common-child election, self-paid adult medical costs, certified payroll exemptions and dated workplaces. Exact-date pension guards added. No live import or read-back occurred; paid/allowed/net distinctions and benefit workplace semantics remain explicit. [B]
+- Handoff repair 2026-11-04: offline support now includes reviewed actual salary costs, occupational/voluntary contributions, PACS common-child election, self-paid adult medical costs, certified payroll exemptions and dated workplaces. Exact-date pension guards added. No live import or read-back occurred; paid/allowed/net distinctions and benefit workplace semantics remain explicit. [B]
 
-Employer-interest and termination exemption mappings remain reviewed manual bridges; this2026-11-05 research did not verify live2025 XML or calculate a domestic election. [B/O]
+Employer-interest and termination exemption mappings remain reviewed manual bridges; this 2026-11-05 research did not verify live 2025 XML or calculate a domestic election. [B/O]
 
 ## RET-O-02 · CISSM article 139quater(6) request channel
 - Question: The tax credit for minimum-wage earners (CISSM) can be claimed after the end of the year for salary taxable in Luxembourg on which no tax-card withholding was made (art. 139quater(6) LIR). With which form or through which channel?

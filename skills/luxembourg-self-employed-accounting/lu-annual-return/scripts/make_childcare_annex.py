@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Copyright 2026 BravoLisa (https://bravolisa.lu) – https://github.com/bravolisa/luxembourg-self-employed-accounting-skill
 # SPDX-License-Identifier: Apache-2.0
-"""Write the monthly childcare evidence schedule accompanying Form100 page17 (2025).
+"""Write the monthly childcare evidence schedule accompanying Form 100 page 17 (2025).
 Usage: python make_childcare_annex.py --household household.json --out childcare.pdf
 The schedule shows actual net costs and the separately capped household abatement, never averages.
 """

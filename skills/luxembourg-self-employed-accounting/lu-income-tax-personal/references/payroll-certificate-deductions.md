@@ -7,7 +7,7 @@ Read this before translating Model 160 or an employer's equivalent French/German
 ## Preserve the certificate's arithmetic
 
 Model 160 gross includes cash/in-kind remuneration and employer-advanced sickness payments.
-Separate salary/sickness components must reconcile to the printed subtotal; do not add that subtotal once again. Section J identifies CNS interruptions not already liquidated by the employer and included in section A; obtain a direct-payer certificate where needed. [C · S112 notes 2,6]
+Separate salary/sickness components must reconcile to the printed subtotal; do not add that subtotal once again. Section J identifies CNS interruptions not already liquidated by the employer and included in section A; obtain a direct-payer certificate where needed. [C · S112 notes 2, 6]
 
 Model 160 contribution line 10 excludes dependency contributions already. Its deductible line 16 subtracts the separately identified non-deductible contribution lines, including those linked to partially exempt remuneration. Read the actual labels; do not subtract dependency a second time from a number already labelled deductible. The withholding base is after the certificate's applicable deductions/exemptions, not invariably gross minus contributions minus FD. Positive gross can coexist with a zero withholding base. [C · S112; I for the arithmetic implication]
 
@@ -67,12 +67,12 @@ Retain dated workplace schedules, frequencies, moves and the annual computation,
 
 | Facts | Result |
 |---|---|
-| Gross400, FD 100, full-year tax liability | Salary-cost flat limited to 300; net salary after these two flats0. |
-| Two contracts gross 3,000 and 2,000, no FD | One540 cost flat; net salary 4,460 before social special expenses. |
-| Lower spouse gross 800, flat 540, related compulsory contributions 140 | Remaining salary 120; in the standard positive-remainder case, combined special-expense minimum600, not 960. |
-| Two workplaces on whole days:3/5 at 12 units,2/5 at 22 units | Global16 units; full-year FD(16−4)×99=1,188 before other limits. |
-| Same-day home→first12 units, between workplaces8, last→home20 | Global20 units; full-year FD(20−4)×99=1,584 before other limits. |
+| Gross 400, FD 100, full-year tax liability | Salary-cost flat limited to 300; net salary after these two flats 0. |
+| Two contracts gross 3,000 and 2,000, no FD | One 540 cost flat; net salary 4,460 before social special expenses. |
+| Lower spouse gross 800, flat 540, related compulsory contributions 140 | Remaining salary 120; in the standard positive-remainder case, combined special-expense minimum 600, not 960. |
+| Two workplaces on whole days: 3/5 at 12 units, 2/5 at 22 units | Global 16 units; full-year FD (16−4)×99=1,188 before other limits. |
+| Same-day home→first 12 units, between workplaces 8, last→home 20 | Global 20 units; full-year FD (20−4)×99=1,584 before other limits. |
 
-[I · S82 arts. 105bis,107,113; S119 art. 2; S120–S121]. Examples assume the stated qualifying patterns and a full year; they do not determine a person's actual tax-card history.
+[I · S82 arts. 105bis, 107, 113; S119 art. 2; S120–S121]. Examples assume the stated qualifying patterns and a full year; they do not determine a person's actual tax-card history.
 
 *Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-self-employed-accounting-skill*

@@ -28,23 +28,23 @@ family=fixture('couple_child_home_childcare')
 f=hh.figures(2025)
 hh.validate(family)
 check('child raises insurance and home savings ceilings',hh.allowed(family)['insurance']==2016 and hh.allowed(family)['home_savings_taxpayer']==4032)
-check('childcare monthly cap450+100+450=1000 after2038',hh.indicative_check(family)['childcare abatement']==1000 and hh.indicative_check(family)['taxable income']==60372)
-# January700 + another provider300 => householdJanuary1000 still capped450, not900.
+check('childcare monthly cap 450+100+450=1000 after 2038',hh.indicative_check(family)['childcare abatement']==1000 and hh.indicative_check(family)['taxable income']==60372)
+# January 700 + another provider 300 => household January 1000 still capped 450, not 900.
 h=copy.deepcopy(family);extra=copy.deepcopy(h['childcare'][0]);extra.update(provider='Second example',paid_by='spouse',monthly={'1':{'paid':300,'reimbursed':0}});h['childcare'].append(extra)
 check('monthly ceiling shared across providers, children and payer columns',hh.family.childcare_allowed(h,f)==1000)
 h=copy.deepcopy(family);h['childcare'][0]['monthly']={str(i):{'paid':600,'reimbursed':0} for i in range(1,13)}
-check('twelve600 months =>5400',hh.family.childcare_allowed(h,f)==5400)
-# Onechild+couple members3, actual16000:2014cap6000;2015/2019cap9000;2020/2023cap12000;2024full16000.
+check('twelve 600 months => 5400',hh.family.childcare_allowed(h,f)==5400)
+# One child+couple members 3, actual 16000: 2014 cap 6000; 2015/2019 cap 9000; 2020/2023 cap 12000; 2024 full 16000.
 for year,want in [(2014,6000),(2015,9000),(2019,9000),(2020,12000),(2023,12000),(2024,16000),(2025,16000)]:
  h=copy.deepcopy(family);h['own_home'].update(available_since=f'{year}-12-31',occupied_since=f'{year}-12-31')
  check(f'home availability boundary{year}',hh.family.home_allowed(h,f)['allowed']==want)
 h=copy.deepcopy(family);h['own_home']['loans'][0].update(interest=2000,subsidies=500)
-check('home below cap and subsidy once:1500',hh.family.home_allowed(h,f)['allowed']==1500)
+check('home below cap and subsidy once: 1500',hh.family.home_allowed(h,f)['allowed']==1500)
 for birthday,kind in [('2004-01-02','young'),('2004-01-01','student'),('2025-12-31','young')]:
  h=copy.deepcopy(family);h.pop('childcare');c=h['children'][0];c['birth_date']=birthday
  if kind=='student':c.update(education='university',institution='Example University',continuous_full_time_over_year=True)
  hh.validate(h);check('age boundary '+birthday,hh.family.group(c, h['tax_year'])==kind)
-rejects('age21 requires studies or continued allowance',lambda h:h['children'][0].update(birth_date='2004-01-01'))
+rejects('age 21 requires studies or continued allowance',lambda h:h['children'][0].update(birth_date='2004-01-01'))
 rejects('child born after taxyear',lambda h:h['children'][0].update(birth_date='2026-01-01'))
 rejects('rebate cannot duplicate allowance',lambda h:h['children'][0].update(request_rebate=True))
 rejects('married child cannot silently count',lambda h:h['children'][0].update(married_or_partnered=True))
@@ -71,8 +71,8 @@ rejects('fully reimbursed empty childcare claim rejected',lambda h:h['childcare'
 rejects('ambiguous childcare payment timing',lambda h:h['childcare'][0].update(payment_timing='arrears'))
 rejects('childcare missing provider approval',lambda h:h['childcare'][0].pop('approval_evidence'))
 rejects('childcare prior to birth',lambda h:h['children'][0].update(birth_date='2025-12-31'))
-rejects('childcare14onJan1 excluded',lambda h:h['children'][0].update(birth_date='2011-01-01'))
-rejects('XML11 distinct cost groups not truncated',lambda h:h['childcare'][0].update(monthly={str(i):{'paid':100+i,'reimbursed':0} for i in range(1,12)}))
+rejects('childcare 14 on Jan 1 excluded',lambda h:h['children'][0].update(birth_date='2011-01-01'))
+rejects('XML 11 distinct cost groups not truncated',lambda h:h['childcare'][0].update(monthly={str(i):{'paid':100+i,'reimbursed':0} for i in range(1,12)}))
 rejects('CIM outside scope even without family fields',lambda h:h.update(single_parent_credit=True),fixture('single_liberal'))
 def duplicate_id(h):
  c=h['children'][0];c['national_id']='20180601'+'0'*5;c['national_id_not_assigned']=False
@@ -81,8 +81,8 @@ rejects('duplicate child ID cannot inflate ceilings',duplicate_id)
 def too_many(h):
  h['children']=[{**h['children'][0],'first_name':'Child'+str(i)} for i in range(5)]
 rejects('fifth ordinary PDF row not silently dropped',too_many)
-# Independent tax calculation: adjusted60372-4500-1000=54872; rounded54850, half27425.
-# class1 tax through26550=1423.80;875*16%=140 =>1563.80*2=3127.60 =>3127*1.07=3345.89 =>3345.
+# Independent tax calculation: adjusted 60372-4500-1000=54872; rounded 54850, half 27425.
+# class 1 tax through 26550=1423.80; 875*16%=140 => 1563.80*2=3127.60 => 3127*1.07=3345.89 => 3345.
 with tempfile.TemporaryDirectory() as tmp:
  tmp=Path(tmp);path=tmp/'family.json';path.write_text(json.dumps(family))
  # Component calculation only: explicit reviewed allowance and childcare, not a final salary balance.
@@ -104,8 +104,8 @@ with tempfile.TemporaryDirectory() as tmp:
  else:check('whatif cannot double shared childcare/help ceiling',False)
  student=tmp/'student.json';student.write_text(json.dumps(fixture('older_student_child')))
  try:te.from_household(student)
- except SystemExit:check('single-parent final estimate never defaults toclass1',True)
- else:check('single-parent final estimate never defaults toclass1',False)
+ except SystemExit:check('single-parent final estimate never defaults to class 1',True)
+ else:check('single-parent final estimate never defaults to class 1',False)
  # Pair and amount attribution checked by path, not by global text occurrence.
  import build_form100_xml as xml
  from lxml import etree
@@ -113,7 +113,7 @@ with tempfile.TemporaryDirectory() as tmp:
  check('one property with taxpayer and spouse amounts',len(root.findall('.//ResPrincipaleRevenusNonExo'))==1)
  rows=root.findall('.//CharExtraFraisDomGardeDetail')
  check('three childcare cost periods, correctly attributed',len(rows)==3 and all(e.get('H1220_ID_PERSONNE')=='DECLARER' for e in rows))
- check('raw childcare annual rows sum1400',sum(Decimal(e.find('H1520_CFD_MNT_FRA').text) for e in rows)==1400)
+ check('raw childcare annual rows sum 1400',sum(Decimal(e.find('H1520_CFD_MNT_FRA').text) for e in rows)==1400)
  check('child identity key reference',root.find('.//Enfant').get('G1078_ID_PERSONNE')=='CHILDREN0')
  # Stored AcroForm and every matching widget must agree, with an appearance stream.
  import pypdf

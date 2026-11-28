@@ -23,7 +23,7 @@ def rejects(label,fn,*args,contains=None):
 def read(p):return json.loads(re.sub(r'@ID:(\d{4})-(\d{2})-(\d{2})',lambda m:''.join(m.groups())+'0'*5,p.read_text()))
 def base():
  h=read(HERE/'four_deductions/consumer.json');h.pop('consumer_loans');h['insurance']=[{'insurer':'Example','risk':'RC','paid_by':'taxpayer','amount':500}];return h
-# Base: 30000 - salary540 - social3300 - insurance500 = taxable25660.
+# Base: 30000 - salary 540 - social 3300 - insurance 500 = taxable 25660.
 def record(amount,**extra):return {'owner':'taxpayer','amount':amount,'evidence':'Synthetic complete review','net_of_reimbursements':True,'not_deducted_elsewhere':True,**extra}
 def cost(amount=1500):return record(amount,method='actual',employment_related=True)
 def occupational(amount=1200):return record(amount,certificate_id='OCC1',employee_personal_contribution=True,qualifying_scheme=True,scheme_evidence='Synthetic qualifying scheme')
@@ -36,15 +36,15 @@ schema=xml.Schema(SKILLS/'official-forms/F100-XSD-2025.txt')
 def tree(h,label):
  root=xml.build(h,schema).to_xml();check(label+' XSD',schema.validator.validate(root));return root
 outputs={}
-h=base();h['salary_costs']=[cost()];check('actual costs replace540: taxable24700',hh.indicative_check(h)['taxable income']==EXPECTED['actual']['taxable']);v=hh.to_pdf_values(h);check('actual PDF743',v['N.0743']==1500);root=tree(h,'actual costs');check('actual XML FE1500',el(root,'SAL_FO_MIN_FORFAIT')==['FE'] and el(root,'SAL_FO_REV_IMP')==['1500.00']);outputs['actual']=h
+h=base();h['salary_costs']=[cost()];check('actual costs replace 540: taxable 24700',hh.indicative_check(h)['taxable income']==EXPECTED['actual']['taxable']);v=hh.to_pdf_values(h);check('actual PDF 743',v['N.0743']==1500);root=tree(h,'actual costs');check('actual XML FE 1500',el(root,'SAL_FO_MIN_FORFAIT')==['FE'] and el(root,'SAL_FO_REV_IMP')==['1500.00']);outputs['actual']=h
 for amount in (0,400):
  h=base();h['salary_costs']=[cost(amount)];rejects('actual below minimum '+str(amount),hh.validate,h)
 h=base();h['salary_costs']=[cost(),cost()];rejects('duplicate actual election',hh.validate,h)
-h=base();h['occupational_pension']=[occupational(1800)];check('occupational cap separate: taxable24460',hh.indicative_check(h)['taxable income']==EXPECTED['occupational']['taxable'] and hh.to_pdf_values(h)['N.1605']==1200 and hh.to_pdf_values(h)['R.1609']=='/courrier');rejects('above-cap occupational XML preserves review',xml.build,h,schema,contains='above-cap');outputs['occupational_above']=h
-h=base();h['occupational_pension']=[occupational()];root=tree(h,'occupational');check('occupational actual1200 XML',el(root,'RCS_COT_CONT_NEX')==['1200.00'])
-h=base();h['voluntary_contributions']=[voluntary()];check('voluntary inside actual pool: taxable25460',hh.indicative_check(h)['taxable income']==EXPECTED['voluntary']['taxable']);root=tree(h,'voluntary');check('voluntary PDF/XML',hh.to_pdf_values(h)['N.1501']==200 and el(root,'CTP_MNT_CONT')==['200.00']);outputs['voluntary']=h
-h=base();h['insurance']=[];h['voluntary_contributions']=[voluntary()];check('voluntary200 loses to minimum480',hh.allowed(h)['covered']==480)
-h=base();h['salary_costs']=[cost()];h['occupational_pension']=[occupational()];h['voluntary_contributions']=[voluntary()];check('combined independent deductions23300',hh.indicative_check(h)['taxable income']==EXPECTED['combined']['taxable'])
+h=base();h['occupational_pension']=[occupational(1800)];check('occupational cap separate: taxable 24460',hh.indicative_check(h)['taxable income']==EXPECTED['occupational']['taxable'] and hh.to_pdf_values(h)['N.1605']==1200 and hh.to_pdf_values(h)['R.1609']=='/courrier');rejects('above-cap occupational XML preserves review',xml.build,h,schema,contains='above-cap');outputs['occupational_above']=h
+h=base();h['occupational_pension']=[occupational()];root=tree(h,'occupational');check('occupational actual 1200 XML',el(root,'RCS_COT_CONT_NEX')==['1200.00'])
+h=base();h['voluntary_contributions']=[voluntary()];check('voluntary inside actual pool: taxable 25460',hh.indicative_check(h)['taxable income']==EXPECTED['voluntary']['taxable']);root=tree(h,'voluntary');check('voluntary PDF/XML',hh.to_pdf_values(h)['N.1501']==200 and el(root,'CTP_MNT_CONT')==['200.00']);outputs['voluntary']=h
+h=base();h['insurance']=[];h['voluntary_contributions']=[voluntary()];check('voluntary 200 loses to minimum 480',hh.allowed(h)['covered']==480)
+h=base();h['salary_costs']=[cost()];h['occupational_pension']=[occupational()];h['voluntary_contributions']=[voluntary()];check('combined independent deductions 23300',hh.indicative_check(h)['taxable income']==EXPECTED['combined']['taxable'])
 # Private contracts: exact anniversaries, and malformed/legacy timing must stop.
 def plan(h,born,start,end,payment=None):
  h['taxpayer']['national_id']=born.replace('-','')+'0'*5
@@ -79,17 +79,17 @@ for child in h['children']:child['common_child_of_partners']=True
 check('PACS same reviewed family income',hh.indicative_check(h)['taxable income']==married_income);v=hh.to_pdf_values(h);check('PACS separate paper election',v['C.0312']=='/Yes' and v['R.0301']=='/celibataire' and v['R.0314']=='/enannexe' and 'R.0317' not in v);root=tree(h,'PACS');check('PACS XML joint option',el(root,'ASS_DEM_3BIS')==['true'] and el(root,'ASS_DEM_3BIS_DOC')==['false']);outputs['pacs']=h
 for label,mutate in [('eventyear',lambda x:x['partnership'].update(declaration_date='2025-01-01')),('partialyear',lambda x:x.update(tax_liability_months=11)),('noncommonchild',lambda x:x['children'][0].update(common_child_of_partners=False)),('missingcert',lambda x:x['partnership'].pop('certificate_evidence'))]:
  q=copy.deepcopy(h);mutate(q);rejects('PACS '+label,hh.validate,q)
-# Medical costs: one burden on2038, and raw/refunds kept apart in XML.
+# Medical costs: one burden on 2038, and raw/refunds kept apart in XML.
 def medical(h,gross=7000,refunds=3000,cls=1):
  h['medical_expenses']=[{'invoice_id':'MED1','paid_by':'taxpayer','patient':'taxpayer','kind':'medical','article127_eligible':True,'eligibility_evidence':'Synthetic reviewed necessary medical expense','provider':'Example Clinic','payment_evidence':'Synthetic payment receipt','payment_date':'2025-06-01','currency':'EUR','no_other_deduction':True,'no_forfait_or_childcare_overlap':True,'refunds_final_and_complete':True,'description':'Medical treatment','gross':gross,'refunds':refunds}]
  h['medical_expenses'][0].update(pending_refunds=False,expected_refunds=0,refund_review_evidence='Synthetic all-insurer and supplementary entitlement review',refund_items=[{'refund_id':'REF1','recipient':'taxpayer','amount':refunds,'date':'2025-07-01','evidence':'Synthetic refund statement'}] if refunds else [])
  h['medical_review']={'income_complete':True,'no_foreign_or_exempt_progression':True,'all_actual_article127_costs_included':True,'evidence':'Synthetic complete income/cost review','tax_class':cls};return h
-h=medical(base());c=hh.indicative_check(h);check('medical base25660 burden1539.60 relief2460.40',c['taxable income']==25660 and c['medical abatement']==D(EXPECTED['medical']['allowed']));check('medical adjusted income23199.60',estimate(h)['adjusted']==D(EXPECTED['medical']['adjusted']));root=tree(h,'medical');check('medical raw gross/refund XML',el(root,'CFM_MNT_FRA_MAL')==['7000.00'] and el(root,'CFM_MNT_TOT_REM')==['3000.00']);check('medical PDF net before burden',hh.to_pdf_values(h)['N.1702']==4000);outputs['medical']=h
+h=medical(base());c=hh.indicative_check(h);check('medical base 25660 burden 1539.60 relief 2460.40',c['taxable income']==25660 and c['medical abatement']==D(EXPECTED['medical']['allowed']));check('medical adjusted income 23199.60',estimate(h)['adjusted']==D(EXPECTED['medical']['adjusted']));root=tree(h,'medical');check('medical raw gross/refund XML',el(root,'CFM_MNT_FRA_MAL')==['7000.00'] and el(root,'CFM_MNT_TOT_REM')==['3000.00']);check('medical PDF net before burden',hh.to_pdf_values(h)['N.1702']==4000);outputs['medical']=h
 q=copy.deepcopy(h);q['spouse']=copy.deepcopy(outputs['pacs']['spouse']);q['taxpayer']['status']='MA';q['spouse']['status']='MA';q['medical_review']['tax_class']=2
 f=hh.figures(2025)
 for income,rate,allowed in [(40000,7,1200),(60000,8,0),(60001,9,0)]:
- c=hh.medical.calculation(q,D(income),f);check('medical published class2 boundary'+str(income),c['rate']==rate and c['allowed']==allowed)
-rejects('medical material20k endpoint',hh.medical.calculation,q,D(20000),f)
+ c=hh.medical.calculation(q,D(income),f);check('medical published class 2 boundary '+str(income),c['rate']==rate and c['allowed']==allowed)
+rejects('medical material 20k endpoint',hh.medical.calculation,q,D(20000),f)
 rejects('medical fractional-cent relief',hh.medical.calculation,h,D('25000.01'),f)
 for label,change in [('refundovergross',lambda x:x['medical_expenses'][0].update(refunds=8000)),('thirdpartypatient',lambda x:x['medical_expenses'][0].update(patient='spouse')),('class1aolder',lambda x:x['taxpayer'].update(national_id='19600601'+'0'*5)),('class2transition',lambda x:x['taxpayer'].update(status='DI'))]:
  q=copy.deepcopy(h);change(q);rejects('medical '+label,hh.validate,q)
@@ -97,24 +97,24 @@ with tempfile.TemporaryDirectory() as t:
  p=Path(t)/'h.json';p.write_text(json.dumps(h));args=tax.from_household(p);rejects('medical what-if must recompute',tax.what_if,args,[('special',D(1000))],contains='medical what-if')
 # Payroll exemption reduces net income but leaves salary-credit gross unchanged.
 h=base();h['salaries'][0]['exemptions']=[{'kind':'HSUP','amount':1000,'included_in_gross':True,'eligibility_evidence':'Synthetic overtime exemption','certified_exempt':True,'contributions_reconciled':True,'not_deducted_elsewhere':True,'private_sector_eligible_overtime':True,'not_senior_manager':True}]
-check('exemption taxable24660',hh.indicative_check(h)['taxable income']==EXPECTED['exemption']['taxable']);check('exemption gross credit unchanged',estimate(h)['salary_reconciliation']['taxpayer']['gross']==30000);root=tree(h,'exemption');check('exemption XML exact code/amount',el(root,'SAL_NAT_EXEMP_NEX')==['HSUP'] and el(root,'SAL_MNT_EXEMPT_NEX')==['1000.00']);check('exemption PDF gross preserved',hh.to_pdf_values(h)['N.0701']==30000 and hh.to_pdf_values(h)['N.0730']==1000);outputs['exemption']=h
+check('exemption taxable 24660',hh.indicative_check(h)['taxable income']==EXPECTED['exemption']['taxable']);check('exemption gross credit unchanged',estimate(h)['salary_reconciliation']['taxpayer']['gross']==30000);root=tree(h,'exemption');check('exemption XML exact code/amount',el(root,'SAL_NAT_EXEMP_NEX')==['HSUP'] and el(root,'SAL_MNT_EXEMPT_NEX')==['1000.00']);check('exemption PDF gross preserved',hh.to_pdf_values(h)['N.0701']==30000 and hh.to_pdf_values(h)['N.0730']==1000);outputs['exemption']=h
 # Dated work locations: independent reviewed FD, no inferred geography calculation.
 h=base();s=h['salaries'][0];s['workplaces']=['LUXEMBOURG','ESCH-SUR-ALZETTE'];s['workplace_periods']=[{'commune':'LUXEMBOURG','start':'2025-01-01','end':'2025-06-30','frequency':5,'frequency_unit':'week','evidence':'Synthetic employment record'},{'commune':'ESCH-SUR-ALZETTE','start':'2025-07-01','end':'2025-12-31','frequency':12,'frequency_unit':'month','evidence':'Synthetic schedule'}];h['commuting_review']={'periods_complete':True,'annual_amount_reviewed':True,'evidence':'Synthetic reconciled FD'}
 v=hh.to_pdf_values(h);check('workplace unusual number/radio names',v['N.0772']==5 and v['R.0769']=='/semaine' and v['N.0777']==12 and v['R.0777']=='/mois');root=tree(h,'workplaces');check('workplaces XML unique communes',el(root,'Commune')==['LUXEMBOURG','ESCH-SUR-ALZETTE']);outputs['workplaces']=h
 # Separate employee benefit: cannot masquerade as employer pay or invent a workplace.
-h=base();s=h['salaries'][0];s.update(cim=0,source='employee_replacement',replacement_kind='sickness',employee_replacement_eligible=True,employee_replacement_evidence='Synthetic employee replacement certificate',overlap_and_duplicates_reconciled=True,contributions_reconciled=True,workplaces=[],pay=[{'kind':'A','description':'Direct employee sickness benefit','amount':30000}]);v=hh.to_pdf_values(h);check('replacement PDF709 no employer701',v['N.0709']==30000 and 'N.0701' not in v);check('replacement category net25660',hh.indicative_check(h)['taxable income']==25660);check('replacement credit gross30000',estimate(h)['salary_reconciliation']['taxpayer']['gross']==30000);rejects('replacement no fake XML workplace',xml.build,h,schema,contains='workplace');outputs['replacement']=h
+h=base();s=h['salaries'][0];s.update(cim=0,source='employee_replacement',replacement_kind='sickness',employee_replacement_eligible=True,employee_replacement_evidence='Synthetic employee replacement certificate',overlap_and_duplicates_reconciled=True,contributions_reconciled=True,workplaces=[],pay=[{'kind':'A','description':'Direct employee sickness benefit','amount':30000}]);v=hh.to_pdf_values(h);check('replacement PDF 709 no employer 701',v['N.0709']==30000 and 'N.0701' not in v);check('replacement category net 25660',hh.indicative_check(h)['taxable income']==25660);check('replacement credit gross 30000',estimate(h)['salary_reconciliation']['taxpayer']['gross']==30000);rejects('replacement no fake XML workplace',xml.build,h,schema,contains='workplace');outputs['replacement']=h
 q=copy.deepcopy(h);q['salaries'][0].update(workplaces=['LUXEMBOURG'],xml_workplace_review={'authoritative_semantics_confirmed':True,'authority_evidence':'Synthetic authoritative answer for this mapped work commune'});root=tree(q,'replacement evidenced XML');check('replacement description XML',el(root,'SAL_DES_SAL_NEX')==['Direct employee sickness benefit'])
 for label,change in [('missingwithheld',lambda x:x['salaries'][0].pop('withheld')),('missingbasis',lambda x:x['salaries'][0].pop('withholding_basis')),('missingcim',lambda x:x['salaries'][0].pop('cim')),('missingperiod',lambda x:x['salaries'][0].pop('start')),('missingcard',lambda x:x['salaries'][0].pop('tax_card_id')),('foreignscope',lambda x:x['salaries'][0].update(all_pay_luxembourg_taxable=False)),('missingspouse',lambda x:x['salaries'][0].update(owner='spouse')),('duplicate',lambda x:x['salaries'].append(copy.deepcopy(x['salaries'][0])))]:
  q=copy.deepcopy(h);change(q);rejects('replacement '+label,hh.validate,q)
 q=copy.deepcopy(outputs['exemption']);q['salaries'][0]['all_pay_luxembourg_taxable']=False;rejects('foreign exemption source',hh.validate,q)
-# Low-spouse113 and extra-professional129b use different contribution subsets.
+# Low-spouse 113 and extra-professional 129b use different contribution subsets.
 h=base();h['taxpayer']['status']='MA';h['spouse']=copy.deepcopy(h['taxpayer']);h['spouse']['national_id']='19860101'+'0'*5
 s2=copy.deepcopy(h['salaries'][0]);s2.update(owner='spouse',certificate_id='LOW-SPOUSE',employer='Example second employer',pay=[{'kind':'S','amount':2000}],contributions=200,withheld=0,cis=0,co2=0);h['salaries'].append(s2)
 h['salary_balance']['tax_class']=2;h['salary_balance']['people']['spouse']=copy.deepcopy(h['salary_balance']['people']['taxpayer'])
 h['occupational_pension']=[dict(occupational(),owner='spouse')];h['voluntary_contributions']=[dict(voluntary(50),owner='spouse')]
-check('low spouse article113 related490',hh.allowed(h)['flat_minimum']==EXPECTED['low_spouse']['minimum_related'])
-check('extra-professional excludes occupational voluntary780',estimate(h)['extra_professional_abatement']==EXPECTED['low_spouse']['extra_professional'])
-h['voluntary_contributions'][0]['salary_related']=False;check('low spouse article113 unrelated540',hh.allowed(h)['flat_minimum']==EXPECTED['low_spouse']['minimum_unrelated'])
+check('low spouse article 113 related 490',hh.allowed(h)['flat_minimum']==EXPECTED['low_spouse']['minimum_related'])
+check('extra-professional excludes occupational voluntary 780',estimate(h)['extra_professional_abatement']==EXPECTED['low_spouse']['extra_professional'])
+h['voluntary_contributions'][0]['salary_related']=False;check('low spouse article 113 unrelated 540',hh.allowed(h)['flat_minimum']==EXPECTED['low_spouse']['minimum_unrelated'])
 # Alternate duplicate IDs and corrected predecessor both stop, not only exact IDs.
 q=copy.deepcopy(outputs['replacement']);q['salaries'].append(copy.deepcopy(q['salaries'][0]));q['salaries'][1]['certificate_id']='COPY-ID';rejects('equivalent benefit renamed',hh.validate,q)
 q['salaries'][1]['employer']='Corrected example';q['salaries'][1]['replaces']=q['salaries'][0]['certificate_id'];rejects('corrected and predecessor benefit',hh.validate,q)
@@ -136,7 +136,7 @@ with tempfile.TemporaryDirectory() as t:
   if os.environ.get('HANDOFF_PDF_QA'):
    dest=Path(os.environ['HANDOFF_PDF_QA']);dest.mkdir(parents=True,exist_ok=True)
    for artifact in t.glob(name+'.*'):shutil.copy2(artifact,dest/artifact.name)
-  fields=PdfReader(pdf).get_fields();check(name+' stored2038',D(fields['T.2038']['/V'])==hh.indicative_check(h)['taxable income'])
+  fields=PdfReader(pdf).get_fields();check(name+' stored 2038',D(fields['T.2038']['/V'])==hh.indicative_check(h)['taxable income'])
   if name in ('actual','occupational_above','voluntary','medical'):check(name+' calculation annex',pdf.with_suffix('.deductions.pdf').exists())
 print(f'{sum(RESULTS)} passed, {len(RESULTS)-sum(RESULTS)} failed, 0 skipped')
 sys.exit(not all(RESULTS))

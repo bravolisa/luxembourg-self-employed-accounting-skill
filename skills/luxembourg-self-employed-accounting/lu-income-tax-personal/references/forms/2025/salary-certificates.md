@@ -9,19 +9,19 @@ This map describes reviewed manual preparation; it does not expand every automat
 
 | Meaning | Page / taxpayer / spouse | Boundary |
 |---|---|---|
-| First ordinary employment gross |7 /701 /702|Gross includes employer-advanced sick pay already within the subtotal.|
-| Second ordinary employment gross |7 /705 /706|A second certificate is not another employee cost minimum.|
-| Separately paid sickness/maternity/accident/unemployment benefits |7 /709 /710|Obtain payer evidence; do not repeat an amount already inside employer gross.|
-| Other ordinary salary contracts |7 /text713,714 /715|Explain the additional contracts; flat-regime remuneration has its own row.|
-| Art137(5)/137(5a) remuneration on a regularisation request |7 /722 /723; exempt 724 /725|Row E; all relevant flat remuneration, with election and complete certificates.|
-| Employee earning costs |7 /743 /744|One allowed actual/flat amount per person; statutory receipts and period limits.|
-| Commuting |7 /747 /748|One reviewed global annual amount, with workplace detail763–778.|
-| Compulsory deductible contributions |16 /1601 /1602; exempt 1603 /1604|Exclude dependency; do not subtract it twice from a deductible certificate amount.|
-| Personal employee LRCP contributions |16 /1605 /1606; exempt 1607 /1608|Separate regime and cap; outside the special-expense minimum.|
-| Salary tax withheld |19 /1901 /1902|Do not replace it by tax less credits or include excluded flat withholding.|
+| First ordinary employment gross |7 / 701 / 702|Gross includes employer-advanced sick pay already within the subtotal.|
+| Second ordinary employment gross |7 / 705 / 706|A second certificate is not another employee cost minimum.|
+| Separately paid sickness/maternity/accident/unemployment benefits |7 / 709 / 710|Obtain payer evidence; do not repeat an amount already inside employer gross.|
+| Other ordinary salary contracts |7 / text 713, 714 / 715|Explain the additional contracts; flat-regime remuneration has its own row.|
+| Art. 137(5)/137(5a) remuneration on a regularisation request |7 / 722 / 723; exempt 724 / 725|Row E; all relevant flat remuneration, with election and complete certificates.|
+| Employee earning costs |7 / 743 / 744|One allowed actual/flat amount per person; statutory receipts and period limits.|
+| Commuting |7 / 747 / 748|One reviewed global annual amount, with workplace detail 763–778.|
+| Compulsory deductible contributions |16 / 1601 / 1602; exempt 1603 / 1604|Exclude dependency; do not subtract it twice from a deductible certificate amount.|
+| Personal employee LRCP contributions |16 / 1605 / 1606; exempt 1607 / 1608|Separate regime and cap; outside the special-expense minimum.|
+| Salary tax withheld |19 / 1901 / 1902|Do not replace it by tax less credits or include excluded flat withholding.|
 | AC / FFO / FDS / FO / DS / CE inscriptions |No direct copy as a second annual claim|Reassess the underlying annual category and eligibility.|
 
-[C · S1 pp.7,16,19; S112; S82; I for the certificate bridge]. Exempt-income columns have different tax consequences; their presence is not evidence that a foreign-language certificate is foreign or treaty-exempt income.
+[C · S1 pp. 7, 16, 19; S112; S82; I for the certificate bridge]. Exempt-income columns have different tax consequences; their presence is not evidence that a foreign-language certificate is foreign or treaty-exempt income.
 
 ## Domestic XML structure — manual reference, not live validation
 
